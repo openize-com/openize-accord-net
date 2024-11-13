@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <VersionNumber Condition="'$(VersionNumber)' == '' ">24.10</VersionNumber>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>$(VersionNumber)</Version>
+    <SignAssembly Condition="Exists('..\Aspose.Certificates\Aspose.snk')">True</SignAssembly>
+    <AssemblyOriginatorKeyFile Condition="Exists('..\Aspose.Certificates\Aspose.snk')">..\Aspose.Certificates\Aspose.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>False</DelaySign>
+    <AssemblyName>FileFormat.Accord.Statistics</AssemblyName>
+    <RootNamespace>FileFormat.Accord.Statistics</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Accord.Core\FileFormat.Accord.Core.csproj" />
+    <ProjectReference Include="..\Accord.Math.Core\FileFormat.Accord.Math.Core.csproj" />
+    <ProjectReference Include="..\Accord.Math\FileFormat.Accord.Math.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+
+</Project>
