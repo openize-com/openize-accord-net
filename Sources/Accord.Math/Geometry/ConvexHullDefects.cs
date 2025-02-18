@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Geometry
+namespace Openize.Accord.Math.Geometry
 {
     using System;
     using System.Collections.Generic;
-    using AForge.Math.Geometry;
-    using FileFormat.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Math.AForge.Math.Geometry;
 
     /// <summary>
     ///   Convex Hull Defects Extractor.

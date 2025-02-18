@@ -20,10 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.Base
+namespace Openize.Accord.Imaging.Interest_Points.Base
 {
-    using Core.Features;
-    using global::Accord;
+    using Openize.Accord.Core.Features;
 
     /// <summary>
     ///   Common interface for feature points.

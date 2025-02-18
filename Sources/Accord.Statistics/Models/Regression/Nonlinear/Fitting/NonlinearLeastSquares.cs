@@ -20,17 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
     using Base;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
-    using Math.Optimization.Base;
-    using Math.Optimization.Unconstrained.Least_Squares;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Optimization.Base;
+    using Openize.Accord.Math.Optimization.Unconstrained.Least_Squares;
 
     /// <summary>
     ///   Non-linear Least Squares for <see cref="NonlinearRegression"/> optimization.

@@ -22,21 +22,20 @@
 
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden
+namespace Openize.Accord.Statistics.Models.Fields.Learning.Hidden
 {
     using System;
     using System.ComponentModel;
     using System.Threading;
     using System.Threading.Tasks;
     using Accord.MachineLearning.Learning;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.MachineLearning;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Gradient;
-    using Math.Accord.Statistics;
     using Math.Convergence;
     using Math.Convergence.Base;
-    using Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Stochastic Gradient Descent learning algorithm for <see cref="HiddenConditionalRandomField{T}">

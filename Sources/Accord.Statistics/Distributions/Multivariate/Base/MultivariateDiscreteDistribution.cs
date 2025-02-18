@@ -36,15 +36,15 @@
 #define COMPATIBILITY
 #endif
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Base
 {
     using System;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting.Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
     using Sampling;
 
     /// <summary>
@@ -718,7 +718,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public int[][] Generate(int samples)
         {
-            return this.Generate(samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -732,7 +732,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public double[][] Generate(int samples, double[][] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -746,7 +746,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public int[][] Generate(int samples, int[][] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -757,7 +757,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public int[] Generate()
         {
-            return this.Generate(global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -768,7 +768,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public double[] Generate(double[] result)
         {
-            return this.Generate(result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -779,7 +779,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public int[] Generate(int[] result)
         {
-            return this.Generate(result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 

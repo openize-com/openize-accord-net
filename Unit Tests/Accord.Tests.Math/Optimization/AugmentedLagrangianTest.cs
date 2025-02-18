@@ -20,21 +20,22 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Optimization
+namespace Openize.Accord.Tests.Math.Optimization
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Optimization;
-    using FileFormat.Accord.Math.Optimization.Base;
-    using FileFormat.Accord.Math.Optimization.Constrained;
-    using FileFormat.Accord.Math.Optimization.Constrained.Constraints;
-    using FileFormat.Accord.Math.Optimization.Unconstrained;
-    using FileFormat.Accord.Math.Random;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Vector = FileFormat.Accord.Math.Vector.Vector;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Optimization;
+    using Openize.Accord.Math.Optimization.Base;
+    using Openize.Accord.Math.Optimization.Constrained;
+    using Openize.Accord.Math.Optimization.Constrained.Constraints;
+    using Openize.Accord.Math.Optimization.Unconstrained;
+    using Openize.Accord.Math.Random;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     [TestFixture]
     public class AugmentedLagrangianTest

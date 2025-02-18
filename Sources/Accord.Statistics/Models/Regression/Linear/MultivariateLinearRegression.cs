@@ -20,18 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Linear
+namespace Openize.Accord.Statistics.Models.Regression.Linear
 {
     using System;
     using Accord.MachineLearning.Classifiers;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Fitting;
-    using global::Accord.Math;
     using Math.Core;
     using Math.Decompositions;
-    using Math.Matrix;
-    using Math.Optimization.Losses;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Optimization.Losses;
     using Testing;
+    using Elementwise = Openize.Accord.Math.Core.Elementwise;
 
     /// <summary>
     ///   Multivariate Linear Regression.

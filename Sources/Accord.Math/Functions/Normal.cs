@@ -46,9 +46,10 @@
 // See functions below for more details.
 
 
-namespace FileFormat.Accord.Math.Functions
+namespace Openize.Accord.Math.Functions
 {
     using System;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///   Normal distribution functions.

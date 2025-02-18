@@ -20,18 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Continuous
 {
     using System;
     using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Core;
-    using Math.Decompositions;
-    using Math.Functions;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Decompositions;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
     using Univariate.Continuous;
 
     /// <summary>
@@ -417,7 +416,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
         /// <returns>A random vector of observations drawn from this distribution.</returns>
         public static double[][,] Random(int samples, int degreesOfFreedom, double[,] scale)
         {
-            return Random(samples, degreesOfFreedom, scale, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(samples, degreesOfFreedom, scale, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>

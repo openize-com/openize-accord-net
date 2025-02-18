@@ -6,7 +6,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Collections.Generic;
@@ -329,7 +329,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
             int height = this.houghMap.GetLength(0);
 
             // create new image
-            Bitmap image = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+            Bitmap image = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
 
             // lock destination bitmap data
             BitmapData imageData = image.LockBits(

@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.IO
+namespace Openize.Accord.IO
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
-    using FileFormat.Accord.Core;
+    using Openize.Accord.Core;
 
     /// <summary>
     ///   Reader for data files containing samples in libsvm's sparse format.

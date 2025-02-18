@@ -5,7 +5,7 @@
 // aforge.net@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
 {
     using System;
     using System.Collections.Generic;
@@ -131,7 +131,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
                     rgb.Blue = ptr[RGB.B];
 
                     // convert to HSL
-                    global::FileFormat.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
+                    global::Openize.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
 
                     if (this.adjustValue > 0)
                     {
@@ -143,7 +143,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
                     }
 
                     // convert back to RGB
-                    global::FileFormat.Accord.Imaging.Colors.HSL.ToRGB(hsl, ref rgb);
+                    global::Openize.Accord.Imaging.Colors.HSL.ToRGB(hsl, ref rgb);
 
                     ptr[RGB.R] = rgb.Red;
                     ptr[RGB.G] = rgb.Green;

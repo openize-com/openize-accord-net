@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Random
+namespace Openize.Accord.Tests.Math.Random
 {
     using System;
-    using FileFormat.Accord.Math.Random;
     using NUnit.Framework;
+    using Openize.Accord.Math.Random;
 
     [TestFixture]
     public class ZigguratNormalGeneratorTest

@@ -6,10 +6,9 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Block match class keeps information about found block match. The class is

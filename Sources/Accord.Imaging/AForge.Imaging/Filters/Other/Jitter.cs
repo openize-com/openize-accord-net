@@ -9,7 +9,7 @@
 // http://www.codeproject.com/bitmap/cximage.asp
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Other
 {
     using System;
     using System.Collections.Generic;
@@ -136,7 +136,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
             // copy source to destination before
             if (srcStride == dstStride)
             {
-                global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, srcStride * sourceData.Height);
+                global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, srcStride * sourceData.Height);
             }
             else
             {
@@ -144,7 +144,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
 
                 for (int y = 0, heigh = sourceData.Height; y < heigh; y++)
                 {
-                    global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(
+                    global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(
                         dst + dstStride * y, src + srcStride * y, len);
                 }
             }

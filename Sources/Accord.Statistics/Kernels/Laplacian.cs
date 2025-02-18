@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using Math.Accord.Statistics;
-    using Math.Distances.Base;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Laplacian Kernel.
@@ -136,7 +136,7 @@ namespace FileFormat.Accord.Statistics.Kernels
             if (x == y)
                 return 1.0;
 
-            double norm = global::FileFormat.Accord.Math.Distance.Euclidean(x, y);
+            double norm = global::Openize.Accord.Math.Distance.Euclidean(x, y);
 
             return Math.Exp(-this.gamma * norm);
         }
@@ -196,7 +196,7 @@ namespace FileFormat.Accord.Statistics.Kernels
             if (x == y)
                 return 0.0;
 
-            double norm = global::FileFormat.Accord.Math.Distance.Euclidean(x, y);
+            double norm = global::Openize.Accord.Math.Distance.Euclidean(x, y);
 
             return 2 - 2 * Math.Exp(-this.gamma * norm);
         }

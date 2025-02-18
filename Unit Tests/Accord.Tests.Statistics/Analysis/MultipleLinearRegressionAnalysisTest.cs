@@ -21,19 +21,19 @@
 //
 
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
     using System;
     using System.Data;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Analysis;
-    using FileFormat.Accord.Statistics.Filters;
-    using FileFormat.Accord.Statistics.Models.Regression.Linear;
-    using FileFormat.Accord.Statistics.Testing;
-    using FileFormat.Accord.Statistics.Testing.Multiple_Samples;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Filters;
+    using Openize.Accord.Statistics.Models.Regression.Linear;
+    using Openize.Accord.Statistics.Testing;
+    using Openize.Accord.Statistics.Testing.Multiple_Samples;
 
     [TestFixture]
     public class MultipleLinearRegressionAnalysisTest

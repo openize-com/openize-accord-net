@@ -1,4 +1,4 @@
-﻿namespace FileFormat.Accord.Tests.Imaging.OpenSURF
+﻿namespace Openize.Accord.Tests.Imaging.OpenSURF
 {
     public class IPoint
   {

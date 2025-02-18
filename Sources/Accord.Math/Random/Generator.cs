@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Random
+namespace Openize.Accord.Math.Random
 {
     using System;
     using System.Diagnostics;
     using System.Threading;
-    using FileFormat.Accord.Math.AForge.Math.Random;
+    using Openize.Accord.Math.AForge.Math.Random;
 
     /// <summary>
     ///   Framework-wide random number generator. If you would like to always generate 

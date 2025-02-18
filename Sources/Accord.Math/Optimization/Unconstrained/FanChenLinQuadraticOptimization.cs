@@ -56,14 +56,14 @@
 //    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
     using System.Diagnostics;
     using System.Runtime.CompilerServices;
     using System.Threading;
-    using Base;
-    using FileFormat.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Optimization.Base;
     using QFunc = System.Func<int, int[], int, double[], double[]>;
 
     /// <summary>

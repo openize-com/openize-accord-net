@@ -1,8 +1,8 @@
-﻿namespace FileFormat.Accord.Tests.Statistics.Testing.TwoSamples
+﻿namespace Openize.Accord.Tests.Statistics.Testing.TwoSamples
 {
-    using FileFormat.Accord.Statistics.Testing.Base;
-    using FileFormat.Accord.Statistics.Testing.TwoSample;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Testing.Base;
+    using Openize.Accord.Statistics.Testing.TwoSample;
 
     [TestFixture]
     public class TwoSampleSignTestTest

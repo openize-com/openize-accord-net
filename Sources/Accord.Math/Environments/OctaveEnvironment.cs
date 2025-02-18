@@ -20,17 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Environments
+namespace Openize.Accord.Math.Environments
 {
     using System;
     using System.CodeDom.Compiler;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
-    using Core;
-    using Decompositions;
-    using Matrix;
-    
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Decompositions;
+
     /// <summary>
     ///   Programming environment for Octave.
     /// </summary>

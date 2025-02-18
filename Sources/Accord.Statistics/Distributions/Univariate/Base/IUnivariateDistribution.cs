@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
+namespace Openize.Accord.Statistics.Distributions.Univariate.Base
 {
     using Continuous;
     using Discrete;
-    using FileFormat.Accord.Core.Ranges;
-    using Multivariate.Base;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Base;
 
     /// <summary>
     ///   Common interface for univariate probability distributions.

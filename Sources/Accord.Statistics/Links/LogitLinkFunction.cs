@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Links
+namespace Openize.Accord.Statistics.Links
 {
     using System;
-    using Distributions.Multivariate.Discrete;
-    using Distributions.Univariate.Discrete;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Discrete;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Logit link function.

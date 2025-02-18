@@ -54,7 +54,7 @@
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // 
 
-namespace FileFormat.Accord.Imaging.Interest_Points
+namespace Openize.Accord.Imaging.Interest_Points
 {
     using System;
     using System.CodeDom.Compiler;
@@ -65,10 +65,10 @@ namespace FileFormat.Accord.Imaging.Interest_Points
     using AForge.Imaging;
     using AForge.Imaging.Filters.Color_Filters;
     using Base;
-    using Core.AForge.Core;
+    using Openize.Accord.Math.Matrix;
     using FREAK;
+    using Openize.Accord.Core.AForge.Core;
     using SURF;
-    using FileFormat.Accord.Math.Matrix;
 
     /// <summary>
     ///   Features from Accelerated Segment Test (FAST) corners detector.

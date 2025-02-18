@@ -20,17 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Continuous
 {
     using System;
     using Base;
-    using Density_Kernels;
-    using Fitting;
-    using Fitting.Base;
-    using Math.Matrix;
-    using Math.Accord.Statistics;
-    using Math.Decompositions;
-    using Math.Random;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Decompositions;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Density_Kernels;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
     using Univariate.Continuous;
 
     /// <summary>

@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Core
+namespace Openize.Accord.Math.Core
 {
     using System.CodeDom.Compiler;
     using System.Diagnostics;
-    using FileFormat.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Exceptions;
 
     /// <summary>
     ///   Vector types.

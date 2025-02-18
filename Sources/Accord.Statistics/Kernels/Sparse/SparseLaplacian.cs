@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels.Sparse
+namespace Openize.Accord.Statistics.Kernels.Sparse
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core.Ranges;
-    using Math.Accord.Statistics;
-    using Math.Distances.Base;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Sparse Laplacian Kernel.

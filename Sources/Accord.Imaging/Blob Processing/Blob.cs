@@ -27,7 +27,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Blob_Processing
+namespace Openize.Accord.Imaging.Blob_Processing
 {
     using System;
     using System.ComponentModel;
@@ -61,7 +61,7 @@ namespace FileFormat.Accord.Imaging.Blob_Processing
         // area of the blob
         private int area;
         // center of gravity
-        private global::FileFormat.Accord.Core.AForge.Core.Point cog;
+        private global::Openize.Accord.Core.AForge.Core.Point cog;
         // fullness of the blob ( area / ( width * height ) )
         private double fullness;
         // mean color of the blob
@@ -160,7 +160,7 @@ namespace FileFormat.Accord.Imaging.Blob_Processing
         /// <remarks><para>The property keeps center of gravity point, which is calculated as
         /// mean value of X and Y coordinates of blob's points.</para></remarks>
         /// 
-        public global::FileFormat.Accord.Core.AForge.Core.Point CenterOfGravity
+        public global::Openize.Accord.Core.AForge.Core.Point CenterOfGravity
         {
             get { return this.cog; }
             set { this.cog = value; }

@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math.Geometry
+namespace Openize.Accord.Math.AForge.Math.Geometry
 {
     /// <summary>
     /// Enumeration of some basic shape types.

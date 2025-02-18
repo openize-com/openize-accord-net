@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Sampling
+namespace Openize.Accord.Statistics.Distributions.Sampling
 {
     using System;
-    using Multivariate;
-    using Multivariate.Base;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Base;
     using Univariate.Continuous;
     using Univariate.Discrete;
 

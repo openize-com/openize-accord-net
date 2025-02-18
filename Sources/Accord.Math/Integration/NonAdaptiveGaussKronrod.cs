@@ -20,12 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Integration
+namespace Openize.Accord.Math.Integration
 {
     using System;
     using System.Diagnostics;
     using Base;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Math;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///   Status codes for the <see cref="NonAdaptiveGaussKronrod"/>

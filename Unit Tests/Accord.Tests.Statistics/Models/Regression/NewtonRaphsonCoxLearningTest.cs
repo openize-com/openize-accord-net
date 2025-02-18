@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
     using System;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Models.Survival;
-    using FileFormat.Accord.Statistics.Models.Survival.Fitting;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Models.Survival;
+    using Openize.Accord.Statistics.Models.Survival.Fitting;
 
     [TestFixture]
     public class NewtonRaphsonCoxLearningTest

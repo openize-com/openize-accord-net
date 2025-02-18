@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
-    using Math.Functions;
-    using Multivariate.Continuous;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Skew Normal distribution.
@@ -272,7 +271,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         {
             double z = (x - this.ksi) / this.omega;
 
-            double cdf = global::FileFormat.Accord.Math.Functions.Normal.Function(z) - 2 * OwensT.Function(z, this.alpha);
+            double cdf = global::Openize.Accord.Math.Functions.Normal.Function(z) - 2 * OwensT.Function(z, this.alpha);
 
             return cdf;
         }
@@ -297,8 +296,8 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         {
             double z = (x - this.ksi) / this.omega;
 
-            double a = global::FileFormat.Accord.Math.Functions.Normal.Derivative(z);
-            double b = global::FileFormat.Accord.Math.Functions.Normal.Function(this.alpha * z);
+            double a = global::Openize.Accord.Math.Functions.Normal.Derivative(z);
+            double b = global::Openize.Accord.Math.Functions.Normal.Function(this.alpha * z);
 
             return (2 / this.omega) * a * b;
         }
@@ -324,8 +323,8 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         {
             double z = (x - this.ksi) / this.omega;
 
-            double a = global::FileFormat.Accord.Math.Functions.Normal.LogDerivative(z);
-            double b = Math.Log(global::FileFormat.Accord.Math.Functions.Normal.Function(this.alpha * z));
+            double a = global::Openize.Accord.Math.Functions.Normal.LogDerivative(z);
+            double b = Math.Log(global::Openize.Accord.Math.Functions.Normal.Function(this.alpha * z));
 
             return Math.Log(2 / this.omega) + a + b;
         }

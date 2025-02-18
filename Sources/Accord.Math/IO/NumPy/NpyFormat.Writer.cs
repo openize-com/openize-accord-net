@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.IO.NumPy
+namespace Openize.Accord.Math.IO.NumPy
 {
     using System;
     using System.IO;
     using System.Linq;
     using System.Runtime.InteropServices;
-    using global::Accord.Math;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
 
     public static partial class NpyFormat
     {

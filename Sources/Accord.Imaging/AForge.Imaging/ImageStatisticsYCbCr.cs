@@ -6,16 +6,14 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Colors;
-    using Core.Ranges;
-    using global::Accord;
-    using global::Accord.Math;
     using Math.AForge.Math;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     /// Gather statistics about image in YCbCr color space.
@@ -374,7 +372,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                         rgb.Blue = p[RGB.B];
 
                         // convert to YCbCr color space
-                        global::FileFormat.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
+                        global::Openize.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
 
                         yhisto[(int)(ycbcr.Y * 255)]++;
                         cbhisto[(int)((ycbcr.Cb + 0.5) * 255)]++;
@@ -410,7 +408,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                         rgb.Blue = p[RGB.B];
 
                         // convert to YCbCr color space
-                        global::FileFormat.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
+                        global::Openize.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
 
                         yhisto[(int)(ycbcr.Y * 255)]++;
                         cbhisto[(int)((ycbcr.Cb + 0.5) * 255)]++;

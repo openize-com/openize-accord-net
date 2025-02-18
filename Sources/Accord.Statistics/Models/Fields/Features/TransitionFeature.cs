@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Features
+namespace Openize.Accord.Statistics.Models.Fields.Features
 {
     using System;
     using Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
     using Potential_Functions.Base;
     using Potential_Functions.Clique_Factor_Potentials;

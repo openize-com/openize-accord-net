@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Core.AForge.Core
+namespace Openize.Accord.Core.AForge.Core
 {
     /// <summary>
     /// A delegate which is used by events notifying abount sent/received message.

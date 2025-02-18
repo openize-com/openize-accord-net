@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Filters
+namespace Openize.Accord.Tests.Imaging.Filters
 {
     using System.Drawing;
-    using FileFormat.Accord.Imaging.Accord.DataSets;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Morphology.Specific_Optimizations;
-    using FileFormat.Accord.Imaging.Filters;
     using NUnit.Framework;
+    using Openize.Accord.Imaging.Accord.DataSets;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Morphology.Specific_Optimizations;
+    using Openize.Accord.Imaging.Filters;
 
     [TestFixture]
     [Ignore("didn't work initially")]

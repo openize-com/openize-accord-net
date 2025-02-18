@@ -20,21 +20,20 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
     using System.ComponentModel;
-    using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Functions;
-    using Math.Optimization.Unconstrained;
-    using Math.Random;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Math.Optimization.Unconstrained;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Beta Distribution (of the first kind).
@@ -227,7 +226,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
             this.alpha = alpha;
             this.beta = beta;
 
-            this.constant = 1.0 / global::FileFormat.Accord.Math.Functions.Beta.Function(alpha, beta);
+            this.constant = 1.0 / global::Openize.Accord.Math.Functions.Beta.Function(alpha, beta);
             this.entropy = null;
         }
 
@@ -319,7 +318,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
             {
                 if (this.entropy == null)
                 {
-                    double lnBab = Math.Log(global::FileFormat.Accord.Math.Functions.Beta.Function(this.alpha, this.beta));
+                    double lnBab = Math.Log(global::Openize.Accord.Math.Functions.Beta.Function(this.alpha, this.beta));
                     double da = Gamma.Digamma(this.alpha);
                     double db = Gamma.Digamma(this.beta);
                     double dab = Gamma.Digamma(this.alpha + this.beta);
@@ -367,7 +366,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         protected internal override double InnerDistributionFunction(double x)
         {
-            return global::FileFormat.Accord.Math.Functions.Beta.Incomplete(this.alpha, this.beta, x);
+            return global::Openize.Accord.Math.Functions.Beta.Incomplete(this.alpha, this.beta, x);
         }
 
         /// <summary>
@@ -383,7 +382,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         protected internal override double InnerInverseDistributionFunction(double p)
         {
-            return global::FileFormat.Accord.Math.Functions.Beta.IncompleteInverse(this.alpha, this.beta, p);
+            return global::Openize.Accord.Math.Functions.Beta.IncompleteInverse(this.alpha, this.beta, p);
         }
 
         /// <summary>
@@ -725,7 +724,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         {
             double t1 = (alpha - 1) * sum1;
             double t2 = (beta - 1) * sum2;
-            double t3 = global::FileFormat.Accord.Math.Functions.Beta.Log(alpha, beta);
+            double t3 = global::Openize.Accord.Math.Functions.Beta.Log(alpha, beta);
 
             double sum = t1 + t2 - n * t3;
 
@@ -807,7 +806,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double alpha, double beta, int samples)
         {
-            return Random(alpha, beta, samples, new double[samples], global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(alpha, beta, samples, new double[samples], global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -842,7 +841,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double alpha, double beta, int samples, double[] result)
         {
-            return Random(alpha, beta, samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(alpha, beta, samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -882,7 +881,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double Random(double alpha, double beta)
         {
-            return Random(alpha, beta, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(alpha, beta, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>

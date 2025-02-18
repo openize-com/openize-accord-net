@@ -20,18 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distances
+namespace Openize.Accord.Statistics.Distances
 {
     using System;
     using System.Runtime.CompilerServices;
     using Distributions.Multivariate.Continuous;
     using Distributions.Univariate.Base;
     using Distributions.Univariate.Discrete;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Matrix;
     using Math.Decompositions;
-    using Math.Distances.Base;
-    using Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Distances.Base;
 
     /// <summary>
     ///   Bhattacharyya distance.

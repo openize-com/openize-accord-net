@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate.Continuous
 {
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     [TestFixture]
     public class GompertzDistributionTest

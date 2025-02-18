@@ -20,12 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Topology
+namespace Openize.Accord.Statistics.Models.Markov.Topology
 {
     using System;
-    using global::Accord.Math;
-    using Math.Core;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Core;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Forward Topology for Hidden Markov Models.
@@ -223,7 +222,7 @@ namespace FileFormat.Accord.Statistics.Models.Markov.Topology
 
             if (this.random)
             {
-                var rand = global::FileFormat.Accord.Math.Random.Generator.Random;
+                var rand = global::Openize.Accord.Math.Random.Generator.Random;
 
                 // Create pi
                 double sum = 0;

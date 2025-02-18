@@ -20,22 +20,23 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
     using System.Globalization;
     using System.IO;
     using System.Runtime.Serialization.Formatters.Binary;
     using System.Text.RegularExpressions;
     using Accord.Math;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Statistics.Analysis;
-    using FileFormat.Accord.Statistics.Analysis.Base;
-    using FileFormat.Accord.Statistics.Analysis.Contrast_Functions;
-    using FileFormat.Accord.Statistics.Models.Regression.Linear;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Tools = Accord.Statistics.Measures.Tools;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Analysis.Base;
+    using Openize.Accord.Statistics.Analysis.Contrast_Functions;
+    using Openize.Accord.Statistics.Models.Regression.Linear;
+    using Tools = Openize.Accord.Statistics.Measures.Tools;
 
     [TestFixture]
     public class IndependentComponentAnalysisTest
@@ -44,7 +45,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
         [Test]
         public void ComputeTest()
         {
-            FileFormat.Accord.Math.Tools.SetupGenerator(0);
+            Openize.Accord.Math.Tools.SetupGenerator(0);
 
             // Let's create a random dataset containing
             // 5000 samples of two dimensional samples.
@@ -177,7 +178,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
         [Test]
         public void ComputeTest_kurtosis_function()
         {
-            FileFormat.Accord.Math.Tools.SetupGenerator(0);
+            Openize.Accord.Math.Tools.SetupGenerator(0);
 
             // Let's create a random dataset containing
             // 5000 samples of two dimensional samples.
@@ -241,7 +242,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
         [Ignore("didn't work initially")]
         public void ComputeTest2()
         {
-            FileFormat.Accord.Math.Tools.SetupGenerator(0);
+            Openize.Accord.Math.Tools.SetupGenerator(0);
 
             double[,] S = Matrix.Random(5000, 2);
 
@@ -293,7 +294,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
         [Test]
         public void SeparateTest()
         {
-            FileFormat.Accord.Math.Tools.SetupGenerator(0);
+            Openize.Accord.Math.Tools.SetupGenerator(0);
 
             double[,] S = Matrix.Random(5000, 2);
 
@@ -319,7 +320,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
         [Test]
         public void CombineTest()
         {
-            FileFormat.Accord.Math.Tools.SetupGenerator(0);
+            Openize.Accord.Math.Tools.SetupGenerator(0);
 
             double[,] S = Matrix.Random(5000, 2);
 
@@ -378,7 +379,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
         [Test]
         public void SeparateTest2()
         {
-            FileFormat.Accord.Math.Tools.SetupGenerator(0);
+            Openize.Accord.Math.Tools.SetupGenerator(0);
 
             double[,] S = Matrix.Random(5000, 2);
 
@@ -406,7 +407,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
         [Category("Serialization")]
         public void SerializeTest()
         {
-            FileFormat.Accord.Math.Tools.SetupGenerator(0);
+            Openize.Accord.Math.Tools.SetupGenerator(0);
 
             double[,] source = Matrix.Random(5000, 2);
 

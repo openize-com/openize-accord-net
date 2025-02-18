@@ -5,7 +5,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
 {
     using System;
     using System.Collections.Generic;

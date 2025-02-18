@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using Accord;
     using System;
@@ -28,7 +28,7 @@ namespace FileFormat.Accord.Math.Matrix
     using System.Linq;
     using System.Runtime.CompilerServices;
     using System.Runtime.InteropServices;
-    using FileFormat.Accord.Core;
+    using Openize.Accord.Core;
 
     public static partial class Matrix
     {

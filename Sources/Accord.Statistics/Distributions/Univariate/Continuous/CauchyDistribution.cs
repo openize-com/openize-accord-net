@@ -20,20 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
-    using Math.Optimization.Unconstrained;
-    using Math.Random;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Optimization.Unconstrained;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Cauchy-Lorentz distribution.
@@ -602,7 +601,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double Random(double location, double scale)
         {
-            return Random(location, scale, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(location, scale, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -618,7 +617,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double location, double scale, int samples)
         {
-            return Random(location, scale, samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(location, scale, samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -635,7 +634,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double location, double scale, int samples, double[] result)
         {
-            return Random(location, scale, samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(location, scale, samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 

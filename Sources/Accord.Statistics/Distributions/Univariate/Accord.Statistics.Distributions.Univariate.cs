@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate
+namespace Openize.Accord.Statistics.Distributions.Univariate
 {
     using System.Runtime.CompilerServices;
-    using Continuous;
-    using Discrete;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///  Contains univariate distributions such as <see cref="NormalDistribution">Normal</see>,

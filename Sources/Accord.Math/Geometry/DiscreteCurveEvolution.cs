@@ -32,14 +32,14 @@
 //   441-454, 1999.
 //
 
-namespace FileFormat.Accord.Math.Geometry
+namespace Openize.Accord.Math.Geometry
 {
     using System;
     using System.Collections.Generic;
     using System.Numerics;
-    using AForge.Math.Geometry;
-    using FileFormat.Accord.Core.AForge.Core;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Math.AForge.Math.Geometry;
 
     /// <summary>
     ///   Discrete Curve Evolution.

@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Learning
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Learning
 {
     using System.Threading;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multiclass.Binary;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multiclass.Binary;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Common base class for supervised learning algorithms for

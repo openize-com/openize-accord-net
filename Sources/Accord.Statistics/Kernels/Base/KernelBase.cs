@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels.Base
+namespace Openize.Accord.Statistics.Kernels.Base
 {
     using System;
-    using Math.Distances.Base;
+    using Openize.Accord.Math.Distances.Base;
 
     /// <summary>
     ///   Base class for kernel functions. This class provides automatic

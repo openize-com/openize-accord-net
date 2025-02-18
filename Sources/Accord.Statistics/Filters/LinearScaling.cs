@@ -21,15 +21,14 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Data;
     using Base;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Ranges;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Linear Scaling Filter

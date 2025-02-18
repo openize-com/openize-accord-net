@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Optimization
+namespace Openize.Accord.Tests.Math.Optimization
 {
     using System;
-    using FileFormat.Accord.Math.Optimization;
-    using FileFormat.Accord.Math.Optimization.Unconstrained;
     using NUnit.Framework;
+    using Openize.Accord.Math.Optimization;
+    using Openize.Accord.Math.Optimization.Unconstrained;
 
     [TestFixture]
     public class SubplexTest

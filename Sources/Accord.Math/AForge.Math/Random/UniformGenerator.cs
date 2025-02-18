@@ -6,11 +6,11 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math.Random
+namespace Openize.Accord.Math.AForge.Math.Random
 {
     using System;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Math.Random;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Random;
 
     /// <summary>
     /// Uniform random numbers generator.

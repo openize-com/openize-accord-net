@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov
+namespace Openize.Accord.Statistics.Models.Markov
 {
     using System;
     using System.Collections.Generic;
@@ -28,10 +28,9 @@ namespace FileFormat.Accord.Statistics.Models.Markov
     using System.Runtime.Serialization.Formatters.Binary;
     using Base;
     using Distributions;
-    using Distributions.Univariate.Discrete;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Learning;
-    using Math.Matrix;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
     using Topology;
 
     /// <summary>

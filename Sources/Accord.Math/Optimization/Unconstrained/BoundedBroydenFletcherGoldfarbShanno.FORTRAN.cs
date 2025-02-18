@@ -55,10 +55,10 @@
 //    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
 
     partial class BoundedBroydenFletcherGoldfarbShanno
     {

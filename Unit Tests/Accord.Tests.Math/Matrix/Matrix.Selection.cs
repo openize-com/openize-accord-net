@@ -20,20 +20,21 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Matrix
+namespace Openize.Accord.Tests.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Comparers;
-    using FileFormat.Accord.Math.Formats;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Math.Vector;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Discrete;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using NUnit.Framework;
-    using Vector = FileFormat.Accord.Math.Vector.Vector;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Comparers;
+    using Openize.Accord.Math.Formats;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     public partial class MatrixTest
     {

@@ -20,17 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting.Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
-    using Math.Functions;
-    using Math.Random;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Rayleigh distribution.
@@ -385,7 +385,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double sigma, int samples)
         {
-            return Random(sigma, samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(sigma, samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -418,7 +418,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double sigma, int samples, double[] result)
         {
-            return Random(sigma, samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(sigma, samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -452,7 +452,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double Random(double sigma)
         {
-            return Random(sigma, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(sigma, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>

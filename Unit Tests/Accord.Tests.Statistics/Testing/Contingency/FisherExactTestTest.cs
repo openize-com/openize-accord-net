@@ -1,11 +1,11 @@
 ﻿
 
-namespace FileFormat.Accord.Tests.Statistics.Testing.Contingency
+namespace Openize.Accord.Tests.Statistics.Testing.Contingency
 {
-    using FileFormat.Accord.Statistics.Analysis.Performance;
-    using FileFormat.Accord.Statistics.Testing.Base;
-    using FileFormat.Accord.Statistics.Testing.Contingency;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Analysis.Performance;
+    using Openize.Accord.Statistics.Testing.Base;
+    using Openize.Accord.Statistics.Testing.Contingency;
 
     [TestFixture]
     public class FisherExactTestTest

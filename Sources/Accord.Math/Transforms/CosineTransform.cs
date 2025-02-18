@@ -23,9 +23,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Transforms
+namespace Openize.Accord.Math.Transforms
 {
     using System;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///   Discrete Cosine Transformation.

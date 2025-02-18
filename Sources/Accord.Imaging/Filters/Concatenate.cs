@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing;
@@ -115,9 +115,9 @@ namespace FileFormat.Accord.Imaging.Filters
                 for (int y = 0; y < dstHeight; y++)
                 {
                     if (y < src1Height)
-                        global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src1, copySize1);
+                        global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src1, copySize1);
                     if (y < src2Height)
-                        global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst + copySize1, src2, copySize2);
+                        global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst + copySize1, src2, copySize2);
                     
                     src1 += src1Stride;
                     src2 += src2Stride;

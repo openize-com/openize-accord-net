@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Testing.Contingency
+namespace Openize.Accord.Tests.Statistics.Testing.Contingency
 {
-    using FileFormat.Accord.Statistics.Analysis.Performance;
-    using FileFormat.Accord.Statistics.Testing.Contingency;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Analysis.Performance;
+    using Openize.Accord.Statistics.Testing.Contingency;
 
     [TestFixture]
     public class McNemarTestTest

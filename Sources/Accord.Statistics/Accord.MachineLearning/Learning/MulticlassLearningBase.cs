@@ -20,12 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Learning
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Learning
 {
     using System.Threading;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multiclass;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multiclass;
 
     /// <summary>
     ///   Base class for multi-class learning algorithm.

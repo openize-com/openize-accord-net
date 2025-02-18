@@ -8,13 +8,12 @@
 // Copyright © Joan Charmant, 2008
 // joan.charmant@gmail.com
 //
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Block matching interface.

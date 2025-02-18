@@ -20,17 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
     using System.ComponentModel;
-    using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Continuous Uniform Distribution.
@@ -393,7 +392,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double a, double b, int samples)
         {
-            return Random(a, b, samples, new double[samples], global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(a, b, samples, new double[samples], global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -428,7 +427,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double a, double b, int samples, double[] result)
         {
-            return Random(a, b, samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(a, b, samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 
@@ -479,7 +478,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(int samples, double[] result)
         {
-            return Random(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -510,7 +509,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double Random()
         {
-            return Random(global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -537,7 +536,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double Random(double a, double b)
         {
-            return Random(a, b, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(a, b, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>

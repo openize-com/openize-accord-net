@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Analysis;
-    using FileFormat.Accord.Statistics.Distributions;
-    using FileFormat.Accord.Statistics.Distributions.Fitting;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Discrete;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Distributions;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 #if NO_CULTURE
     using CultureInfo = Accord.Compat.CultureInfoEx;
 #endif

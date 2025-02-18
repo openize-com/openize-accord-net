@@ -26,10 +26,10 @@
 // ======================================================================
 
 
-namespace FileFormat.Accord.Math.Vector
+namespace Openize.Accord.Math.Vector
 {
     using System;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Ranges;
 
     public static partial class Vector
     {
@@ -42,10 +42,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static int[] Interval(int a, int b)
         {
@@ -93,10 +93,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static int[] Interval(int a, int b, int steps, bool includeLast = true)
         {
@@ -110,7 +110,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new int[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             int[] r = new int[steps];
 			double length;
@@ -150,10 +150,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static float[] Interval(float a, float b)
         {
@@ -199,10 +199,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static float[] Interval(float a, float b, int steps, bool includeLast = true)
         {
@@ -216,7 +216,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new float[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             float[] r = new float[steps];
 			double length;
@@ -256,10 +256,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static double[] Interval(double a, double b)
         {
@@ -305,10 +305,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static double[] Interval(double a, double b, int steps, bool includeLast = true)
         {
@@ -322,7 +322,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new double[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             double[] r = new double[steps];
 			double length;
@@ -362,10 +362,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static short[] Interval(short a, short b)
         {
@@ -413,10 +413,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static short[] Interval(short a, short b, int steps, bool includeLast = true)
         {
@@ -430,7 +430,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new short[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             short[] r = new short[steps];
 			double length;
@@ -470,10 +470,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static byte[] Interval(byte a, byte b)
         {
@@ -521,10 +521,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static byte[] Interval(byte a, byte b, int steps, bool includeLast = true)
         {
@@ -538,7 +538,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new byte[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             byte[] r = new byte[steps];
 			double length;
@@ -578,10 +578,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static sbyte[] Interval(sbyte a, sbyte b)
         {
@@ -629,10 +629,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static sbyte[] Interval(sbyte a, sbyte b, int steps, bool includeLast = true)
         {
@@ -646,7 +646,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new sbyte[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             sbyte[] r = new sbyte[steps];
 			double length;
@@ -686,10 +686,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static long[] Interval(long a, long b)
         {
@@ -737,10 +737,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static long[] Interval(long a, long b, int steps, bool includeLast = true)
         {
@@ -754,7 +754,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new long[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             long[] r = new long[steps];
 			double length;
@@ -794,10 +794,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static decimal[] Interval(decimal a, decimal b)
         {
@@ -843,10 +843,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static decimal[] Interval(decimal a, decimal b, int steps, bool includeLast = true)
         {
@@ -860,7 +860,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new decimal[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             decimal[] r = new decimal[steps];
 			decimal length;
@@ -900,10 +900,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static ulong[] Interval(ulong a, ulong b)
         {
@@ -951,10 +951,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static ulong[] Interval(ulong a, ulong b, int steps, bool includeLast = true)
         {
@@ -968,7 +968,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new ulong[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             ulong[] r = new ulong[steps];
 			double length;
@@ -1008,10 +1008,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static ushort[] Interval(ushort a, ushort b)
         {
@@ -1059,10 +1059,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static ushort[] Interval(ushort a, ushort b, int steps, bool includeLast = true)
         {
@@ -1076,7 +1076,7 @@ namespace FileFormat.Accord.Math.Vector
 				return new ushort[] { a };
 
             if (a == b)
-                return FileFormat.Accord.Math.Vector.Vector.Create(size: steps, value: a);
+                return Openize.Accord.Math.Vector.Vector.Create(size: steps, value: a);
 			
             ushort[] r = new ushort[steps];
 			double length;
@@ -1116,10 +1116,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static double[] Interval(this DoubleRange range, int steps)
         {
@@ -1144,10 +1144,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static float[] Interval(this Range range, int steps)
         {
@@ -1172,10 +1172,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static byte[] Interval(this ByteRange range, int steps)
         {
@@ -1200,10 +1200,10 @@ namespace FileFormat.Accord.Math.Vector
         /// <para>
         ///   The Range methods should be equivalent to NumPy's np.linspace function. For 
 		///   a similar method that accepts a step size instead of a number of steps, see
-		///   <see cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
+		///   <see cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>.</para>
         /// </remarks>
         ///
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.Range(int, int)"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.Range(int, int)"/>
         ///
         public static int[] Interval(this IntRange range, int steps)
         {

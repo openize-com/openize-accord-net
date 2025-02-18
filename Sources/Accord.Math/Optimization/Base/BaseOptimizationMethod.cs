@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Base
+namespace Openize.Accord.Math.Optimization.Base
 {
     using System;
     using System.Threading;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Math.Random;
+    using Openize.Accord.Core.Exceptions;
+    using Random;
 
     /// <summary>
     ///   Base class for optimization methods.

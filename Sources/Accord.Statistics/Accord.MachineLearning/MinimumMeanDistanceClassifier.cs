@@ -20,18 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning
+namespace Openize.Accord.Statistics.Accord.MachineLearning
 {
     using System;
     using System.Threading;
     using Classifiers.Multiple.Multiclass;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Learning;
     using Math;
     using Math.Core;
     using Math.Distances;
-    using Math.Distances.Base;
-    using Math.Matrix;
+    using Openize.Accord.Math.Distances.Base;
 
     /// <summary>
     ///   Minimum (Mean) Distance Classifier.

@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections;
@@ -31,9 +31,8 @@ namespace FileFormat.Accord.Math.Matrix
     using System.Globalization;
     using System.Linq;
     using System.Runtime.InteropServices;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Vector;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math;
 
     public static partial class Matrix
     {
@@ -606,7 +605,7 @@ namespace FileFormat.Accord.Math.Matrix
         /// </code>
         /// </example>
         /// 
-        /// <seealso cref="FileFormat.Accord.Math.Vector.Vector.GetIndices{T}"/>
+        /// <seealso cref="Openize.Accord.Math.Vector.Vector.GetIndices{T}"/>
         /// 
         public static IEnumerable<int[]> GetIndices(this Array array, bool deep = false, bool max = false, MatrixOrder order = MatrixOrder.Default)
         {

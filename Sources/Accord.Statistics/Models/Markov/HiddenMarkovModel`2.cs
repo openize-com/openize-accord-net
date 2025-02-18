@@ -20,26 +20,25 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov
+namespace Openize.Accord.Statistics.Models.Markov
 {
     using System;
     using Accord.MachineLearning.Classifiers.Tagging;
     using Distributions;
-    using Distributions.Multivariate;
-    using Distributions.Multivariate.Base;
-    using Distributions.Univariate;
-    using Distributions.Univariate.Base;
-    using Distributions.Univariate.Continuous;
-    using Distributions.Univariate.Discrete;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.MachineLearning;
-    using Learning;
-    using Learning.Base;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Math;
-    using Math.Core;
-    using Math.Vector;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
     using Topology;
-    using Math.Matrix;
 
     /// <summary>
     ///   Algorithms for solving <see cref="HiddenMarkovModel"/>-related

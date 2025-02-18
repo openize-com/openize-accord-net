@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Converters
+namespace Openize.Accord.Imaging.Converters
 {
     using System;
     using System.Drawing;
@@ -28,9 +28,8 @@ namespace FileFormat.Accord.Imaging.Converters
     using AForge.Imaging;
     using Base;
     using Colors;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Multidimensional array to Bitmap converter.
@@ -357,7 +356,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.GetLength(0);
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             BitmapData data = output.LockBits(ImageLockMode.WriteOnly);
@@ -413,7 +412,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.Rows();
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             BitmapData data = output.LockBits(ImageLockMode.WriteOnly);
@@ -469,7 +468,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.GetLength(0);
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             BitmapData data = output.LockBits(ImageLockMode.WriteOnly);
@@ -528,7 +527,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.Rows();
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             BitmapData data = output.LockBits(ImageLockMode.WriteOnly);
@@ -586,7 +585,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.GetLength(0);
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             int pixelSize = System.Drawing.Image.GetPixelFormatSize(this.Format) / 8;
@@ -642,7 +641,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int depth = input.Depth();
 
             if (depth == 1)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else if (depth == 3)
                 output = new Bitmap(width, height, PixelFormat.Format24bppRgb);
             else if (depth == 4)
@@ -682,7 +681,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.Rows();
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             int pixelSize = System.Drawing.Image.GetPixelFormatSize(this.Format) / 8;
@@ -738,7 +737,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int depth = input.Depth();
 
             if (depth == 1)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else if (depth == 3)
                 output = new Bitmap(width, height, PixelFormat.Format24bppRgb);
             else if (depth == 4)
@@ -777,7 +776,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.GetLength(0);
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             int pixelSize = System.Drawing.Image.GetPixelFormatSize(this.Format) / 8;
@@ -833,7 +832,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.Rows();
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             int pixelSize = System.Drawing.Image.GetPixelFormatSize(this.Format) / 8;
@@ -888,7 +887,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.GetLength(0);
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             int pixelSize = System.Drawing.Image.GetPixelFormatSize(this.Format) / 8;
@@ -944,7 +943,7 @@ namespace FileFormat.Accord.Imaging.Converters
             int height = input.Rows();
 
             if (this.Format == PixelFormat.Format8bppIndexed)
-                output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
+                output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height);
             else output = new Bitmap(width, height, this.Format);
 
             int pixelSize = System.Drawing.Image.GetPixelFormatSize(this.Format) / 8;

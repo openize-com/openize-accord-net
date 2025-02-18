@@ -20,15 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math
+namespace Openize.Accord.Tests.Math
 {
     using System;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Decompositions;
-    using FileFormat.Accord.Math.Distances;
-    using FileFormat.Accord.Math.Distances.Base;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Decompositions;
+    using Openize.Accord.Math.Distances;
+    using Openize.Accord.Math.Distances.Base;
 
     [TestFixture]
     public class DistanceTest
@@ -131,31 +132,31 @@ namespace FileFormat.Accord.Tests.Math
             x = new double[] { 2, 4, 1 };
             y = new double[] { 0, 0, 0 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, FileFormat.Accord.Math.Matrix.Matrix.Identity(3));
+            actual = Distance.Mahalanobis(x, y, Openize.Accord.Math.Matrix.Matrix.Identity(3));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { 0.1, 0.12, -1 };
             y = new double[] { 195, 0, 2912 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, FileFormat.Accord.Math.Matrix.Matrix.Identity(3));
+            actual = Distance.Mahalanobis(x, y, Openize.Accord.Math.Matrix.Matrix.Identity(3));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { -2, -4, -1 };
             y = new double[] { -2, -4, -1 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, FileFormat.Accord.Math.Matrix.Matrix.Identity(3));
+            actual = Distance.Mahalanobis(x, y, Openize.Accord.Math.Matrix.Matrix.Identity(3));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { 2, 4, 1 };
             y = new double[] { 0, -7.2, 4.6 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, FileFormat.Accord.Math.Matrix.Matrix.Identity(3));
+            actual = Distance.Mahalanobis(x, y, Openize.Accord.Math.Matrix.Matrix.Identity(3));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { -2, 4, 1 };
             y = new double[] { 0, -0.1, 4.2 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, FileFormat.Accord.Math.Matrix.Matrix.Identity(3));
+            actual = Distance.Mahalanobis(x, y, Openize.Accord.Math.Matrix.Matrix.Identity(3));
             Assert.AreEqual(expected, actual);
         }
 
@@ -168,31 +169,31 @@ namespace FileFormat.Accord.Tests.Math
             x = new double[] { 2, 4, 1 };
             y = new double[] { 0, 0, 0 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(FileFormat.Accord.Math.Matrix.Matrix.Identity(3)));
+            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(Openize.Accord.Math.Matrix.Matrix.Identity(3)));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { 0.1, 0.12, -1 };
             y = new double[] { 195, 0, 2912 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(FileFormat.Accord.Math.Matrix.Matrix.Identity(3)));
+            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(Openize.Accord.Math.Matrix.Matrix.Identity(3)));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { -2, -4, -1 };
             y = new double[] { -2, -4, -1 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(FileFormat.Accord.Math.Matrix.Matrix.Identity(3)));
+            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(Openize.Accord.Math.Matrix.Matrix.Identity(3)));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { 2, 4, 1 };
             y = new double[] { 0, -7.2, 4.6 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(FileFormat.Accord.Math.Matrix.Matrix.Identity(3)));
+            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(Openize.Accord.Math.Matrix.Matrix.Identity(3)));
             Assert.AreEqual(expected, actual);
 
             x = new double[] { -2, 4, 1 };
             y = new double[] { 0, -0.1, 4.2 };
             expected = Distance.Euclidean(x, y);
-            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(FileFormat.Accord.Math.Matrix.Matrix.Identity(3)));
+            actual = Distance.Mahalanobis(x, y, new SingularValueDecomposition(Openize.Accord.Math.Matrix.Matrix.Identity(3)));
             Assert.AreEqual(expected, actual);
         }
 

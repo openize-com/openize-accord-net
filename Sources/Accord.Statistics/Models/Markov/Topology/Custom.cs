@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Topology
+namespace Openize.Accord.Statistics.Models.Markov.Topology
 {
     using System;
     using System.Data;
     using Base;
-    using global::Accord.Math;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   Custom Topology for Hidden Markov Model.

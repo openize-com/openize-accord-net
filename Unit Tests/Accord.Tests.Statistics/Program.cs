@@ -1,4 +1,4 @@
-﻿namespace FileFormat.Accord.Tests.Statistics
+﻿namespace Openize.Accord.Tests.Statistics
 {
     using System;
 

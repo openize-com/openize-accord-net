@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate.Discrete
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate.Discrete
 {
     using System;
     using System.Globalization;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Distributions.Fitting.Base;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Discrete;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     [TestFixture]
     public class GeometricDistributionTest

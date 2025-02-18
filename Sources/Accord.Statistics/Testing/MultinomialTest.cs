@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing
+namespace Openize.Accord.Statistics.Testing
 {
     using System;
-    using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core.Exceptions;
-    using global::Accord.Math;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Multinomial test (approximated).

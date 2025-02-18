@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing
+namespace Openize.Accord.Statistics.Testing
 {
     using System;
-    using Analysis.Performance;
     using Base;
-    using Distributions.Univariate.Base;
-    using Distributions.Univariate.Continuous;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Statistics.Analysis.Performance;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Two-Sample (Goodness-of-fit) Chi-Square Test (Upper Tail)

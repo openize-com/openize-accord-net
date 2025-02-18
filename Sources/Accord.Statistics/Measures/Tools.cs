@@ -20,18 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Measures
+namespace Openize.Accord.Statistics.Measures
 {
     using System;
     using System.Collections.Generic;
     using Distributions;
-    using Distributions.Fitting.Base;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Matrix;
     using Math.Decompositions;
-    using Math.Matrix;
-    using Math.Vector;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Set of statistics functions.
@@ -56,7 +54,7 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.GetRatio instead.")]
         public static double[] Proportions(int[] positives, int[] negatives)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.GetRatio(positives, negatives);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.GetRatio(positives, negatives);
         }
 
         /// <summary>
@@ -66,7 +64,7 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.GetRatio instead.")]
         public static double[] Proportions(int[][] data, int positiveColumn, int negativeColumn)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.GetRatio(data, positiveColumn, negativeColumn);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.GetRatio(data, positiveColumn, negativeColumn);
         }
 
         /// <summary>
@@ -76,7 +74,7 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.Summarize instead.")]
         public static int[][] Group(int[][] data, int labelColumn, int dataColumn)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.Summarize(data, labelColumn, dataColumn);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.Summarize(data, labelColumn, dataColumn);
         }
 
         /// <summary>
@@ -86,7 +84,7 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.Expand instead.")]
         public static int[][] Expand(int[] data, int[] positives, int[] negatives)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.Expand(data, positives, negatives);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.Expand(data, positives, negatives);
         }
 
         /// <summary>
@@ -96,7 +94,7 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.Expand instead.")]
         public static int[][] Expand(int[][] data, int labelColumn, int positiveColumn, int negativeColumn)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.Expand(data, labelColumn, positiveColumn, negativeColumn);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.Expand(data, labelColumn, positiveColumn, negativeColumn);
         }
 
         /// <summary>
@@ -191,13 +189,13 @@ namespace FileFormat.Accord.Statistics.Measures
         #region Permutations and combinatorials
 
         /// <summary>
-        ///   Obsolete. Please use <see cref="FileFormat.Accord.Math.Vector.Vector.Sample(int, int)"/> instead.
+        ///   Obsolete. Please use <see cref="Openize.Accord.Math.Vector.Vector.Sample(int, int)"/> instead.
         /// </summary>
         /// 
         [Obsolete("Please use Vector.Sample instead.")]
         public static int[] RandomSample(int n, int k)
         {
-            return global::FileFormat.Accord.Math.Vector.Vector.Sample(k, n);
+            return global::Openize.Accord.Math.Vector.Vector.Sample(k, n);
         }
 
         /// <summary>
@@ -207,7 +205,7 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.Random instead.")]
         public static int[] RandomGroups(int size, int groups)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.Random(size, groups);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.Random(size, groups);
         }
 
         /// <summary>
@@ -217,7 +215,7 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.Random instead.")]
         public static int[] RandomGroups(int size, double proportion)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.Random(size, proportion);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.Random(size, proportion);
         }
 
         /// <summary>
@@ -227,11 +225,11 @@ namespace FileFormat.Accord.Statistics.Measures
         [Obsolete("Please use Classes.Random instead.")]
         public static int[] RandomGroups(int[] labels, int classes, int groups)
         {
-            return global::FileFormat.Accord.Math.Accord.Statistics.Classes.Random(labels, classes, groups);
+            return global::Openize.Accord.Math.Accord.Statistics.Classes.Random(labels, classes, groups);
         }
 
         /// <summary>
-        ///   Obsolete. Please use <see cref="FileFormat.Accord.Math.Vector.Vector.Sample(int)"/> instead.
+        ///   Obsolete. Please use <see cref="Openize.Accord.Math.Vector.Vector.Sample(int)"/> instead.
         /// </summary>
         /// 
         [Obsolete("Please use Vector.Sample instead.")]

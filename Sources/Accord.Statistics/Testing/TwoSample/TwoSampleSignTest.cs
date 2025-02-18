@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.TwoSample
+namespace Openize.Accord.Statistics.Testing.TwoSample
 {
     using System;
     using Base;
-    using Distributions.Univariate.Discrete;
-    using FileFormat.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Sign test for two paired samples.

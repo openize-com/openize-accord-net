@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Data;
     using System.Linq.Expressions;
     using Accord.MachineLearning.Learning;
     using Base;
-    using FileFormat.Accord.Core.MachineLearning;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.MachineLearning;
 
     /// <summary>
     ///   Value discretization preprocessing filter.

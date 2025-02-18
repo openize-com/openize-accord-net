@@ -26,15 +26,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Formats
+namespace Openize.Accord.Imaging.AForge.Imaging.Formats
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing;
     using System.IO;
     using System.Threading;
-    using Core.Attributes;
-    using global::Accord;
+    using Openize.Accord.Core.Attributes;
 
     /// <summary>
     /// Image decoder to decode different custom image file formats.

@@ -8,7 +8,7 @@
 // http://www.pages.drexel.edu/~weg22/can_tut.html
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Edge_Detectors
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Edge_Detectors
 {
     using System;
     using System.Collections.Generic;

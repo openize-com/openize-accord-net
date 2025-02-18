@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Continuous
 {
     using System;
     using Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Math;
-    using Math.Functions;
-    using Math.Matrix;
-    using Math.Random;
-    using Math.Vector;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Math.Random;
     using Univariate.Continuous;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Uniform distribution inside a n-dimensional ball.

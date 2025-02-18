@@ -25,14 +25,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Decompositions
+namespace Openize.Accord.Math.Decompositions
 {
     using System;
     using System.Threading.Tasks;
     using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using Matrix;
-    using Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Core.Exceptions;
 
     /// <summary>
     ///   Cholesky Decomposition of a symmetric, positive definite matrix.

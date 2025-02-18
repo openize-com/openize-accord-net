@@ -20,11 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Decompositions
+namespace Openize.Accord.Math.Decompositions
 {
-    using Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///   Gram-Schmidt Orthogonalization.

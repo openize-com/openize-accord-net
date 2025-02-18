@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Drawing;
     using System.Drawing.Imaging;
-    using FileFormat.Accord.Imaging.AForge.Imaging;
     using NUnit.Framework;
+    using Openize.Accord.Imaging.AForge.Imaging;
 
     [TestFixture]
     public class IntegralImageTest

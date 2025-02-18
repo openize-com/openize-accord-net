@@ -6,15 +6,15 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Drawing;
     using System.Drawing.Imaging;
     using System.IO;
-    using Core;
-    using Core.AForge.Core;
     using Formats;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Core image relatad methods.

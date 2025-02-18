@@ -25,11 +25,11 @@
 // edit the T4 template Distance.tt so this file can be regenerated. 
 // ======================================================================
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System;
-    using FileFormat.Accord.Core;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
 
     /// <summary>
     ///   Static class Distance. Defines a set of methods defining distance measures.

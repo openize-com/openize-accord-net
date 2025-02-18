@@ -30,10 +30,9 @@
 // http://www.eecs.wsu.edu/paint.net/
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Convolution
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Convolution
 {
     using System;
-    using global::Accord.Math;
     using Math.AForge.Math;
     using Math.Functions;
 

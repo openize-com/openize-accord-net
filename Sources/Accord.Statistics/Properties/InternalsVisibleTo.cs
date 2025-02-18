@@ -1,4 +1,4 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("FileFormat.Accord.Tests.Math")]
-[assembly: InternalsVisibleTo("FileFormat.Accord.Tests.Statistics")]
+[assembly: InternalsVisibleTo("Openize.Accord.Tests.Math")]
+[assembly: InternalsVisibleTo("Openize.Accord.Tests.Statistics")]

@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Core;
-    using Matrix;
-    using Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
 
     /// <summary>
     ///   Extension methods for sorting operations.
@@ -889,18 +888,18 @@ namespace FileFormat.Accord.Math
             int middle = first + (last - first) / 2;
             if (dir * keys[middle].CompareTo(keys[first]) < 0)
             {
-                Matrix.Matrix.Swap(keys, middle, first);
-                Matrix.Matrix.Swap(items, middle, first);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
+                Openize.Accord.Math.Matrix.Matrix.Swap(items, middle, first);
             }
             if (dir * keys[last].CompareTo(keys[middle]) < 0)
             {
-                Matrix.Matrix.Swap(keys, last, middle);
-                Matrix.Matrix.Swap(items, last, middle);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, last, middle);
+                Openize.Accord.Math.Matrix.Matrix.Swap(items, last, middle);
 
                 if (dir * keys[middle].CompareTo(keys[first]) < 0)
                 {
-                    Matrix.Matrix.Swap(keys, middle, first);
-                    Matrix.Matrix.Swap(items, middle, first);
+                    Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
+                    Openize.Accord.Math.Matrix.Matrix.Swap(items, middle, first);
                 }
             }
 
@@ -916,13 +915,13 @@ namespace FileFormat.Accord.Math
             int dir = asc ? 1 : -1;
             int middle = first + (last - first) / 2;
             if (dir * keys[middle].CompareTo(keys[first]) < 0)
-                Matrix.Matrix.Swap(keys, middle, first);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
 
             if (dir * keys[last].CompareTo(keys[middle]) < 0)
             {
-                Matrix.Matrix.Swap(keys, last, middle);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, last, middle);
                 if (dir * keys[middle].CompareTo(keys[first]) < 0)
-                    Matrix.Matrix.Swap(keys, middle, first);
+                    Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
             }
 
             return middle;
@@ -938,19 +937,19 @@ namespace FileFormat.Accord.Math
             int middle = first + (last - first) / 2;
             if (dir * comparer(keys[middle], keys[first]) < 0)
             {
-                Matrix.Matrix.Swap(keys, middle, first);
-                Matrix.Matrix.Swap(items, middle, first);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
+                Openize.Accord.Math.Matrix.Matrix.Swap(items, middle, first);
             }
 
             if (dir * comparer(keys[last], keys[middle]) < 0)
             {
-                Matrix.Matrix.Swap(keys, last, middle);
-                Matrix.Matrix.Swap(items, last, middle);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, last, middle);
+                Openize.Accord.Math.Matrix.Matrix.Swap(items, last, middle);
 
                 if (dir * comparer(keys[middle], keys[first]) < 0)
                 {
-                    Matrix.Matrix.Swap(keys, middle, first);
-                    Matrix.Matrix.Swap(items, middle, first);
+                    Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
+                    Openize.Accord.Math.Matrix.Matrix.Swap(items, middle, first);
                 }
             }
 
@@ -965,13 +964,13 @@ namespace FileFormat.Accord.Math
             int dir = asc ? 1 : -1;
             int middle = first + (last - first) / 2;
             if (dir * comparer(keys[middle], keys[first]) < 0)
-                Matrix.Matrix.Swap(keys, middle, first);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
 
             if (dir * comparer(keys[last], keys[middle]) < 0)
             {
-                Matrix.Matrix.Swap(keys, last, middle);
+                Openize.Accord.Math.Matrix.Matrix.Swap(keys, last, middle);
                 if (dir * comparer(keys[middle], keys[first]) < 0)
-                    Matrix.Matrix.Swap(keys, middle, first);
+                    Openize.Accord.Math.Matrix.Matrix.Swap(keys, middle, first);
             }
 
             return middle;

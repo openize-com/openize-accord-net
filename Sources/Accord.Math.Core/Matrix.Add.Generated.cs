@@ -25,10 +25,9 @@
 // edit the T4 template Matrix.Elementwise2.tt so this file can be regenerated. 
 // ======================================================================
 
-namespace FileFormat.Accord.Math.Core
+namespace Openize.Accord.Math.Core
 {
     using System;
-    using Accord.Math;
     using System.Runtime.CompilerServices;
 
     public static partial class Elementwise

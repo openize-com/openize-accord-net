@@ -20,25 +20,25 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
     using System.Collections.Generic;
     using System.Data;
     using System.IO;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.IO.Csv;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Optimization.Losses;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Statistics.Analysis;
-    using FileFormat.Accord.Statistics.Links;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
     using Vector = Math.Vector.Vector;
-    using FileFormat.Accord.Tests.Statistics.Properties;
+    using Openize.Accord.Tests.Statistics.Properties;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.IO.Csv;
+    using Openize.Accord.Math.Optimization.Losses;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Links;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
 
     [TestFixture]
     public class LogisticRegressionTest

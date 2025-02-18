@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Environment
+namespace Openize.Accord.Tests.Math.Environment
 {
-    using FileFormat.Accord.Math.Environments;
     using NUnit.Framework;
+    using Openize.Accord.Math.Environments;
 
     [TestFixture]
     public class REnvironmentTest : REnvironment

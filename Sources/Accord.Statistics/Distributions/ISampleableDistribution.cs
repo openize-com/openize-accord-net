@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions
+namespace Openize.Accord.Statistics.Distributions
 {
     using System;
-    using Math.Random;
+    using Openize.Accord.Math.Random;
 
     /// <summary>
     ///   Common interface for sampleable distributions (i.e. distributions that

@@ -20,13 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Numerics;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///  Static class ComplexExtensions. Defines a set of extension methods
@@ -319,8 +320,8 @@ namespace FileFormat.Accord.Math.Matrix
             }
 
             return new DoubleRange(
-                System.Math.Sqrt(min),
-                System.Math.Sqrt(max));
+                Math.Sqrt(min),
+                Math.Sqrt(max));
         }
 
         /// <summary>
@@ -341,10 +342,10 @@ namespace FileFormat.Accord.Math.Matrix
                     double xi = objA[i][j].Imaginary;
                     double yi = objB[i][j].Imaginary;
 
-                    if (Math.Abs(xr - yr) > threshold || (Double.IsNaN(xr) ^ Double.IsNaN(yr)))
+                    if (Math.Abs(xr - yr) > threshold || double.IsNaN(xr) ^ double.IsNaN(yr))
                         return false;
 
-                    if (Math.Abs(xi - yi) > threshold || (Double.IsNaN(xr) ^ Double.IsNaN(yr)))
+                    if (Math.Abs(xi - yi) > threshold || double.IsNaN(xr) ^ double.IsNaN(yr))
                         return false;
                 }
             }
@@ -367,10 +368,10 @@ namespace FileFormat.Accord.Math.Matrix
                 double xi = objA[i].Imaginary;
                 double yi = objB[i].Imaginary;
 
-                if (Math.Abs(xr - yr) > threshold || (Double.IsNaN(xr) ^ Double.IsNaN(yr)))
+                if (Math.Abs(xr - yr) > threshold || double.IsNaN(xr) ^ double.IsNaN(yr))
                     return false;
 
-                if (Math.Abs(xi - yi) > threshold || (Double.IsNaN(xi) ^ Double.IsNaN(yi)))
+                if (Math.Abs(xi - yi) > threshold || double.IsNaN(xi) ^ double.IsNaN(yi))
                     return false;
             }
             return true;

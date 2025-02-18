@@ -20,9 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Learning
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Learning
 {
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multiclass.Binary;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multiclass.Binary;
 
     /// <summary>
     ///   Common interface for supervised learning algorithms for

@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Sampling
+namespace Openize.Accord.Statistics.Distributions.Sampling
 {
     using System;
-    using Math.Random;
+    using Openize.Accord.Math.Random;
 
     /// <summary>
     ///   Metropolis-Hasting sampling algorithm.
@@ -157,7 +157,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Sampling
             this.next = new T[dimensions];
             this.logPdf = logDensity;
             this.proposal = proposal;
-            this.RandomSource = global::FileFormat.Accord.Math.Random.Generator.Random;
+            this.RandomSource = global::Openize.Accord.Math.Random.Generator.Random;
         }
 
 

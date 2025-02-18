@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization
+namespace Openize.Accord.Math.Optimization
 {
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Linq.Expressions;
     using Constrained;
-    using Matrix;
-    using Unconstrained;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Optimization.Unconstrained;
 
     /// <summary>
     ///   Nonlinear objective function.

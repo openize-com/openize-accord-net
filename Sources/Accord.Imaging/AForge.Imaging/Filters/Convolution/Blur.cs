@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Convolution
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Convolution
 {
 	/// <summary>
 	/// Blur filter.

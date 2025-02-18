@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Distances
+namespace Openize.Accord.Math.Distances
 {
     using System;
     using System.Runtime.CompilerServices;
     using Base;
-    using global::Accord.Math;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   ArgMax distance (L0) distance.

@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear
 {
     using System;
     using Accord.MachineLearning.Classifiers;
     using Fitting;
-    using Math.Optimization.Unconstrained.Least_Squares;
+    using Openize.Accord.Math.Optimization.Unconstrained.Least_Squares;
 
     /// <summary>
     ///   Regression function delegate.

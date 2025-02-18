@@ -20,16 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics
+namespace Openize.Accord.Tests.Statistics
 {
     using System;
     using System.Data;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Statistics;
     using NUnit.Framework;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics;
 
     [TestFixture]
     public class CircularTest

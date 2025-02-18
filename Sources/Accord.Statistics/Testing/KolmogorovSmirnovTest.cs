@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing
+namespace Openize.Accord.Statistics.Testing
 {
     using System;
     using Base;
     using Distributions;
-    using Distributions.Univariate.Continuous;
-    using global::Accord.Math;
-    using Math.Vector;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   One-sample Kolmogorov-Smirnov (KS) test.

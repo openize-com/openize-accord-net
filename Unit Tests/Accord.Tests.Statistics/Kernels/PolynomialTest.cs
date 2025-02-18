@@ -21,13 +21,14 @@
 //
 
 
-namespace FileFormat.Accord.Tests.Statistics.Kernels
+namespace Openize.Accord.Tests.Statistics.Kernels
 {
     using Accord.Math;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Kernels;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Tools = Accord.Statistics.Measures.Tools;
+    using Openize.Accord.Math;
+    using Openize.Accord.Statistics.Kernels;
+    using Tools = Openize.Accord.Statistics.Measures.Tools;
 
     [TestFixture]
     public class PolynomialTest

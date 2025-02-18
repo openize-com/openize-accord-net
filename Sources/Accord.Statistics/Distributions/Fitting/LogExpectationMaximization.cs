@@ -20,19 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Fitting
+namespace Openize.Accord.Statistics.Distributions.Fitting
 {
     using System;
     using System.Threading.Tasks;
-    using Base;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
     using Math;
-    using Math.Accord.MachineLearning.Learning;
     using Math.Convergence;
     using Math.Convergence.Base;
-    using Math.Core;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Accord.MachineLearning.Learning;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Expectation Maximization algorithm for mixture model fitting in the log domain.

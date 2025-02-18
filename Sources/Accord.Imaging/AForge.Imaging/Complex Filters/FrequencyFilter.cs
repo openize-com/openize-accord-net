@@ -6,12 +6,11 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Complex_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Complex_Filters
 {
     using System;
     using System.Numerics;
-    using Core.Ranges;
-    using global::Accord;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     /// Filtering of frequencies outside of specified range in complex Fourier

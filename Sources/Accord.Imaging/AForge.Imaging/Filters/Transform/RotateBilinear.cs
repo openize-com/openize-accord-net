@@ -6,14 +6,14 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Transform
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing.Imaging;
     using Base_classes;
     using Colors;
-    using FileFormat.Accord.Imaging.Filters.Transform;
+    using Openize.Accord.Imaging.Filters.Transform;
 
     /// <summary>
     /// Rotate image using bilinear interpolation.

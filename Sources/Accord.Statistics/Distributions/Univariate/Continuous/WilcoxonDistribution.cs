@@ -20,19 +20,21 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
     using System.Linq;
     using System.Threading.Tasks;
-    using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Math;
+    using Measures;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
     using Testing;
     using Testing.TwoSample;
-    using Math.Matrix;
-    using Math.Vector;
 
     /// <summary>
     ///   Wilcoxon's W statistic distribution.

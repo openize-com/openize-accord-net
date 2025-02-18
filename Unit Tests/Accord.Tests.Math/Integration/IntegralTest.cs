@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Integration
+namespace Openize.Accord.Tests.Math.Integration
 {
     using System;
-    using FileFormat.Accord.Math.Integration;
     using NUnit.Framework;
+    using Openize.Accord.Math.Integration;
 
     [TestFixture]
     public class IntegralTest

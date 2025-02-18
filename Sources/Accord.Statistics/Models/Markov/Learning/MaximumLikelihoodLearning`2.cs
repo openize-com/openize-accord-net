@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning
+namespace Openize.Accord.Statistics.Models.Markov.Learning
 {
     using Accord.MachineLearning.Learning;
     using Base;
     using Distributions;
-    using Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///    Maximum Likelihood learning algorithm for discrete-density Hidden Markov Models.

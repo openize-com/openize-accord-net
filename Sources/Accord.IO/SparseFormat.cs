@@ -20,10 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.IO
+namespace Openize.Accord.IO
 {
     using System.IO;
     using System.IO.Compression;
+    using Openize.Accord.Core;
     using SerializerCompression = Core.SerializerCompression;
 
     /// <summary>
@@ -43,7 +44,7 @@ namespace FileFormat.Accord.IO
         /// <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
         /// <param name="compression">The type of compression to use. Default is None.</param>
         /// 
-        public static void Load(string path, out FileFormat.Accord.Core.Sparse<double>[] samples, out bool[] outputs, SerializerCompression compression = DEFAULT_COMPRESSION)
+        public static void Load(string path, out Sparse<double>[] samples, out bool[] outputs, SerializerCompression compression = DEFAULT_COMPRESSION)
         {
             using (FileStream stream = new FileStream(path, FileMode.Open))
                 Load(stream, out samples, out outputs, compression);
@@ -58,7 +59,7 @@ namespace FileFormat.Accord.IO
         /// <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
         /// <param name="compression">The type of compression to use. Default is None.</param>
         /// 
-        public static void Load(Stream stream, out FileFormat.Accord.Core.Sparse<double>[] samples, out bool[] outputs, SerializerCompression compression = DEFAULT_COMPRESSION)
+        public static void Load(Stream stream, out Sparse<double>[] samples, out bool[] outputs, SerializerCompression compression = DEFAULT_COMPRESSION)
         {
             if (compression == SerializerCompression.GZip)
             {
@@ -87,7 +88,7 @@ namespace FileFormat.Accord.IO
         /// <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
         /// <param name="compression">The type of compression to use. Default is None.</param>
         /// 
-        public static void Save(FileFormat.Accord.Core.Sparse<double>[] samples, bool[] outputs, string path, SerializerCompression compression = DEFAULT_COMPRESSION)
+        public static void Save(Sparse<double>[] samples, bool[] outputs, string path, SerializerCompression compression = DEFAULT_COMPRESSION)
         {
             using (Stream stream = new FileStream(path, FileMode.Create))
                 Save(samples, outputs, stream, compression);
@@ -120,7 +121,7 @@ namespace FileFormat.Accord.IO
         /// <param name="outputs">The output labels associated with each sample in <paramref name="samples"/>.</param>
         /// <param name="compression">The type of compression to use. Default is None.</param>
         /// 
-        public static void Save(FileFormat.Accord.Core.Sparse<double>[] samples, bool[] outputs, Stream stream, SerializerCompression compression = DEFAULT_COMPRESSION)
+        public static void Save(Sparse<double>[] samples, bool[] outputs, Stream stream, SerializerCompression compression = DEFAULT_COMPRESSION)
         {
             if (compression == SerializerCompression.GZip)
             {

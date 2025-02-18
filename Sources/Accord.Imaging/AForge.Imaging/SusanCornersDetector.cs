@@ -30,14 +30,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System.Collections.Generic;
     using System.Drawing.Imaging;
-    using Core.AForge.Core;
     using Filters.Color_Filters;
-    using global::Accord;
     using Interest_Points.Base;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Susan corners detector.

@@ -41,10 +41,10 @@
 //   moshier@na-net.ornl.gov
 //
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System;
-    using FileFormat.Accord.Core;
+    using Openize.Accord.Core;
 
     /// <summary>
     ///   Common mathematical constants.

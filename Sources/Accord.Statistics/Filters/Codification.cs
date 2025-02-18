@@ -20,18 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Data;
     using System.Runtime.Serialization;
     using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.MachineLearning;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Kernels;
-    using Math.Matrix;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.MachineLearning;
 
     /// <summary>
     ///   Codification type.

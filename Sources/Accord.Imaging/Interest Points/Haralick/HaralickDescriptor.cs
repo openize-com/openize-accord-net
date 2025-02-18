@@ -23,16 +23,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
+namespace Openize.Accord.Imaging.Interest_Points.Haralick
 {
     using System;
-    using Core.Exceptions;
-    using global::Accord;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Math;
     using Math.Accord.Statistics;
     using Math.Decompositions;
-    using Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
 
     /// <summary>
     ///   Haralick's Texture Features.
@@ -531,7 +530,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
                         s += (n * n) * p_xmy[n];
 
                     this.contrast = s;
-                    global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.contrast.Value));
+                    global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.contrast.Value));
                 }
                 return this.contrast.Value;
             }
@@ -564,7 +563,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
                         this.correlation = (s - mx * my) / (sx * sy);
                     }
 
-                    global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.correlation.Value));
+                    global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.correlation.Value));
                 }
 
                 return this.correlation.Value;
@@ -654,7 +653,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
                         s += i * sums[i];
                     this.sumAverage = s;
 
-                    global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.sumAverage.Value));
+                    global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.sumAverage.Value));
                 }
                 return this.sumAverage.Value;
             }
@@ -678,7 +677,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
                         s += (i - f8) * (i - f8) * sums[i];
                     this.sumVariance = s;
 
-                    global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.sumVariance.Value));
+                    global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.sumVariance.Value));
                 }
                 return this.sumVariance.Value;
             }
@@ -695,7 +694,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
             {
                 if (this.sumEntropy == null)
                     this.sumEntropy = this.Sums.Entropy(epsilon);
-                global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.sumEntropy.Value));
+                global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.sumEntropy.Value));
                 return this.sumEntropy.Value;
             }
         }
@@ -711,7 +710,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
             {
                 if (this.entropy == null)
                     this.entropy = this.matrix.Entropy(epsilon);
-                global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.entropy.Value));
+                global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.entropy.Value));
                 return this.entropy.Value;
             }
         }
@@ -727,7 +726,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
             {
                 if (this.diffVariance == null)
                     this.diffVariance = this.Differences.Variance();
-                global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.diffVariance.Value));
+                global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.diffVariance.Value));
                 return this.diffVariance.Value;
             }
         }
@@ -743,7 +742,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
             {
                 if (this.diffEntropy == null)
                     this.diffEntropy = this.Differences.Entropy(epsilon);
-                global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.diffEntropy.Value));
+                global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.diffEntropy.Value));
                 return this.diffEntropy.Value;
             }
         }
@@ -779,7 +778,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
                         this.information1 = (hxy - hxy1) / Math.Max(hx, hy);
                     }
 
-                    global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.information1.Value));
+                    global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.information1.Value));
                 }
 
                 return this.information1.Value;
@@ -812,7 +811,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
                             hxy2 -= px[i] * py[j] * Math.Log(px[i] * py[j] + epsilon);
 
                     this.information2 = Math.Sqrt(1.0 - Math.Exp(-2 * (hxy2 - hxy)));
-                    global::FileFormat.Accord.Core.Debug.Assert(!Double.IsNaN(this.information2.Value));
+                    global::Openize.Accord.Core.Debug.Assert(!Double.IsNaN(this.information2.Value));
                 }
 
                 return this.information2.Value;

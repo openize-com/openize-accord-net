@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Linear.Fitting
+namespace Openize.Accord.Statistics.Models.Regression.Linear.Fitting
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Math.Decompositions;
-    using Math.Matrix;
 
     /// <summary>
     ///   Polynomial Least-Squares.

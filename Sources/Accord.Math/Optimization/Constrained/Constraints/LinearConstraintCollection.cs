@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Constrained.Constraints
+namespace Openize.Accord.Math.Optimization.Constrained.Constraints
 {
     using System;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Linq;
-    using FileFormat.Accord.Math.Vector;
-    using global::Accord.Math;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
 
     /// <summary>
     ///   Linear Constraint Collection.

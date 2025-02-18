@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   
   <PropertyGroup>
-    <RootNamespace>FileFormat.Accord.Tests.Statistics</RootNamespace>
-    <AssemblyName>FileFormat.Accord.Tests.Statistics</AssemblyName>
+    <RootNamespace>Openize.Accord.Tests.Statistics</RootNamespace>
+    <AssemblyName>Openize.Accord.Tests.Statistics</AssemblyName>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <!--
     <StartupObject>Accord.Tests.Statistics.Program</StartupObject>
@@ -15,10 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Sources\Accord.IO\FileFormat.Accord.IO.csproj" />
-    <ProjectReference Include="..\..\Sources\Accord.Math.Core\FileFormat.Accord.Math.Core.csproj" />
-    <ProjectReference Include="..\..\Sources\Accord.Math\FileFormat.Accord.Math.csproj" />
-    <ProjectReference Include="..\..\Sources\Accord.Statistics\FileFormat.Accord.Statistics.csproj" />
+    <ProjectReference Include="..\..\Sources\Accord.IO\Openize.Accord.IO.csproj" />
+    <ProjectReference Include="..\..\Sources\Accord.Math.Core\Openize.Accord.Math.Core.csproj" />
+    <ProjectReference Include="..\..\Sources\Accord.Math\Openize.Accord.Math.csproj" />
+    <ProjectReference Include="..\..\Sources\Accord.Statistics\Openize.Accord.Statistics.csproj" />
   </ItemGroup>
 
   <ItemGroup>

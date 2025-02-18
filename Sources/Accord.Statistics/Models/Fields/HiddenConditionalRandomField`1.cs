@@ -21,17 +21,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields
+namespace Openize.Accord.Statistics.Models.Fields
 {
     using System;
     using System.IO;
     using Accord.MachineLearning.Classifiers.Multiple.Multiclass;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.MachineLearning;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Learning.Hidden;
     using Math;
-    using Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.MachineLearning;
     using Potential_Functions.Base;
 
     /// <summary>

@@ -6,7 +6,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Other
 {
     using System.Collections.Generic;
     using System.Drawing;
@@ -146,7 +146,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
             for (int y = startY; y < stopY; y++)
             {
                 // make destination image filled with background color
-                global::FileFormat.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(dst + startX, this.bg, stopX - startX);
+                global::Openize.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(dst + startX, this.bg, stopX - startX);
 
                 start = -1;
                 // for each pixel

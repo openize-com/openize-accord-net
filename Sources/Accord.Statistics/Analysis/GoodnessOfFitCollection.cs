@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.Collections;
+    using Openize.Accord.Core.Collections;
 
     /// <summary>
     ///   Collection of goodness-of-fit measures.

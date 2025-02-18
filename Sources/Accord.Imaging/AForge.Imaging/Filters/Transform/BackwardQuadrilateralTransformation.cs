@@ -6,16 +6,15 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Transform
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Base_classes;
-    using Core.AForge.Core;
-    using global::Accord;
     using Math.AForge.Math.Geometry;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Performs backward quadrilateral transformation into an area in destination image.

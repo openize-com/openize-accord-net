@@ -20,14 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Accord.Statistics
+namespace Openize.Accord.Math.Accord.Statistics
 {
     using System;
     using System.Linq;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Core.Ranges;
-    using Matrix;
-    using Vector;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///   Different methods for computing quantiles.

@@ -27,7 +27,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Morphology
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Morphology
 {
     using System.Collections.Generic;
     using System.Drawing;

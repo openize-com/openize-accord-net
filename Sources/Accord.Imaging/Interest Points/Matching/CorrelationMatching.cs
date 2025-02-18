@@ -48,7 +48,7 @@
 //   connection with the software or the use or other dealings in the software.
 //   
 
-namespace FileFormat.Accord.Imaging.Interest_Points.Matching
+namespace Openize.Accord.Imaging.Interest_Points.Matching
 {
     using System;
     using System.Collections.Generic;
@@ -56,9 +56,9 @@ namespace FileFormat.Accord.Imaging.Interest_Points.Matching
     using System.Drawing.Imaging;
     using System.Linq;
     using AForge.Imaging.Filters.Color_Filters;
-    using Core.AForge.Core;
-    using Math.Matrix;
-    using FileFormat.Accord.Math.Core;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     ///   Maximum cross-correlation feature point matching algorithm.

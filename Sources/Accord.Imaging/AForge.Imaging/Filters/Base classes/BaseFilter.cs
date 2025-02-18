@@ -27,7 +27,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Base_classes
 {
     using System.Collections.Generic;
     using System.Drawing;
@@ -129,7 +129,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
 
             // create new image of required format
             Bitmap dstImage = (dstPixelFormat == PixelFormat.Format8bppIndexed) ?
-                global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height) :
+                global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height) :
                 new Bitmap(width, height, dstPixelFormat);
 
             // lock destination bitmap data

@@ -6,7 +6,7 @@
 // aforge.net@gmail.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math
+namespace Openize.Accord.Math.AForge.Math
 {
     using System;
 

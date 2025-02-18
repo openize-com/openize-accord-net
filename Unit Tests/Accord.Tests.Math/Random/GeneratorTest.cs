@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Random
+namespace Openize.Accord.Tests.Math.Random
 {
     using System.Collections.Concurrent;
     using System.Collections.Generic;
     using System.Linq;
     using System.Threading;
     using System.Threading.Tasks;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Math.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using NUnit.Framework;
-    using Vector = FileFormat.Accord.Math.Vector.Vector;
+    using Openize.Accord.Math.Random;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     [TestFixture]
 #if !MONO

@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels.Sparse
+namespace Openize.Accord.Statistics.Kernels.Sparse
 {
     using System;
-    using Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Sparse Sigmoid Kernel.

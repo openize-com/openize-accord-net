@@ -6,15 +6,14 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Base_classes;
-    using Core.Ranges;
-    using global::Accord;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     /// Brightness adjusting in RGB color space.

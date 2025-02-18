@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Comparers;
-    using FileFormat.Accord.Math.Vector;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Math.Comparers;
 
     public static partial class Matrix
     {
@@ -1188,7 +1188,7 @@ namespace FileFormat.Accord.Math.Matrix
         /// 
         public static TValue[,] Sort<TKey, TValue>(TKey[] keys, TValue[,] values)
         {
-            int[] indices = FileFormat.Accord.Math.Vector.Vector.Range(keys.Length);
+            int[] indices = Openize.Accord.Math.Vector.Vector.Range(keys.Length);
             Array.Sort<TKey, int>(keys.Copy(), indices);
             return values.Get(0, values.Rows(), indices);
         }
@@ -1207,7 +1207,7 @@ namespace FileFormat.Accord.Math.Matrix
         /// 
         public static TValue[,] Sort<TKey, TValue>(TKey[] keys, TValue[,] values, IComparer<TKey> comparer)
         {
-            int[] indices = FileFormat.Accord.Math.Vector.Vector.Range(keys.Length);
+            int[] indices = Openize.Accord.Math.Vector.Vector.Range(keys.Length);
             Array.Sort<TKey, int>(keys.Copy(), indices, comparer);
             return values.Get(0, values.Rows(), indices);
         }
@@ -1226,7 +1226,7 @@ namespace FileFormat.Accord.Math.Matrix
         /// 
         public static TValue[][] Sort<TKey, TValue>(TKey[] keys, TValue[][] values, IComparer<TKey> comparer)
         {
-            int[] indices = FileFormat.Accord.Math.Vector.Vector.Range(keys.Length);
+            int[] indices = Openize.Accord.Math.Vector.Vector.Range(keys.Length);
             Array.Sort<TKey, int>(keys.Copy(), indices, comparer);
             return values.Submatrix(null, indices);
         }
@@ -1244,7 +1244,7 @@ namespace FileFormat.Accord.Math.Matrix
         /// 
         public static TValue[][] Sort<TKey, TValue>(TKey[] keys, TValue[][] values)
         {
-            int[] indices = FileFormat.Accord.Math.Vector.Vector.Range(keys.Length);
+            int[] indices = Openize.Accord.Math.Vector.Vector.Range(keys.Length);
             Array.Sort<TKey, int>(keys.Copy(), indices);
             return values.Submatrix(null, indices);
         }
@@ -1311,10 +1311,10 @@ namespace FileFormat.Accord.Math.Matrix
                 return new int[0];
 
             T[] work = (inPlace) ? values : (T[])values.Clone();
-            int[] idx = FileFormat.Accord.Math.Vector.Vector.Range(values.Length);
+            int[] idx = Openize.Accord.Math.Vector.Vector.Range(values.Length);
             if (count < values.Length)
                 work.NthElement(idx, 0, work.Length, count, asc: false);
-            FileFormat.Accord.Math.Sort.Insertion(work, idx, 0, count, asc: false);
+            Openize.Accord.Math.Sort.Insertion(work, idx, 0, count, asc: false);
             return idx.First(count);
         }
 
@@ -1335,10 +1335,10 @@ namespace FileFormat.Accord.Math.Matrix
                 return new int[0];
 
             T[] work = (inPlace) ? values : (T[])values.Clone();
-            int[] idx = FileFormat.Accord.Math.Vector.Vector.Range(values.Length);
+            int[] idx = Openize.Accord.Math.Vector.Vector.Range(values.Length);
             if (count < values.Length)
                 work.NthElement(idx, 0, work.Length, count, asc: true);
-            FileFormat.Accord.Math.Sort.Insertion(work, idx, 0, count, asc: true);
+            Openize.Accord.Math.Sort.Insertion(work, idx, 0, count, asc: true);
             return idx.First(count);
         }
 
@@ -1350,7 +1350,7 @@ namespace FileFormat.Accord.Math.Matrix
         public static int Partition<T, TValue>(this T[] list, TValue[] keys, int left, int right, bool asc = true)
             where T : IComparable<T>
         {
-            return FileFormat.Accord.Math.Sort.Partition(list, left, right, asc);
+            return Openize.Accord.Math.Sort.Partition(list, left, right, asc);
         }
 
         /// <summary>
@@ -1360,7 +1360,7 @@ namespace FileFormat.Accord.Math.Matrix
         public static int Partition<T>(this T[] list, int left, int right, bool asc = true)
             where T : IComparable<T>
         {
-            return FileFormat.Accord.Math.Sort.Partition(list, left, right, asc);
+            return Openize.Accord.Math.Sort.Partition(list, left, right, asc);
         }
 
         /// <summary>
@@ -1369,7 +1369,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Accord.Sort.Partition instead.")]
         public static int Partition<TKey, TValue>(this TKey[] list, TValue[] keys, int left, int right, Func<TKey, TKey, int> compare, bool asc = true)
         {
-            return FileFormat.Accord.Math.Sort.Partition(list, keys, left, right, compare, asc: asc);
+            return Openize.Accord.Math.Sort.Partition(list, keys, left, right, compare, asc: asc);
         }
 
         /// <summary>
@@ -1378,7 +1378,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Accord.Sort.Partition instead.")]
         public static int Partition<T>(this T[] list, int left, int right, Func<T, T, int> compare, bool asc = true)
         {
-            return FileFormat.Accord.Math.Sort.Partition(list, left, right, compare, asc: asc);
+            return Openize.Accord.Math.Sort.Partition(list, left, right, compare, asc: asc);
         }
 
 

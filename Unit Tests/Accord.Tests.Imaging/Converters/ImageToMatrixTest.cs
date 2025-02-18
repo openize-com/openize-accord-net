@@ -20,22 +20,22 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Converters
+namespace Openize.Accord.Tests.Imaging.Converters
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Imaging.AForge.Imaging;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Binarization;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Color_Filters;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform;
-    using FileFormat.Accord.Imaging.Colors;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
-    using FileFormat.Accord.Tests.Imaging.Properties;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Tests.Imaging.Properties;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Imaging.AForge.Imaging;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Binarization;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Color_Filters;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Transform;
+    using Openize.Accord.Imaging.Colors;
+    using Openize.Accord.Imaging.Converters;
 
     [TestFixture]
     public class ImageToMatrixTest

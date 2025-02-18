@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using Random;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Random;
 
     /// <summary>
     ///   Set of mathematical tools.
@@ -104,7 +104,7 @@ namespace FileFormat.Accord.Math
             double dx = next.X - previous.X;
             double dy = next.Y - previous.Y;
 
-            return global::FileFormat.Accord.Math.Tools.Angle(dx, dy);
+            return global::Openize.Accord.Math.Tools.Angle(dx, dy);
         }
 
         /// <summary>
@@ -117,7 +117,7 @@ namespace FileFormat.Accord.Math
             double dx = next.X - previous.X;
             double dy = next.Y - previous.Y;
 
-            double radians = global::FileFormat.Accord.Math.Tools.Angle(dx, dy);
+            double radians = global::Openize.Accord.Math.Tools.Angle(dx, dy);
 
             // code = Floor(20 / (2*System.Math.PI))
             int code = (int)System.Math.Floor(radians * 3.183098861837907);
@@ -306,7 +306,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static int Scale(this IntRange from, IntRange to, int x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, (IRange<int>)from, (IRange<int>)to);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, (IRange<int>)from, (IRange<int>)to);
         }
 
         /// <summary>
@@ -317,7 +317,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double Scale(this DoubleRange from, DoubleRange to, double x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, from, to);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, from, to);
         }
 
         /// <summary>
@@ -328,7 +328,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double Scale(double fromMin, double fromMax, double toMin, double toMax, double x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
         }
 
         /// <summary>
@@ -339,7 +339,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double[] Scale(double fromMin, double fromMax, double toMin, double toMax, double[] x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
         }
 
         /// <summary>
@@ -350,7 +350,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static int[] Scale(int fromMin, int fromMax, int toMin, int toMax, int[] x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
         }
 
         /// <summary>
@@ -361,7 +361,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static int[] Scale(IntRange from, IntRange to, int[] x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, (IRange<int>)from, (IRange<int>)to);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, (IRange<int>)from, (IRange<int>)to);
         }
 
         /// <summary>
@@ -372,7 +372,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double[] Scale(DoubleRange from, DoubleRange to, double[] x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(values: x, fromRange: from, toRange: to);
+            return Openize.Accord.Math.Vector.Vector.Scale(values: x, fromRange: from, toRange: to);
         }
 
         /// <summary>
@@ -383,7 +383,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static float[] Scale(float fromMin, float fromMax, float toMin, float toMax, float[] x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
         }
 
         /// <summary>
@@ -394,7 +394,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static float[] Scale(Range from, Range to, float[] x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, (IRange<float>)from, (IRange<float>)to);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, (IRange<float>)from, (IRange<float>)to);
         }
 
         /// <summary>
@@ -405,7 +405,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double[] Scale(double toMin, double toMax, double[] x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, toMin, toMax);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, toMin, toMax);
         }
 
         /// <summary>
@@ -487,8 +487,8 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double[][] Scale(double[] toMin, double[] toMax, double[][] x)
         {
-            var min = Matrix.Matrix.Min(x, 0);
-            var max = Matrix.Matrix.Max(x, 0);
+            var min = Openize.Accord.Math.Matrix.Matrix.Min(x, 0);
+            var max = Openize.Accord.Math.Matrix.Matrix.Max(x, 0);
             return Scale(min, max, toMin, toMax, x);
         }
 
@@ -500,7 +500,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double[][] Scale(double toMin, double toMax, double[][] x)
         {
-            return Scale(Matrix.Matrix.Min(x, 0), Matrix.Matrix.Max(x, 0), toMin, toMax, x);
+            return Scale(Openize.Accord.Math.Matrix.Matrix.Min(x, 0), Openize.Accord.Math.Matrix.Matrix.Max(x, 0), toMin, toMax, x);
         }
 
         /// <summary>
@@ -511,7 +511,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static float Scale(float fromMin, float fromMax, float toMin, float toMax, float x)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, fromMin, fromMax, toMin, toMax);
         }
 
         /// <summary>
@@ -522,7 +522,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Scale instead.")]
         public static double Scale(IntRange from, DoubleRange to, int x)
         {
-            return Vector.Vector.Scale(x, from, to);
+            return Openize.Accord.Math.Vector.Vector.Scale(x, from, to);
         }
         #endregion
 
@@ -626,7 +626,7 @@ namespace FileFormat.Accord.Math
         [Obsolete("Please use Vector.Sort instead.")]
         public static void StableSort<T>(this T[] values, Comparison<T> comparison)
         {
-            Vector.Vector.Sort(values, comparison, true);
+            Openize.Accord.Math.Vector.Vector.Sort(values, comparison, true);
         }
 
         /// <summary>
@@ -637,7 +637,7 @@ namespace FileFormat.Accord.Math
         public static void StableSort<T>(this T[] values)
             where T : IComparable<T>
         {
-            Vector.Vector.Sort(values, true);
+            Openize.Accord.Math.Vector.Vector.Sort(values, true);
         }
 
         /// <summary>
@@ -648,7 +648,7 @@ namespace FileFormat.Accord.Math
         public static void StableSort<T>(this T[] values, out int[] order)
             where T : IComparable<T>
         {
-            Vector.Vector.Sort(values, out order, true);
+            Openize.Accord.Math.Vector.Vector.Sort(values, out order, true);
         }
 
         /// <summary>

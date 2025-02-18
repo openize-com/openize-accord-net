@@ -49,13 +49,13 @@
 //    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
     using System.Collections.Generic;
-    using Base;
-    using FileFormat.Accord.Core.Collections;
-    using FileFormat.Accord.Math.Convergence;
+    using Convergence;
+    using Openize.Accord.Core.Collections;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   <see cref="NelderMead"/> exit codes.

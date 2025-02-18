@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Bessel Kernel.
@@ -94,7 +94,7 @@ namespace FileFormat.Accord.Statistics.Kernels
 
             norm = System.Math.Sqrt(norm);
 
-            double num = global::FileFormat.Accord.Math.Functions.Bessel.J(this.order, this.sigma * norm);
+            double num = global::Openize.Accord.Math.Functions.Bessel.J(this.order, this.sigma * norm);
             double den = System.Math.Pow(norm, -norm * this.order);
 
             return num / den;
@@ -110,7 +110,7 @@ namespace FileFormat.Accord.Statistics.Kernels
         /// 
         public double Function(double z)
         {
-            double num = global::FileFormat.Accord.Math.Functions.Bessel.J(this.order, this.sigma * z);
+            double num = global::Openize.Accord.Math.Functions.Bessel.J(this.order, this.sigma * z);
             double den = System.Math.Pow(z, -z * this.order);
 
             return num / den;

@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Wavelets
+namespace Openize.Accord.Tests.Math.Wavelets
 {
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Wavelets;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.Wavelets;
 
     [TestFixture]
     public class CDF97Test

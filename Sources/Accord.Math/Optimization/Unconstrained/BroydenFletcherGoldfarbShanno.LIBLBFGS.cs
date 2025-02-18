@@ -61,10 +61,10 @@ license.
                                                         -- Naoaki Okazaki 
 */
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
 
     internal class lbfgs_parameter_t
     {
@@ -73,7 +73,7 @@ namespace FileFormat.Accord.Math.Optimization.Unconstrained
         public int past;
         public double delta;
         public int max_iterations;
-        public global::FileFormat.Accord.Math.Optimization.Unconstrained.LineSearch linesearch;
+        public global::Openize.Accord.Math.Optimization.Unconstrained.LineSearch linesearch;
         public int max_linesearch;
         public double min_step;
         public double max_step;

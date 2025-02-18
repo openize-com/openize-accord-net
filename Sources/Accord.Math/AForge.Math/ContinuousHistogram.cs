@@ -6,10 +6,10 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math
+namespace Openize.Accord.Math.AForge.Math
 {
     using System;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     /// Histogram for continuous random values.

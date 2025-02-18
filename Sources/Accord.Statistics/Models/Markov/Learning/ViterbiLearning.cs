@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning
+namespace Openize.Accord.Statistics.Models.Markov.Learning
 {
     using System;
     using Accord.MachineLearning.Learning;
     using Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Accord.Statistics;
 
 #pragma warning disable 612, 618
 

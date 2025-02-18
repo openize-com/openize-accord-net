@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Core.MachineLearning // TODO: Move those classes to the root Accord namespace
+namespace Openize.Accord.Core.MachineLearning // TODO: Move those classes to the root Accord namespace
 {
     using System.Threading.Tasks;
 

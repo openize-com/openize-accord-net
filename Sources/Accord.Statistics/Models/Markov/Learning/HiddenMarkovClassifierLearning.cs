@@ -21,20 +21,20 @@
 //
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning
+namespace Openize.Accord.Statistics.Models.Markov.Learning
 {
     using System;
     using System.Threading;
     using System.Threading.Tasks;
     using Base;
     using Distributions;
-    using Distributions.Univariate.Discrete;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.AForge.Math;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.AForge.Math;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Learning algorithm for discrete-density <see cref="HiddenMarkovClassifier">
@@ -142,7 +142,7 @@ namespace FileFormat.Accord.Statistics.Models.Markov.Learning
         /// </summary>
         /// 
         public HiddenMarkovClassifierLearning(HiddenMarkovClassifier classifier,
-            Func<int, global::FileFormat.Accord.Statistics.Accord.MachineLearning.Learning.IUnsupervisedLearning<HiddenMarkovModel, int[], int[]>> learner)
+            Func<int, global::Openize.Accord.Statistics.Accord.MachineLearning.Learning.IUnsupervisedLearning<HiddenMarkovModel, int[], int[]>> learner)
             : base(classifier, learner)
         {
             this.createSmoothingKernel();

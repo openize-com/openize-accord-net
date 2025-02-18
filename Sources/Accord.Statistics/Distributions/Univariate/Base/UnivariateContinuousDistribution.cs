@@ -36,17 +36,16 @@
 #define COMPATIBILITY
 #endif
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
+namespace Openize.Accord.Statistics.Distributions.Univariate.Base
 {
     using System;
     using System.ComponentModel.DataAnnotations;
     using Continuous;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Math.Optimization;
-    using Math.Random;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Optimization;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Abstract class for univariate continuous probability Distributions.
@@ -1346,7 +1345,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
         /// 
         public double[] Generate(int samples)
         {
-            return this.Generate(samples, new double[samples], global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, new double[samples], global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -1360,7 +1359,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
         /// 
         public double[] Generate(int samples, double[] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -1371,7 +1370,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
         /// 
         public double Generate()
         {
-            return this.Generate(global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 

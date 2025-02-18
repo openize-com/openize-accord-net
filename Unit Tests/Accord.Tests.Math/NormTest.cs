@@ -20,11 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math
+namespace Openize.Accord.Tests.Math
 {
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math;
 
     [TestFixture]
     public class NormTest
@@ -111,7 +112,7 @@ namespace FileFormat.Accord.Tests.Math
         [Test]
         public void FrobeniusTest()
         {
-            double[,] a = FileFormat.Accord.Math.Matrix.Matrix.Magic(5);
+            double[,] a = Openize.Accord.Math.Matrix.Matrix.Magic(5);
 
             double expected = 74.330343736592520;
             double actual = Norm.Frobenius(a);

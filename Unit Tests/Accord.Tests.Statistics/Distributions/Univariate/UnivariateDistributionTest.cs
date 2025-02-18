@@ -20,22 +20,22 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate
 {
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Linq;
     using System.Reflection;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Statistics.Distributions.Fitting;
-    using FileFormat.Accord.Statistics.Distributions.Reflection;
-    using FileFormat.Accord.Statistics.Distributions.Univariate;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Base;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Discrete;
     using NUnit.Framework;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Reflection;
+    using Openize.Accord.Statistics.Distributions.Univariate;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
     using RangeAttribute = System.ComponentModel.DataAnnotations.RangeAttribute;
     using Vector = Math.Vector.Vector;
 

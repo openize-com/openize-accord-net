@@ -7,15 +7,14 @@
 //
 
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Colors;
-    using Core.AForge.Core;
-    using global::Accord;
     using Math.AForge.Math.Geometry;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Searching of quadrilateral/triangle corners.

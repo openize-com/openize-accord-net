@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Filters
+namespace Openize.Accord.Tests.Imaging.Filters
 {
     using System.Drawing;
-    using Accord.Imaging;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Formats;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Imaging;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Transform;
+    using Openize.Accord.Imaging.Converters;
+    using Openize.Accord.Math.Formats;
 #if NETSTANDARD2_0
     using Resources = Accord.Tests.Imaging.Properties.Resources_Standard;
 #endif

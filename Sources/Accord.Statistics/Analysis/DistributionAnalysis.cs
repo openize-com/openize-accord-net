@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.Collections.Generic;
@@ -33,10 +33,9 @@ namespace FileFormat.Accord.Statistics.Analysis
     using Distributions.Univariate.Base;
     using Distributions.Univariate.Continuous;
     using Distributions.Univariate.Discrete;
-    using global::Accord.Math;
-    using Math.Comparers;
+    using Openize.Accord.Math.Comparers;
     using Testing;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Distribution fitness analysis.

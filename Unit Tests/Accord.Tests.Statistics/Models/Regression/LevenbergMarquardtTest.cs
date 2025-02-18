@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
     using System;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Optimization.Base;
-    using FileFormat.Accord.Math.Optimization.Unconstrained.Least_Squares;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.Optimization.Base;
+    using Openize.Accord.Math.Optimization.Unconstrained.Least_Squares;
 
     [TestFixture]
     public class LevenbergMarquardtTest

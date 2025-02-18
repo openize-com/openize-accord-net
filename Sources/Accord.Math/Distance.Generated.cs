@@ -26,14 +26,14 @@
 // edit the T4 template Distance.tt so this file can be regenerated. 
 // ======================================================================
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System;
     using System.Collections;
     using System.Runtime.CompilerServices;
-    using Decompositions;
-    using Distances;
-    using FileFormat.Accord.Core;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Decompositions;
+    using Openize.Accord.Math.Distances;
 
     /// <summary>
     ///   Static class Distance. Defines a set of methods defining distance measures.
@@ -52,7 +52,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Yule distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Yule"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Yule"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -75,7 +75,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Yule distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Yule"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Yule"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -101,7 +101,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Jaccard distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Jaccard"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Jaccard"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -127,7 +127,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Hellinger distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Hellinger"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Hellinger"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -153,7 +153,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Euclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Euclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Euclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -176,7 +176,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Euclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Euclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Euclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -201,7 +201,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Euclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Euclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Euclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -224,7 +224,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Euclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Euclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Euclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -247,7 +247,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Euclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Euclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Euclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -274,7 +274,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareMahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareMahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareMahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -298,7 +298,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareMahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareMahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareMahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -322,7 +322,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareMahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareMahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareMahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -345,7 +345,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareMahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareMahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareMahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -371,7 +371,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The RusselRao distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.RusselRao"/> documentation page.
+        ///   For examples, please see <see cref="Distances.RusselRao"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -394,7 +394,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The RusselRao distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.RusselRao"/> documentation page.
+        ///   For examples, please see <see cref="Distances.RusselRao"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -420,7 +420,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Chebyshev distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Chebyshev"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Chebyshev"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -446,7 +446,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Dice distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Dice"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Dice"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -469,7 +469,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Dice distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Dice"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Dice"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -495,7 +495,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SokalMichener distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SokalMichener"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SokalMichener"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -518,7 +518,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SokalMichener distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SokalMichener"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SokalMichener"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -545,7 +545,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The WeightedEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.WeightedEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.WeightedEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -569,7 +569,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The WeightedEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.WeightedEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.WeightedEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -592,7 +592,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The WeightedEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.WeightedEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.WeightedEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -618,7 +618,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Angular distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Angular"/> documentation page.
+        ///   For examples, please see <see cref="Openize.Accord.Math.Distances.Angular"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -644,7 +644,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -667,7 +667,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -690,7 +690,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -715,7 +715,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SquareEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SquareEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SquareEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -741,7 +741,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Hamming distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Hamming"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Hamming"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -764,7 +764,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Hamming distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Hamming"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Hamming"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -787,7 +787,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Hamming distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Hamming"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Hamming"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -810,7 +810,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Hamming distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Hamming"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Hamming"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -836,7 +836,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The ArgMax distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.ArgMax"/> documentation page.
+        ///   For examples, please see <see cref="Distances.ArgMax"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -863,7 +863,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Modular distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Modular"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Modular"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -887,7 +887,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Modular distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Modular"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Modular"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -910,7 +910,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Modular distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Modular"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Modular"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -933,7 +933,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Modular distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Modular"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Modular"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -959,7 +959,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Cosine distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Cosine"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Cosine"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -986,7 +986,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Mahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Mahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Mahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1010,7 +1010,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Mahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Mahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Mahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1034,7 +1034,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Mahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Mahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Mahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1057,7 +1057,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Mahalanobis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Mahalanobis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Mahalanobis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1083,7 +1083,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The BrayCurtis distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.BrayCurtis"/> documentation page.
+        ///   For examples, please see <see cref="Distances.BrayCurtis"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1110,7 +1110,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Minkowski distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Minkowski"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Minkowski"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1134,7 +1134,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Minkowski distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Minkowski"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Minkowski"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1157,7 +1157,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Minkowski distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Minkowski"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Minkowski"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1180,7 +1180,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Minkowski distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Minkowski"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Minkowski"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1206,7 +1206,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Levenshtein distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Levenshtein"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Levenshtein"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1232,7 +1232,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SokalSneath distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SokalSneath"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SokalSneath"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1255,7 +1255,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The SokalSneath distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.SokalSneath"/> documentation page.
+        ///   For examples, please see <see cref="Distances.SokalSneath"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1281,7 +1281,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Matching distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Matching"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Matching"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1304,7 +1304,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Matching distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Matching"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Matching"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1330,7 +1330,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Canberra distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Canberra"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Canberra"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1356,7 +1356,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The RogersTanimoto distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.RogersTanimoto"/> documentation page.
+        ///   For examples, please see <see cref="Distances.RogersTanimoto"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1379,7 +1379,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The RogersTanimoto distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.RogersTanimoto"/> documentation page.
+        ///   For examples, please see <see cref="Distances.RogersTanimoto"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1405,7 +1405,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Manhattan distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Manhattan"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Manhattan"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1428,7 +1428,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Manhattan distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Manhattan"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Manhattan"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1454,7 +1454,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Kulczynski distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Kulczynski"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Kulczynski"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1477,7 +1477,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The Kulczynski distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.Kulczynski"/> documentation page.
+        ///   For examples, please see <see cref="Distances.Kulczynski"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1504,7 +1504,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The WeightedSquareEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.WeightedSquareEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.WeightedSquareEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1528,7 +1528,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The WeightedSquareEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.WeightedSquareEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.WeightedSquareEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0
@@ -1551,7 +1551,7 @@ namespace FileFormat.Accord.Math
         /// <returns>The WeightedSquareEuclidean distance between x and y.</returns>
         /// 
         /// <example>
-        ///   For examples, please see <see cref="Accord.Math.Distances.WeightedSquareEuclidean"/> documentation page.
+        ///   For examples, please see <see cref="Distances.WeightedSquareEuclidean"/> documentation page.
         /// </example>
         ///
 #if NET45 || NET46 || NET462 || NETSTANDARD2_0

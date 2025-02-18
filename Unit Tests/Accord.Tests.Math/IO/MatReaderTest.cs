@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.IO
+namespace Openize.Accord.Tests.Math.IO
 {
     using System;
     using System.IO;
-    using FileFormat.Accord.Math.IO.Mat;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.IO.Mat;
 
     [TestFixture]
     public class MatReaderTest

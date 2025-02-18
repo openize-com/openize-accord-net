@@ -27,7 +27,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Collections.Generic;
@@ -36,8 +36,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
     using System.Drawing.Imaging;
     using System.Runtime.InteropServices;
     using Colors;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Image in unmanaged memory.
@@ -302,7 +301,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
             UnmanagedImage newImage = new UnmanagedImage(newImageData, this.width, this.height, this.stride, this.pixelFormat);
             newImage.mustBeDisposed = true;
 
-            global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(newImageData, this.imageData, this.stride * this.height);
+            global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(newImageData, this.imageData, this.stride * this.height);
 
             return newImage;
         }
@@ -339,7 +338,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
             if (this.stride == destImage.stride)
             {
                 // copy entire image
-                global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(destImage.imageData, this.imageData, this.stride * this.height);
+                global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(destImage.imageData, this.imageData, this.stride * this.height);
             }
             else
             {
@@ -354,7 +353,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                     // copy line by line
                     for (int i = 0; i < this.height; i++)
                     {
-                        global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, copyLength);
+                        global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, copyLength);
 
                         dst += dstStride;
                         src += this.stride;
@@ -453,7 +452,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
 
             // allocate memory for the image
             IntPtr imageData = System.Runtime.InteropServices.Marshal.AllocHGlobal(stride * height);
-            global::FileFormat.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(imageData, 0, stride * height);
+            global::Openize.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(imageData, 0, stride * height);
             System.GC.AddMemoryPressure(stride * height);
 
             UnmanagedImage image = new UnmanagedImage(imageData, width, height, stride, pixelFormat);
@@ -542,7 +541,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                 {
                     // create new image of required format
                     dstImage = (this.pixelFormat == PixelFormat.Format8bppIndexed) ?
-                        global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.width, this.height) :
+                        global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.width, this.height) :
                         new Bitmap(this.width, this.height, this.pixelFormat);
 
                     // lock destination bitmap data
@@ -561,14 +560,14 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                             // copy image
                             for (int y = 0; y < this.height; y++)
                             {
-                                global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, lineSize);
+                                global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, lineSize);
                                 dst += dstStride;
                                 src += this.stride;
                             }
                         }
                         else
                         {
-                            global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, this.stride * this.height);
+                            global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, this.stride * this.height);
                         }
                     }
 
@@ -618,7 +617,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                 byte* dst = (byte*)image.ImageData;
                 fixed (byte* src = bytes)
                 {
-                    global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, bytes.Length);
+                    global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, bytes.Length);
                 }
             }
 
@@ -699,7 +698,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
             System.GC.AddMemoryPressure(stride * height);
 
             UnmanagedImage image = new UnmanagedImage(dstImageData, width, height, stride, pixelFormat);
-            global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dstImageData, imageData, stride * height);
+            global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dstImageData, imageData, stride * height);
             image.mustBeDisposed = true;
 
             return image;

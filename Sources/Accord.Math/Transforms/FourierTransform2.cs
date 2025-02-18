@@ -50,12 +50,13 @@
 //   Software.
 //
 
-namespace FileFormat.Accord.Math.Transforms
+namespace Openize.Accord.Math.Transforms
 {
     using System;
     using System.Numerics;
-    using AForge.Math;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.AForge.Math;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   Fourier Transform (for arbitrary size matrices).

@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Converters
+namespace Openize.Accord.Tests.Imaging.Converters
 {
     using System.Drawing;
     using System.Drawing.Imaging;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform;
-    using FileFormat.Accord.Imaging.Colors;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Transform;
+    using Openize.Accord.Imaging.Colors;
+    using Openize.Accord.Imaging.Converters;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
     
 
     [TestFixture]
@@ -103,7 +103,7 @@ namespace FileFormat.Accord.Tests.Imaging.Converters
         public void ConvertTest4()
         {
             ImageToArray target = new ImageToArray(min: 0, max: 255);
-            Bitmap image = Image.Clone(FileFormat.Accord.Tests.Imaging.Properties.Resources.image3);
+            Bitmap image = Image.Clone(Openize.Accord.Tests.Imaging.Properties.Resources.image3);
             Assert.AreEqual(PixelFormat.Format32bppArgb, image.PixelFormat);
 
             {

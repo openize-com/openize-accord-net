@@ -47,7 +47,7 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Core.Math
+namespace Openize.Accord.Core.Math
 {
     using System;
     using System.ComponentModel;

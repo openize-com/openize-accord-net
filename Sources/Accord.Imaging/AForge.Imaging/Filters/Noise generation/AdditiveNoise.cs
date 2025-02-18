@@ -5,16 +5,15 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Noise_generation
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Noise_generation
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Base_classes;
-    using Core.Ranges;
-    using global::Accord;
     using Math.Random;
+    using Openize.Accord.Core.Ranges;
     using Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>

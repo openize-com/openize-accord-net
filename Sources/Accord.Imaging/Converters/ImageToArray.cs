@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Converters
+namespace Openize.Accord.Imaging.Converters
 {
     using System.Drawing;
     using System.Drawing.Imaging;
@@ -28,8 +28,7 @@ namespace FileFormat.Accord.Imaging.Converters
     using AForge.Imaging;
     using Base;
     using Colors;
-    using global::Accord.Math;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Bitmap to jagged array converter.
@@ -156,7 +155,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(Bitmap input, out double[][] output)
         {
-            global::FileFormat.Accord.Imaging.Tools.CheckGrayscale(input);
+            global::Openize.Accord.Imaging.Tools.CheckGrayscale(input);
 
             BitmapData bitmapData = input.LockBits(ImageLockMode.ReadOnly);
 
@@ -174,7 +173,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(Bitmap input, out float[][] output)
         {
-            global::FileFormat.Accord.Imaging.Tools.CheckGrayscale(input);
+            global::Openize.Accord.Imaging.Tools.CheckGrayscale(input);
 
             BitmapData bitmapData = input.LockBits(ImageLockMode.ReadOnly);
 
@@ -192,7 +191,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(Bitmap input, out double[] output)
         {
-            global::FileFormat.Accord.Imaging.Tools.CheckGrayscale(input);
+            global::Openize.Accord.Imaging.Tools.CheckGrayscale(input);
 
             BitmapData bitmapData = input.LockBits(ImageLockMode.ReadOnly);
 
@@ -210,7 +209,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(Bitmap input, out Complex[] output)
         {
-            global::FileFormat.Accord.Imaging.Tools.CheckGrayscale(input);
+            global::Openize.Accord.Imaging.Tools.CheckGrayscale(input);
 
             BitmapData bitmapData = input.LockBits(ImageLockMode.ReadOnly);
 
@@ -228,7 +227,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(Bitmap input, out float[] output)
         {
-            global::FileFormat.Accord.Imaging.Tools.CheckGrayscale(input);
+            global::Openize.Accord.Imaging.Tools.CheckGrayscale(input);
 
             BitmapData bitmapData = input.LockBits(ImageLockMode.ReadOnly);
 
@@ -246,7 +245,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(Bitmap input, out Color[] output)
         {
-            global::FileFormat.Accord.Imaging.Tools.CheckGrayscale(input);
+            global::Openize.Accord.Imaging.Tools.CheckGrayscale(input);
 
             BitmapData bitmapData = input.LockBits(ImageLockMode.ReadOnly);
 

@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
     using System;
-    using FileFormat.Accord.Math.Differentiation;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
     using NUnit.Framework;
+    using Openize.Accord.Math.Differentiation;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
 
     [TestFixture]
     public class LogisticGradientDescentTest

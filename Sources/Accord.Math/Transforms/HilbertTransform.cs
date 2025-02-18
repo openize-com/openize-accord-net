@@ -20,12 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Transforms
+namespace Openize.Accord.Math.Transforms
 {
     using System;
     using System.Numerics;
-    using AForge.Math;
-    using global::Accord.Math;
+    using Openize.Accord.Math.AForge.Math;
 
     /// <summary>
     ///   Obsolete. Please use <see cref="HilbertTransform2"/> instead.

@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Collections.Generic;
@@ -28,11 +28,10 @@ namespace FileFormat.Accord.Statistics.Filters
     using System.Runtime.Serialization;
     using Accord.MachineLearning.Learning;
     using Base;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.MachineLearning;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Strategies for missing value imputations.

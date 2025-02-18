@@ -20,21 +20,20 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear
 {
     using System;
     using System.Runtime.Serialization;
     using Accord.MachineLearning.Classifiers.Binary;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Linear;
     using Linear.Fitting;
-    using Links;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Links;
     using Testing;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Generalized Linear Model Regression.

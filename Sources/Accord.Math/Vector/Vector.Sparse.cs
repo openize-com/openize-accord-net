@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Vector
+namespace Openize.Accord.Math.Vector
 {
     using System.Runtime.CompilerServices;
     using Core;
-    using FileFormat.Accord.Core;
+    using Openize.Accord.Core;
 
     public static partial class Vector
     {

@@ -21,14 +21,14 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Collections.Generic;
     using System.Data;
     using System.Runtime.Serialization;
     using Base;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Grouping filter.

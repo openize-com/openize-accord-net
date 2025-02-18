@@ -20,11 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Geometry
+namespace Openize.Accord.Math.Geometry
 {
     using System;
-    using AForge.Math;
-    using global::Accord.Math;
+    using Openize.Accord.Math.AForge.Math;
 
     /// <summary>
     ///   3D Plane class with normal vector and distance from origin.

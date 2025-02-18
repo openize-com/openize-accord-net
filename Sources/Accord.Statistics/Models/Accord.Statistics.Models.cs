@@ -20,14 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models
+namespace Openize.Accord.Statistics.Models
 {
     using System.Runtime.CompilerServices;
-    using Fields;
-    using Markov;
-    using Markov.Hybrid;
-    using Regression.Linear;
-    using Regression.Nonlinear;
 
     /// <summary>
     ///  Contains statistical models with direct applications in machine learning, such as

@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields
+namespace Openize.Accord.Statistics.Models.Fields
 {
-    using Distributions.Multivariate;
-    using Distributions.Multivariate.Continuous;
-    using Distributions.Univariate.Continuous;
-    using Distributions.Univariate.Discrete;
     using Markov;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
     using Potential_Functions;
 
     /// <summary>

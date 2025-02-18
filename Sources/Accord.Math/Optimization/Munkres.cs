@@ -78,15 +78,17 @@
 //   POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Math.Optimization
+namespace Openize.Accord.Math.Optimization
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Base;
     using Core;
-    using Matrix;
-    using Vector = Vector.Vector;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Optimization.Base;
+    using Elementwise = Openize.Accord.Math.Core.Elementwise;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Hungarian method for solving the assignment problem, also known
@@ -324,7 +326,7 @@ namespace FileFormat.Accord.Math.Optimization
         /// 
         public bool Maximize()
         {
-            return run(this.originalMatrix.Multiply(-1));
+            return this.run(this.originalMatrix.Multiply(-1));
         }
 
         private bool run(double[][] m)

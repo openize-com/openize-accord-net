@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Kernels
+namespace Openize.Accord.Tests.Statistics.Kernels
 {
-    using FileFormat.Accord.Math.Distances;
-    using FileFormat.Accord.Statistics.Kernels;
     using NUnit.Framework;
+    using Openize.Accord.Math.Distances;
+    using Openize.Accord.Statistics.Kernels;
 
     [TestFixture]
     public class DynamicTimeWarpingTest

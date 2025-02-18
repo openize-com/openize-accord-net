@@ -20,17 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Linq;
-    using FileFormat.Accord.Imaging.Filters;
-    using FileFormat.Accord.Imaging.Interest_Points;
-    using FileFormat.Accord.Imaging.Interest_Points.FREAK;
     using NUnit.Framework;
-    using FileFormat.Accord.Tests.Imaging.Properties;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Tests.Imaging.Properties;
+    using Openize.Accord.Imaging.Filters;
+    using Openize.Accord.Imaging.Interest_Points;
+    using Openize.Accord.Imaging.Interest_Points.FREAK;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
 
     [TestFixture]
     public class FastRetinaKeypointDetectorTest

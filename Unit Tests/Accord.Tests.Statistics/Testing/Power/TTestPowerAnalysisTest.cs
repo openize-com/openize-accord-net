@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Testing.Power
+namespace Openize.Accord.Tests.Statistics.Testing.Power
 {
     using System;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Statistics.Testing.Base;
-    using FileFormat.Accord.Statistics.Testing.Power;
-    using FileFormat.Accord.Statistics.Testing.Power.TwoSample;
-    using FileFormat.Accord.Statistics.Testing.TwoSample;
     using NUnit.Framework;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Testing.Base;
+    using Openize.Accord.Statistics.Testing.Power;
+    using Openize.Accord.Statistics.Testing.Power.TwoSample;
+    using Openize.Accord.Statistics.Testing.TwoSample;
 
     [TestFixture]
     public class TTestPowerAnalysisTest

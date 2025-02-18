@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Continuous
 {
     using System;
     using Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Math;
-    using Math.Functions;
-    using Math.Matrix;
-    using Math.Random;
-    using Math.Vector;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Math.Random;
     using Univariate.Continuous;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Uniform distribution inside a n-dimensional ball.
@@ -213,7 +213,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
         /// 
         public static double[][] Random(int samples, double[] mean, double radius, double[][] result)
         {
-            return Random(samples, mean, radius, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(samples, mean, radius, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -282,7 +282,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
         /// 
         public static double[][] Random(int samples, int dimension, double[][] result)
         {
-            return Random(samples, dimension, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(samples, dimension, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>

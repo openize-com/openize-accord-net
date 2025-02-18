@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Visualizations
+namespace Openize.Accord.Statistics.Visualizations
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.AForge.Core;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     ///   Scatter Plot class.

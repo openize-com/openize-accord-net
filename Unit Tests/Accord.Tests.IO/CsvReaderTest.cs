@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.IO
+namespace Openize.Accord.Tests.IO
 {
     using System;
     using System.IO;
-    using FileFormat.Accord.IO.Csv;
     using NUnit.Framework;
-    using FileFormat.Accord.Tests.IO.Properties;
+    using Openize.Accord.Tests.IO.Properties;
+    using Openize.Accord.IO.Csv;
 
     [TestFixture]
     public class CsvReaderTest

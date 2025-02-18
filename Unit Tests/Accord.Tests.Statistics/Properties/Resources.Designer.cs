@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FileFormat.Accord.Tests.Statistics.Properties {
+namespace Openize.Accord.Tests.Statistics.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace FileFormat.Accord.Tests.Statistics.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FileFormat.Accord.Tests.Statistics.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Openize.Accord.Tests.Statistics.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -77,8 +77,7 @@ namespace FileFormat.Accord.Tests.Statistics.Properties {
         ///15,&quot;male&quot;,&quot;high&quot;,&quot;public&quot;,&quot;vocation&quot;,39,39,44,26,42,&quot;not enrolled&quot;,0,1
         ///67,&quot;male&quot;,&quot;low&quot;,&quot;public&quot;,&quot;vocation&quot;,37,37,42,33,32,&quot;not enrolled&quot;,0,1
         ///153,&quot;male&quot;,&quot;middle&quot;,&quot;public&quot;,&quot;vocation&quot;,39,31,40,39,51,&quot;not enrolled&quot;,0,1
-        ///51,&quot;female&quot;,&quot;high&quot;,&quot;public&quot;,&quot;general&quot;,42,36,42,31,39,&quot;not enrolled&quot;,0,1
-        ///164,&quot;m [rest of string was truncated]&quot;;.
+        ///51,&quot;female&quot;,&quot;high&quot;,&quot;public&quot;,&quot;general&quot;,42,36,42,31,39,&quot;not enrolled&quot;,0,1        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string hsbdemo {
             get {

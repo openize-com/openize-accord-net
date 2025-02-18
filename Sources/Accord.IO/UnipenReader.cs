@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.IO
+namespace Openize.Accord.IO
 {
     using System;
     using System.Collections.Generic;
@@ -79,7 +79,7 @@ namespace FileFormat.Accord.IO
         private void init(Stream input, bool compressed = true)
         {
             if (compressed)
-                this.reader = new StreamReader(new global::FileFormat.Accord.IO.Compression.LzwInputStream(input));
+                this.reader = new StreamReader(new global::Openize.Accord.IO.Compression.LzwInputStream(input));
             else
                 this.reader = new StreamReader(input);
 

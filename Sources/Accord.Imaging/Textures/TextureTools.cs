@@ -27,7 +27,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Textures
+namespace Openize.Accord.Imaging.Textures
 {
     using System;
     using System.Drawing;

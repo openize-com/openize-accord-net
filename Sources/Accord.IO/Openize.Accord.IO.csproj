@@ -7,17 +7,21 @@
     <SignAssembly Condition="Exists('..\Aspose.Certificates\Aspose.snk')">True</SignAssembly>
     <AssemblyOriginatorKeyFile Condition="Exists('..\Aspose.Certificates\Aspose.snk')">..\Aspose.Certificates\Aspose.snk</AssemblyOriginatorKeyFile>
     <DelaySign>False</DelaySign>
-    <AssemblyName>FileFormat.Accord.Math.Core</AssemblyName>
-    <RootNamespace>FileFormat.Accord.Math.Core</RootNamespace>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AssemblyName>Openize.Accord.IO</AssemblyName>
+    <RootNamespace>Openize.Accord.IO</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
+
   <ItemGroup>
-    <ProjectReference Include="..\Accord.Core\FileFormat.Accord.Core.csproj" />
+    <Compile Remove="Extensions.Matrix.cs" />
+    <Compile Remove="Extensions.Table.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="SharpZipLib.NETStandard" Version="0.86.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+    <ProjectReference Include="..\Accord.Core\Openize.Accord.Core.csproj" />
   </ItemGroup>
 
 </Project>

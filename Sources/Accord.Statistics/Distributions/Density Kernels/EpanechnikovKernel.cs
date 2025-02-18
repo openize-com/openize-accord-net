@@ -20,12 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Density_Kernels
+namespace Openize.Accord.Statistics.Distributions.Density_Kernels
 {
     using System;
-    using global::Accord.Math;
-    using Math.Functions;
     using Multivariate.Continuous;
+    using Openize.Accord.Math.Functions;
     using Univariate.Continuous;
 
     /// <summary>

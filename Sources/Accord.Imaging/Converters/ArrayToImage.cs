@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Converters
+namespace Openize.Accord.Imaging.Converters
 {
     using System;
     using System.Drawing;
@@ -28,8 +28,7 @@ namespace FileFormat.Accord.Imaging.Converters
     using AForge.Imaging;
     using Base;
     using Colors;
-    using global::Accord.Math;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Jagged array to Bitmap converter.
@@ -177,7 +176,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(double[] input, out Bitmap output)
         {
-            output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.Width, this.Height);
+            output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.Width, this.Height);
 
             BitmapData data = output.LockBits(ImageLockMode.WriteOnly);
 
@@ -210,7 +209,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(float[] input, out Bitmap output)
         {
-            output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.Width, this.Height);
+            output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.Width, this.Height);
 
             BitmapData data = output.LockBits(ImageLockMode.WriteOnly);
 
@@ -248,7 +247,7 @@ namespace FileFormat.Accord.Imaging.Converters
         /// 
         public void Convert(byte[] input, out Bitmap output)
         {
-            output = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.Width, this.Height);
+            output = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.Width, this.Height);
 
             BitmapData data = output.LockBits(ImageLockMode.WriteOnly);
 

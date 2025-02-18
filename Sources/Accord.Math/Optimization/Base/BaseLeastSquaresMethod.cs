@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Base
+namespace Openize.Accord.Math.Optimization.Base
 {
     using System;
-    using FileFormat.Accord.Math.Accord.MachineLearning.Learning;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Convergence;
+    using Convergence;
+    using Openize.Accord.Math.Accord.MachineLearning.Learning;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Base class for least-squares optimizers implementing the <see cref="ILeastSquaresMethod"/> interface.

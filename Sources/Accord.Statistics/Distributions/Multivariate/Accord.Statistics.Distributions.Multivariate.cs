@@ -20,11 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate
+namespace Openize.Accord.Statistics.Distributions.Multivariate
 {
     using System.Runtime.CompilerServices;
-    using Continuous;
-    using Discrete;
 
     /// <summary>
     ///   Contains a multivariate distributions such as the <see cref="MultivariateNormalDistribution">

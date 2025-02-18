@@ -20,21 +20,21 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Discrete
+namespace Openize.Accord.Statistics.Distributions.Univariate.Discrete
 {
     using System;
     using System.Diagnostics;
-    using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting;
-    using Fitting.Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Core;
-    using Math.Formats;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Formats;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
     using Debug = Core.Debug;
 
     /// <summary>
@@ -705,7 +705,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Discrete
         /// 
         public static int[] Random(double[] probabilities, int samples)
         {
-            return Random(probabilities, samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(probabilities, samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -738,7 +738,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Discrete
         /// 
         public static int[] Random(double[] probabilities, int samples, int[] result, bool log = false)
         {
-            return Random(probabilities, samples, result, global::FileFormat.Accord.Math.Random.Generator.Random, log);
+            return Random(probabilities, samples, result, global::Openize.Accord.Math.Random.Generator.Random, log);
         }
 
         /// <summary>
@@ -814,7 +814,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Discrete
         /// 
         public static int Random(double[] probabilities, bool log = false)
         {
-            return Random(probabilities, global::FileFormat.Accord.Math.Random.Generator.Random, log);
+            return Random(probabilities, global::Openize.Accord.Math.Random.Generator.Random, log);
         }
 
         /// <summary>

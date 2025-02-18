@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Constrained.Constraints
+namespace Openize.Accord.Math.Optimization.Constrained.Constraints
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
     using System.Linq.Expressions;
     using System.Text.RegularExpressions;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Math.Vector;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Core.Exceptions;
 
     /// <summary>
     ///   Constraint type.

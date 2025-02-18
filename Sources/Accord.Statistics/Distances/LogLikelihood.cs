@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distances
+namespace Openize.Accord.Statistics.Distances
 {
     using System;
     using Distributions.Multivariate;
     using Distributions.Multivariate.Base;
-    using Math.Distances.Base;
+    using Openize.Accord.Math.Distances.Base;
 
     /// <summary>
     ///   Log-likelihood distance between a sample and a statistical distribution.
@@ -34,8 +34,7 @@ namespace FileFormat.Accord.Statistics.Distances
     /// <typeparam name="T">The type of the distribution.</typeparam>
     /// 
     [Serializable]
-    public sealed class LogLikelihood<T> :
-        IDistance<double[], T>,
+    public sealed class LogLikelihood<T> : Openize.Accord.Math.Distances.Base.IDistance<double[], T>,
         IDistance<double[], IMixtureComponent<T>>
         where T : MultivariateContinuousDistribution
     {

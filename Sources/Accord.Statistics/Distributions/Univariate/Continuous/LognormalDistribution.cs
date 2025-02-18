@@ -20,19 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting;
-    using Fitting.Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
     using Math;
-    using Math.Accord.Statistics;
-    using Math.Core;
-    using Math.Random;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Log-Normal (Galton) distribution.
@@ -546,7 +546,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double location, double shape, int samples)
         {
-            return Random(location, shape, samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(location, shape, samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -563,7 +563,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double location, double shape, int samples, double[] result)
         {
-            return Random(location, shape, samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(location, shape, samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 

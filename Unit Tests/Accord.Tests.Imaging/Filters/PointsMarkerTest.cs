@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Filters
+namespace Openize.Accord.Tests.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing;
-    using Accord.Imaging;
-    using FileFormat.Accord.Imaging.Filters;
-    using FileFormat.Accord.Imaging.Interest_Points.FREAK;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Imaging;
+    using Openize.Accord.Imaging.Filters;
+    using Openize.Accord.Imaging.Interest_Points.FREAK;
 
     [TestFixture]
     public class PointsMarkerTest

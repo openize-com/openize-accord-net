@@ -27,7 +27,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Blob_Processing
+namespace Openize.Accord.Imaging.Blob_Processing
 {
     using System;
     using System.Collections.Generic;
@@ -35,8 +35,7 @@ namespace FileFormat.Accord.Imaging.Blob_Processing
     using System.Drawing.Imaging;
     using AForge.Imaging;
     using Colors;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Possible object orders.
@@ -1307,7 +1306,7 @@ namespace FileFormat.Accord.Imaging.Blob_Processing
                 Blob blob = new Blob(j, new Rectangle(x1[j], y1[j], x2[j] - x1[j], y2[j] - y1[j]));
                 blob.Area = blobArea;
                 blob.Fullness = (double)blobArea / ((x2[j] - x1[j] + 1) * (y2[j] - y1[j] + 1));
-                blob.CenterOfGravity = new global::FileFormat.Accord.Core.AForge.Core.Point((float)xc[j] / blobArea, (float)yc[j] / blobArea);
+                blob.CenterOfGravity = new global::Openize.Accord.Core.AForge.Core.Point((float)xc[j] / blobArea, (float)yc[j] / blobArea);
                 blob.ColorMean = Color.FromArgb((byte)(meanR[j] / blobArea), (byte)(meanG[j] / blobArea), (byte)(meanB[j] / blobArea));
                 blob.ColorStdDev = Color.FromArgb(
                     (byte)(Math.Sqrt(stdDevR[j] / blobArea - blob.ColorMean.R * blob.ColorMean.R)),

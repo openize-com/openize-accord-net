@@ -23,14 +23,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.SURF
+namespace Openize.Accord.Imaging.Interest_Points.SURF
 {
     using System;
     using System.Collections;
     using System.Collections.Generic;
     using AForge.Imaging;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   Response filter.

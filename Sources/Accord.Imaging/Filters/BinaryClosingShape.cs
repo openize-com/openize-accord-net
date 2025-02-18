@@ -24,7 +24,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System;
     using System.Collections.Generic;
@@ -33,10 +33,8 @@ namespace FileFormat.Accord.Imaging.Filters
     using AForge.Imaging;
     using AForge.Imaging.Filters.Base_classes;
     using AForge.Imaging.Filters.Morphology;
-    using Core.AForge.Core;
-    using global::Accord;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     ///   Closing Binary Shape operator from Mathematical Morphology with 3x3 structuring element.

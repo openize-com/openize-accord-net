@@ -1,7 +1,8 @@
-﻿namespace FileFormat.Accord.Tests.Math.AForge
+﻿namespace Openize.Accord.Tests.Math.AForge
 {
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
     using NUnit.Framework;
+    using Openize.Accord.Math;
 
     [TestFixture]
     public class ToolsTest

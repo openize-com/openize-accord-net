@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Converters
+namespace Openize.Accord.Tests.Imaging.Converters
 {
     using System.Drawing;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Binarization;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Color_Filters;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Tests.Imaging.Properties;
+    using Openize.Accord.Tests.Imaging.Properties;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Binarization;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Color_Filters;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Transform;
+    using Openize.Accord.Imaging.Converters;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
     
     [TestFixture]
     public class ArrayToImageTest

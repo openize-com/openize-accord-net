@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Accord.Statistics
+namespace Openize.Accord.Math.Accord.Statistics
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///   Set of statistics measures, such as <see cref="Mean(double[])"/>,

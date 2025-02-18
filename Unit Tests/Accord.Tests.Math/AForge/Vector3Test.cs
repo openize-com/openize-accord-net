@@ -1,7 +1,7 @@
-﻿namespace FileFormat.Accord.Tests.Math.AForge
+﻿namespace Openize.Accord.Tests.Math.AForge
 {
-    using FileFormat.Accord.Math.AForge.Math;
     using NUnit.Framework;
+    using Openize.Accord.Math.AForge.Math;
 
     [TestFixture]
     public class Vector3Test

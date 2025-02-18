@@ -6,13 +6,12 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Drawing;
     using System.Drawing.Imaging;
     using System.Numerics;
-    using global::Accord.Math;
     using Math.AForge.Math;
 
     /// <summary>
@@ -198,7 +197,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
             int offset = imageData.Stride - width;
 
             // check image size
-            if ((!global::FileFormat.Accord.Math.Tools.IsPowerOf2(width)) || (!global::FileFormat.Accord.Math.Tools.IsPowerOf2(height)))
+            if ((!global::Openize.Accord.Math.Tools.IsPowerOf2(width)) || (!global::Openize.Accord.Math.Tools.IsPowerOf2(height)))
             {
                 throw new InvalidImagePropertiesException("Image width and height should be power of 2.");
             }
@@ -236,7 +235,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
         public Bitmap ToBitmap()
         {
             // create new image
-            Bitmap dstImage = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.width, this.height);
+            Bitmap dstImage = global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(this.width, this.height);
 
             // lock destination bitmap data
             BitmapData dstData = dstImage.LockBits(

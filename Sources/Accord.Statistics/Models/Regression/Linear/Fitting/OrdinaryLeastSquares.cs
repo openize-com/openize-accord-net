@@ -20,16 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Linear.Fitting
+namespace Openize.Accord.Statistics.Models.Regression.Linear.Fitting
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math.Core;
     using Math.Decompositions;
-    using Math.Decompositions.Base;
-    using Math.Matrix;
+    using Openize.Accord.Math.Decompositions.Base;
+    using Elementwise = Openize.Accord.Math.Core.Elementwise;
 
     /// <summary>
     ///   Least Squares learning algorithm for linear regression models.

@@ -25,7 +25,7 @@
 // edit the T4 template Matrix.Product.tt so this file can be regenerated. 
 // ======================================================================
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System.CodeDom.Compiler;
     using System.Runtime.CompilerServices;

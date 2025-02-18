@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Environments
+namespace Openize.Accord.Math.Environments
 {
     using System.CodeDom.Compiler;
-    using Matrix;
-    
+    using Openize.Accord.Math.Matrix;
+
     /// <summary>
     ///   GNU R algorithm environment. Work in progress.
     /// </summary>

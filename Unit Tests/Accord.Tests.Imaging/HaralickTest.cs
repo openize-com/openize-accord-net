@@ -20,19 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Collections.Generic;
     using System.Drawing;
-    using Accord.Imaging;
-    using FileFormat.Accord.Imaging.AForge.Imaging;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Imaging.Interest_Points.Haralick;
-    using FileFormat.Accord.Imaging.Textures;
-    using FileFormat.Accord.Math.Formats;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Imaging;
+    using Openize.Accord.Imaging.AForge.Imaging;
+    using Openize.Accord.Imaging.Converters;
+    using Openize.Accord.Imaging.Interest_Points.Haralick;
+    using Openize.Accord.Imaging.Textures;
+    using Openize.Accord.Math.Formats;
+    using Openize.Accord.Math.Random;
 
     [TestFixture]
     public class HaralickTest

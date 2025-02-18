@@ -21,13 +21,12 @@
 //
 
 
-namespace FileFormat.Accord.Math.Optimization.Losses
+namespace Openize.Accord.Math.Optimization.Losses
 {
     using System;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using global::Accord.Math;
-    using Matrix;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Logistic loss.

@@ -23,14 +23,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
     using System.ComponentModel;
-    using Base;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.MachineLearning;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Status codes for the <see cref="BoundedBroydenFletcherGoldfarbShanno"/>

@@ -20,10 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using Decompositions;
-    
 
     /// <summary>
     ///   Static class Norm. Defines a set of extension methods defining norms measures.
@@ -37,8 +36,8 @@ namespace FileFormat.Accord.Math
         /// 
         public static double Norm1(this double[,] a)
         {
-            double[] columnSums = Matrix.Matrix.Sum(a, 1);
-            return Matrix.Matrix.Max(columnSums);
+            double[] columnSums = Openize.Accord.Math.Matrix.Matrix.Sum(a, 1);
+            return Openize.Accord.Math.Matrix.Matrix.Max(columnSums);
         }
 
         /// <summary>
@@ -47,8 +46,8 @@ namespace FileFormat.Accord.Math
         /// 
         public static double Norm1(this double[][] a)
         {
-            double[] columnSums = Matrix.Matrix.Sum(a, 1);
-            return Matrix.Matrix.Max(columnSums);
+            double[] columnSums = Openize.Accord.Math.Matrix.Matrix.Sum(a, 1);
+            return Openize.Accord.Math.Matrix.Matrix.Max(columnSums);
         }
 
         /// <summary>

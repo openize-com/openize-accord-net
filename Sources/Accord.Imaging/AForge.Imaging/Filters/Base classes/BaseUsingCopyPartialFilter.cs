@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Base_classes
 {
     using System;
     using System.Collections.Generic;
@@ -114,7 +114,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
 
             // create new image of required format
             Bitmap dstImage = (dstPixelFormat == PixelFormat.Format8bppIndexed) ?
-                global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height) :
+                global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height) :
                 new Bitmap(width, height, dstPixelFormat);
 
             // lock destination bitmap data
@@ -325,7 +325,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
                 int size = image.Stride * image.Height;
 
                 IntPtr imageCopy = MemoryManager.Alloc(size);
-                global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(imageCopy, image.ImageData, size);
+                global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(imageCopy, image.ImageData, size);
 
                 // process the filter
                 this.ProcessFilter(

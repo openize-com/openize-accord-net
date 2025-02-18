@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Drawing;
     using System.Drawing.Imaging;
-    using Accord.Imaging;
-    using FileFormat.Accord.Imaging.Accord.DataSets;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Tools = Accord.Imaging.Tools;
+    using Openize.Accord.Imaging;
+    using Openize.Accord.Imaging.Accord.DataSets;
+    using Openize.Accord.Imaging.Converters;
+    using Tools = Openize.Accord.Imaging.Tools;
 
     [TestFixture]
     public class IntegralImage2Test

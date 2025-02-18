@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning.Base
+namespace Openize.Accord.Statistics.Models.Markov.Learning.Base
 {
     using System;
     using System.Collections.Generic;
     using System.Threading;
     using Distributions;
-    using Distributions.Fitting.Base;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Base class for observable Markov model learning algorithms.

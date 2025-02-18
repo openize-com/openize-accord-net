@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization
+namespace Openize.Accord.Math.Optimization
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Status codes for the <see cref="BrentSearch"/>.

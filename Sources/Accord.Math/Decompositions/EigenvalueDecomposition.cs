@@ -25,11 +25,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Decompositions
+namespace Openize.Accord.Math.Decompositions
 {
     using System;
-    using global::Accord.Math;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///    Determines the eigenvalues and eigenvectors of a real square matrix.
@@ -167,7 +167,7 @@ namespace FileFormat.Accord.Math.Decompositions
             if (sort)
             {
                 // Sort eigenvalues and vectors in descending order
-                var idx = FileFormat.Accord.Math.Vector.Vector.Range(this.n);
+                var idx = Openize.Accord.Math.Vector.Vector.Range(this.n);
                 Array.Sort(idx, (i, j) => 
                 {
                     if (Math.Abs(this.d[i]) == Math.Abs(this.d[j]))
@@ -389,7 +389,7 @@ namespace FileFormat.Accord.Math.Decompositions
                         // Compute implicit shift
                         Double g = this.d[l];
                         Double p = (this.d[l + 1] - g) / (2 * this.e[l]);
-                        Double r = global::FileFormat.Accord.Math.Tools.Hypotenuse(p, 1);
+                        Double r = global::Openize.Accord.Math.Tools.Hypotenuse(p, 1);
                         if (p < 0)
                         {
                             r = -r;
@@ -421,7 +421,7 @@ namespace FileFormat.Accord.Math.Decompositions
                             s2 = s;
                             g = c * this.e[i];
                             h = c * p;
-                            r = global::FileFormat.Accord.Math.Tools.Hypotenuse(p, this.e[i]);
+                            r = global::Openize.Accord.Math.Tools.Hypotenuse(p, this.e[i]);
                             this.e[i + 1] = s * r;
                             s = this.e[i] / r;
                             c = p / r;

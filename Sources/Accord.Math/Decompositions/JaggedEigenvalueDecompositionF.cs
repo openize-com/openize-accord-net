@@ -25,12 +25,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Decompositions
+namespace Openize.Accord.Math.Decompositions
 {
     using System;
-    using Matrix;
-    using Vector;
-    
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Math;
+
     /// <summary>
     ///     Determines the eigenvalues and eigenvectors of a real square matrix.
     /// </summary>
@@ -392,7 +393,7 @@ namespace FileFormat.Accord.Math.Decompositions
                         // Compute implicit shift
                         Single g = this.d[l];
                         Single p = (this.d[l + 1] - g) / (2 * this.e[l]);
-                        Single r = global::FileFormat.Accord.Math.Tools.Hypotenuse(p, 1);
+                        Single r = global::Openize.Accord.Math.Tools.Hypotenuse(p, 1);
                         if (p < 0)
                         {
                             r = -r;
@@ -424,7 +425,7 @@ namespace FileFormat.Accord.Math.Decompositions
                             s2 = s;
                             g = c * this.e[i];
                             h = c * p;
-                            r = global::FileFormat.Accord.Math.Tools.Hypotenuse(p, this.e[i]);
+                            r = global::Openize.Accord.Math.Tools.Hypotenuse(p, this.e[i]);
                             this.e[i + 1] = s * r;
                             s = this.e[i] / r;
                             c = p / r;

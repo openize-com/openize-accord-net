@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting.Base
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting.Base
 {
     using System;
 

@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels.Structures
+namespace Openize.Accord.Statistics.Kernels.Structures
 {
     using System;
     using System.Collections.Generic;
     using System.Diagnostics;
-    using Base;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Statistics.Kernels.Base;
     using Debug = Core.Debug;
 
     /// <summary>

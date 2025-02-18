@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.IO
+namespace Openize.Accord.Tests.IO
 {
     using System;
     using System.IO;
     using System.Text;
-    using Accord.IO;
-    using FileFormat.Accord.Core;
     using NUnit.Framework;
-    using FileFormat.Accord.Tests.IO.Properties;
+    using Openize.Accord.Tests.IO.Properties;
+    using Openize.Accord.Core;
+    using Openize.Accord.IO;
 #if NO_DEFAULT_ENCODING
     using Encoding = Accord.Compat.Encoding;
 #endif

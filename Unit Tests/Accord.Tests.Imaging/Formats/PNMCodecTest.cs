@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Formats
+namespace Openize.Accord.Tests.Imaging.Formats
 {
     using System.Drawing;
     using System.IO;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Formats;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Imaging.AForge.Imaging.Formats;
+    using Openize.Accord.Imaging.Converters;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
 
     [TestFixture]
     public class PNMCodecTest

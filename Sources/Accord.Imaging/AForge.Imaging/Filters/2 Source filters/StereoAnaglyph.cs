@@ -5,7 +5,7 @@
 // Copyright © Andrew Kirillov, 2005-2009
 // andrew.kirillov@aforgenet.com
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters._2_Source_filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters._2_Source_filters
 {
     using System.Collections.Generic;
     using System.Drawing;

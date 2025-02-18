@@ -21,7 +21,7 @@
 // This class has been ported from the ICSharpCode.SharpZipLib library to overcome a bug
 // in the said library. This class is available under the MIT license as stated above.
 
-namespace FileFormat.Accord.IO.Compression
+namespace Openize.Accord.IO.Compression
 {
     using System;
     using System.IO;

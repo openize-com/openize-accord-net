@@ -23,13 +23,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Functions
+namespace Openize.Accord.Math.Functions
 {
     using System;
     using System.Numerics;
-    using Core;
-    using FileFormat.Accord.Core;
-    using Vector = FileFormat.Accord.Math.Vector.Vector;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Core;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Gabor kernel types.

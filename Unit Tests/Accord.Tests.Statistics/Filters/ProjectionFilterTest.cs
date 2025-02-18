@@ -21,12 +21,12 @@
 //
 
 #if !NO_DATA_TABLE
-namespace FileFormat.Accord.Tests.Statistics.Filters
+namespace Openize.Accord.Tests.Statistics.Filters
 {
     using System.Data;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Statistics.Filters;
     using NUnit.Framework;
+    using Openize.Accord.Core;
+    using Openize.Accord.Statistics.Filters;
 
     [TestFixture]
     public class ProjectionFilterTest

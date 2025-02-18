@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis.Performance
+namespace Openize.Accord.Statistics.Analysis.Performance
 {
     using System;
     using System.Collections.Generic;
@@ -28,8 +28,7 @@ namespace FileFormat.Accord.Statistics.Analysis.Performance
     using System.IO;
     using System.Runtime.Serialization;
     using System.Runtime.Serialization.Formatters.Binary;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using Testing.Contingency;
     using Visualizations;
 

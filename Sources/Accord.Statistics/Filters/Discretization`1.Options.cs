@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Collections.Generic;
@@ -28,8 +28,8 @@ namespace FileFormat.Accord.Statistics.Filters
     using System.Linq.Expressions;
     using Accord.MachineLearning.Learning;
     using Base;
-    using FileFormat.Accord.Core.Collections;
-    using FileFormat.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.Collections;
+    using Openize.Accord.Core.MachineLearning;
 
     public partial class Discretization<TInput, TOutput>
     {

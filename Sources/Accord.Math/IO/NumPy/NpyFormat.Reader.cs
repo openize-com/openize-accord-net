@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.IO.NumPy
+namespace Openize.Accord.Math.IO.NumPy
 {
     using System;
     using System.Collections;
     using System.IO;
     using System.Linq;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
 
 #if !NET35 && !NET40
     /// <summary>

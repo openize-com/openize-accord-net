@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Core
+namespace Openize.Accord.Tests.Core
 {
     using System.Collections.Generic;
     using System.Linq;
-    using Accord.Core.Collections;
     using NUnit.Framework;
+    using Openize.Accord.Core.Collections;
 
     [TestFixture]
     public class BinaryTreeTest

@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.Contingency
+namespace Openize.Accord.Statistics.Testing.Contingency
 {
     using System;
     using System.Diagnostics;
-    using Analysis.Performance;
     using Base;
-    using Distributions.Univariate.Discrete;
+    using Openize.Accord.Statistics.Analysis.Performance;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Fisher's exact test for contingency tables.

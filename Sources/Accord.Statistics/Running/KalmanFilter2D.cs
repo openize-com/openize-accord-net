@@ -29,14 +29,13 @@
 //   http://studentdavestutorials.weebly.com/object-tracking-2d-kalman-filter.html
 //
 
-namespace FileFormat.Accord.Statistics.Running
+namespace Openize.Accord.Statistics.Running
 {
     using System;
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using global::Accord.Math;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.Exceptions;
 
     /// <summary>
     ///   Kalman filter for 2D coordinate systems.

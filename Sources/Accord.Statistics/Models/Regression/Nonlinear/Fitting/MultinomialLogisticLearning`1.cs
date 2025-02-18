@@ -20,19 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.MachineLearning;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Core;
-    using Math.Matrix;
-    using Math.Optimization.Base;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Gradient optimization for Multinomial logistic regression fitting.

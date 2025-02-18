@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
-    using FileFormat.Accord.Statistics.Analysis;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Analysis;
 
     [TestFixture]
     public class ProcrustesAnalysisTest

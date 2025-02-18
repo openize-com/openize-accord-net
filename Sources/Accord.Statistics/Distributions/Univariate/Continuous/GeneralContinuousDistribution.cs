@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core.Ranges;
-    using Math.Differentiation;
-    using Math.Integration;
-    using Math.Integration.Base;
-    using Math.Optimization;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Differentiation;
+    using Openize.Accord.Math.Integration;
+    using Openize.Accord.Math.Integration.Base;
+    using Openize.Accord.Math.Optimization;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   General continuous distribution.

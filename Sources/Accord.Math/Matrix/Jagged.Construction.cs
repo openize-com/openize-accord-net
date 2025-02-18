@@ -20,24 +20,25 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections;
     using System.Collections.Generic;
     using System.Linq;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Random;
 
     /// <summary>
     ///   Jagged matrices.
     /// </summary>
     /// 
     /// <seealso cref="Matrix"/>
-    /// <seealso cref="FileFormat.Accord.Math.Vector.Vector"/>
+    /// <seealso cref="Openize.Accord.Math.Vector.Vector"/>
     /// 
     public static partial class Jagged
     {

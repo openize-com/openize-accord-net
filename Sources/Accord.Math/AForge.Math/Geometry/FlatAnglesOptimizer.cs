@@ -6,11 +6,11 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math.Geometry
+namespace Openize.Accord.Math.AForge.Math.Geometry
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Shape optimizer, which removes obtuse angles (close to flat) from a shape.

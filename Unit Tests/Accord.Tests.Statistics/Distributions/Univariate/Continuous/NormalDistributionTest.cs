@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate.Continuous
 {
     using System;
     using System.Globalization;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Functions;
-    using FileFormat.Accord.Statistics.Distributions.Fitting;
-    using FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Measures;
     using NUnit.Framework;
-    using Tools = Math.Tools;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Measures;
+    using Tools = Openize.Accord.Math.Tools;
 
     [TestFixture]
     public class NormalDistributionTest

@@ -20,23 +20,23 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Survival.Fitting
+namespace Openize.Accord.Statistics.Models.Survival.Fitting
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
-    using Analysis;
     using Distributions;
-    using Distributions.Fitting;
-    using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math.Convergence;
-    using Math.Core;
     using Math.Decompositions;
     using Math.Decompositions.Base;
-    using Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Newton-Raphson learning updates for Cox's Proportional Hazards models.

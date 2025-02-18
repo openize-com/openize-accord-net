@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.IO.Mat
+namespace Openize.Accord.Math.IO.Mat
 {
     using System;
     using System.Collections.Generic;
@@ -28,9 +28,8 @@ namespace FileFormat.Accord.Math.IO.Mat
     using System.IO;
     using System.IO.Compression;
     using System.Runtime.InteropServices;
-    using global::Accord.Math;
-    using Matrix;
-    using ExtensionMethods = FileFormat.Accord.Core.ExtensionMethods;
+    using Openize.Accord.Math.Matrix;
+    using ExtensionMethods = Openize.Accord.Core.ExtensionMethods;
 
     /// <summary>
     ///   Node object contained in <see cref="MatReader">.MAT file</see>. 

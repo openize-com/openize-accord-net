@@ -46,7 +46,7 @@
 //    SOFTWARE.
 //
 
-namespace FileFormat.Accord.Core.Math
+namespace Openize.Accord.Core.Math
 {
 #if NETSTANDARD1_4
     using SMath = Accord.Compat.SMath;
@@ -63,7 +63,7 @@ namespace FileFormat.Accord.Core.Math
     /// 
     [Serializable]
 #if !NETSTANDARD1_4
-    [TypeConverter(typeof(global::FileFormat.Accord.Core.Math.RationalConverter))]
+    [TypeConverter(typeof(global::Openize.Accord.Core.Math.RationalConverter))]
 #endif
     public struct Rational : IComparable, IComparable<Rational>, IEquatable<Rational>, IFormattable
     {

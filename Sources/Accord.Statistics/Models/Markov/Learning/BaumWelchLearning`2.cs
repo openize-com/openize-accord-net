@@ -20,18 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning
+namespace Openize.Accord.Statistics.Models.Markov.Learning
 {
     using System;
     using Base;
     using Distributions;
-    using Distributions.Fitting.Base;
-    using Distributions.Multivariate.Continuous;
-    using Distributions.Univariate;
-    using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core.Exceptions;
     using Markov.Base;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Baum-Welch learning algorithm for <see cref="HiddenMarkovModel{TDistribution}">
@@ -42,7 +43,7 @@ namespace FileFormat.Accord.Statistics.Models.Markov.Learning
     ///   <para>
     ///   The Baum-Welch algorithm is an <see cref="IUnsupervisedLearning">unsupervised algorithm</see>
     ///   used to learn a single hidden Markov model object from a set of observation sequences. It works
-    ///   by using a variant of the <see cref="Mixture{T}.Fit(double[],double[],FileFormat.Accord.Statistics.Distributions.Fitting.MixtureOptions)">
+    ///   by using a variant of the <see cref="Mixture{T}.Fit(double[],double[],MixtureOptions)">
     ///   Expectation-Maximization</see> algorithm to search a set of model parameters (i.e. the matrix
     ///   of <see cref="IHiddenMarkovModel.Transitions">transition probabilities <c>A</c>
     ///   </see>, the vector of <see cref="HiddenMarkovModel{T}.Emissions">state probability distributions

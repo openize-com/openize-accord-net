@@ -20,9 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Wavelets
+namespace Openize.Accord.Math.Wavelets
 {
-    using Base;
+    using Openize.Accord.Math.Wavelets.Base;
 
     /// <summary>
     ///   Haar Wavelet Transform.
@@ -41,7 +41,7 @@ namespace FileFormat.Accord.Math.Wavelets
     /// 
     public class Haar : IWavelet
     {
-        private const double SQRT2 = global::FileFormat.Accord.Math.Constants.Sqrt2;
+        private const double SQRT2 = global::Openize.Accord.Math.Constants.Sqrt2;
 
 
         private const double w0 = 0.5;

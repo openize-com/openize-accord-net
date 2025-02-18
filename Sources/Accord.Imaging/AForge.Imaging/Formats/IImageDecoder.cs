@@ -5,7 +5,7 @@
 // andrew.kirillov@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Formats
+namespace Openize.Accord.Imaging.AForge.Imaging.Formats
 {
     using System;
     using System.ComponentModel;

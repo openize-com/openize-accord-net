@@ -8,7 +8,7 @@
 // 2005-2009
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.IlluminationCorrection
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.IlluminationCorrection
 {
     using System;
     using System.Collections.Generic;

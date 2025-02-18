@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Classifiers;
-    using FileFormat.Accord.Math.Core;
-    using Math.Matrix;
-    
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+
     /// <summary>
     ///   Base class for Discriminant Analysis (LDA, QDA or KDA).
     /// </summary>
