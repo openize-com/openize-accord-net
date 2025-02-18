@@ -5,7 +5,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
 {
     using System.Collections.Generic;
     using System.Drawing;
@@ -13,8 +13,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
     using Base_classes;
     using Color_Filters;
     using Colors;
-    using Core.Ranges;
-    using global::Accord;
+    using Openize.Accord.Core.Ranges;
     using YCbCr_Filters;
 
     /// <summary>
@@ -180,7 +179,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
                     rgb.Blue = ptr[RGB.B];
 
                     // convert to HSL
-                    global::FileFormat.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
+                    global::Openize.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
 
                     // do luminance correction
                     if (hsl.Luminance >= this.inLuminance.Max)
@@ -199,7 +198,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.HSL_Filters
                         hsl.Saturation = ks * hsl.Saturation + bs;
 
                     // convert back to RGB
-                    global::FileFormat.Accord.Imaging.Colors.HSL.ToRGB(hsl, ref rgb);
+                    global::Openize.Accord.Imaging.Colors.HSL.ToRGB(hsl, ref rgb);
 
                     ptr[RGB.R] = rgb.Red;
                     ptr[RGB.G] = rgb.Green;

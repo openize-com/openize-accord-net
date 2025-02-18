@@ -20,15 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate.Continuous
 {
     using System;
     using System.Globalization;
     using Accord.Math;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     [TestFixture]
     public class TriangularDistributionTest

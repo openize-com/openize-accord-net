@@ -1,9 +1,9 @@
-﻿namespace FileFormat.Accord.Tests.Imaging.OpenSURF
+﻿namespace Openize.Accord.Tests.Imaging.OpenSURF
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
 
     public class FastHessian
     {

@@ -20,17 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
     using System.Linq;
     using Accord.Math;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Optimization.Losses;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
-    using FileFormat.Accord.Statistics.Testing;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Optimization.Losses;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
+    using Openize.Accord.Statistics.Testing;
 
     [TestFixture]
     public class MultinomialLogisticRegressionTest

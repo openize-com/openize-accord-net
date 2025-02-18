@@ -21,12 +21,12 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Data;
     using Base;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Data normalization preprocessing filter.

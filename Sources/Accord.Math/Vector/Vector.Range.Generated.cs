@@ -26,11 +26,11 @@
 // ======================================================================
 
 
-namespace FileFormat.Accord.Math.Vector
+namespace Openize.Accord.Math.Vector
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Ranges;
 
     public static partial class Vector
     {

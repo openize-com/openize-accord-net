@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Testing.TwoSamples
+namespace Openize.Accord.Tests.Statistics.Testing.TwoSamples
 {
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Testing.Base;
-    using FileFormat.Accord.Statistics.Testing.TwoSample;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Testing.Base;
+    using Openize.Accord.Statistics.Testing.TwoSample;
 
     [TestFixture]
     public class PairedTTestTest

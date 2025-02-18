@@ -49,7 +49,7 @@
 //    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 //
 
-namespace FileFormat.Accord.Core.Collections
+namespace Openize.Accord.Core.Collections
 {
     using System;
     using System.Collections.Generic;

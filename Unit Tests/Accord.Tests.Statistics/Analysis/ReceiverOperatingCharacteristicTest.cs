@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
     using System;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Analysis.Performance;
-    using FileFormat.Accord.Statistics.Testing.Contingency;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Analysis.Performance;
+    using Openize.Accord.Statistics.Testing.Contingency;
 
     [TestFixture]
     public class ReceiverOperatingCharacteristicTest

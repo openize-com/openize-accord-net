@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
     using System.ComponentModel;
-    using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting.Base;
-    using Math.Accord.Statistics;
-    using Math.Core;
-    using Math.Functions;
-    using Math.Random;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Nakagami distribution.
@@ -465,7 +465,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double shape, double spread, int samples)
         {
-            return Random(shape, spread, samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(shape, spread, samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -482,7 +482,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double[] Random(double shape, double spread, int samples, double[] result)
         {
-            return Random(shape, spread, samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(shape, spread, samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -497,7 +497,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         public static double Random(double shape, double spread)
         {
-            return Random(shape, spread, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return Random(shape, spread, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>

@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System;
     using System.Collections.Generic;
@@ -28,8 +28,8 @@ namespace FileFormat.Accord.Imaging.Filters
     using System.Drawing.Imaging;
     using AForge.Imaging;
     using AForge.Imaging.Filters.Base_classes;
-    using FileFormat.Accord.Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Linear Gradient Blending filter.

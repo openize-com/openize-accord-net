@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Distances
+namespace Openize.Accord.Math.Distances
 {
     using System;
     using System.Runtime.CompilerServices;
     using Base;
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///   Modular distance (shortest distance between two marks on a circle).

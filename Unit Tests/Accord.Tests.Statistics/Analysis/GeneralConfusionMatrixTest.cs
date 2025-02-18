@@ -20,17 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
     using System;
     using System.Data;
-    using FileFormat.Accord.IO.Csv;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Analysis.Performance;
-    using FileFormat.Accord.Statistics.Filters;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
     using Vector = Math.Vector.Vector;
-    using FileFormat.Accord.Tests.Statistics.Properties;
+    using Openize.Accord.Tests.Statistics.Properties;
+    using Openize.Accord.IO.Csv;
+    using Openize.Accord.Statistics.Analysis.Performance;
+    using Openize.Accord.Statistics.Filters;
 
     [TestFixture]
     public class GeneralConfusionMatrixTest
@@ -285,7 +285,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
             double kappa = cm.Kappa;            // should be 0.65
             double var = cm.Variance;           // should be 0.00076995084473426684
             double var0 = cm.VarianceUnderNull; // should be 0.00074886435981842887
-            double varD = FileFormat.Accord.Statistics.Testing.Contingency.KappaTest.DeltaMethodKappaVariance(cm); // should be 0.0007778
+            double varD = Openize.Accord.Statistics.Testing.Contingency.KappaTest.DeltaMethodKappaVariance(cm); // should be 0.0007778
             #endregion
 
             int[] expectedRowTotals = new[] { 115, 100, 115, 104 };
@@ -466,7 +466,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
 
                 double var = b.Variance;
                 double var0 = b.VarianceUnderNull;
-                double varD = FileFormat.Accord.Statistics.Testing.Contingency.KappaTest.DeltaMethodKappaVariance(b);
+                double varD = Openize.Accord.Statistics.Testing.Contingency.KappaTest.DeltaMethodKappaVariance(b);
 
                 // Variance value var_k for A (page 4)
                 Assert.AreEqual(0.00087457, varD, 1e-8);
@@ -511,7 +511,7 @@ namespace FileFormat.Accord.Tests.Statistics.Analysis
 
             double var = a.Variance;
             double var0 = a.VarianceUnderNull;
-            double varD = FileFormat.Accord.Statistics.Testing.Contingency.KappaTest.DeltaMethodKappaVariance(a);
+            double varD = Openize.Accord.Statistics.Testing.Contingency.KappaTest.DeltaMethodKappaVariance(a);
 
             double se = System.Math.Sqrt(var);
             double se0 = System.Math.Sqrt(var0);

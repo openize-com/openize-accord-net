@@ -6,7 +6,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Smooting
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Smooting
 {
     using System;
     using System.Collections.Generic;

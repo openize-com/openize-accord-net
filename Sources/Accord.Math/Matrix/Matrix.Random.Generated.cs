@@ -26,9 +26,9 @@
 // ======================================================================
 
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
-    using FileFormat.Accord.Math.Random;
+    using Openize.Accord.Math.Random;
 
     public static partial class Matrix
     {

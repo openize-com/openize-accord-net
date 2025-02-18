@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Formats.Base
+namespace Openize.Accord.Math.Formats.Base
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
     using System.Text;
     using System.Text.RegularExpressions;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   Defines how matrices are formatted and displayed, depending on the

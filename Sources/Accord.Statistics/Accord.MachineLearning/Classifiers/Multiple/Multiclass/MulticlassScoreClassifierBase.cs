@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Classifiers.Multiple.Multiclass
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Classifiers.Multiple.Multiclass
 {
     using System;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multiclass;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multilabel;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.MachineLearning.Classifiers;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multiclass;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multilabel;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     /// Base class for <see cref="IMulticlassScoreClassifier{TInput}">

@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Base
 {
     using System;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Abstract class for Matrix Probability Distributions.
@@ -555,7 +554,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public double[][,] Generate(int samples)
         {
-            return this.Generate(samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -569,7 +568,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public double[][,] Generate(int samples, double[][,] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -580,7 +579,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public double[,] Generate()
         {
-            return this.Generate(global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -591,7 +590,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// 
         public double[,] Generate(double[,] result)
         {
-            return this.Generate(result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 
@@ -661,7 +660,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// <returns>A random observation drawn from this distribution.</returns>
         public virtual double[] Generate(double[] result)
         {
-            return this.Generate(result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 
@@ -720,7 +719,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Base
         /// <returns>A random vector of observations drawn from this distribution.</returns>
         public double[][] Generate(int samples, double[][] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         double[] IRandomNumberGenerator<double[]>.Generate()

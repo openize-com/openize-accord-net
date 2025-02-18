@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Accord.MachineLearning.Learning
+namespace Openize.Accord.Math.Accord.MachineLearning.Learning
 {
     using System;
     using System.Runtime.Serialization;
     using System.Threading;
     using System.Threading.Tasks;
-    using FileFormat.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.MachineLearning;
 
     /// <summary>
     ///   Base class for parallel learning algorithms.

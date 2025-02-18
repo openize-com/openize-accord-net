@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Matrix
+namespace Openize.Accord.Tests.Math.Matrix
 {
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Vector;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using NUnit.Framework;
 
     public partial class MatrixTest

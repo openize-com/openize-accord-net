@@ -20,19 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Classifiers.Binary
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Classifiers.Binary
 {
     using System;
-    using FileFormat.Accord.Core.MachineLearning;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multiclass;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multiclass.Binary;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Multilabel;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Core;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.MachineLearning.Classifiers;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multiclass;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multiclass.Binary;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Multilabel;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Base class for <see cref="IBinaryLikelihoodClassifier{TInput}">

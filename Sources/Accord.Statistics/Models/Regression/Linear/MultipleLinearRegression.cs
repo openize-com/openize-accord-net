@@ -20,23 +20,22 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Linear
+namespace Openize.Accord.Statistics.Models.Regression.Linear
 {
     using System;
     using System.Text;
     using Accord.MachineLearning.Classifiers;
-    using Analysis;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Fitting;
-    using global::Accord.Math;
     using Math.Decompositions;
     using Math.Decompositions.Base;
-    using Math.Matrix;
-    using Math.Optimization.Losses;
-    using Math.Vector;
     using Nonlinear.Fitting;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Optimization.Losses;
+    using Openize.Accord.Statistics.Analysis;
     using Testing;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Multiple Linear Regression.

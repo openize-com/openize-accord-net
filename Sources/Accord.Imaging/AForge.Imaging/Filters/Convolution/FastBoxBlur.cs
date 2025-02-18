@@ -24,14 +24,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Convolution
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Convolution
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Base_classes;
-    using Core.Ranges;
-    using global::Accord;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///   Fast Box Blur filter.

@@ -52,11 +52,11 @@
 // THE SOFTWARE.
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
     using System.ComponentModel;
-    using Base;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Status codes for the <see cref="BroydenFletcherGoldfarbShanno"/>

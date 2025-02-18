@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning
+namespace Openize.Accord.Statistics.Models.Markov.Learning
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
     using Base;
     using Distributions;
-    using Distributions.Fitting.Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Viterbi learning algorithm.

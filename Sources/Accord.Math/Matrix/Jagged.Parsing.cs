@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
-    using FileFormat.Accord.Math.Formats;
-    using FileFormat.Accord.Math.Formats.Base;
+    using Openize.Accord.Math.Formats;
+    using Openize.Accord.Math.Formats.Base;
 
     public static partial class Jagged
     {

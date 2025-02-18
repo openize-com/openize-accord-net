@@ -25,7 +25,7 @@
 // edit the T4 template Matrix.Elementwise.tt so this file can be regenerated. 
 // ======================================================================
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Runtime.CompilerServices;
@@ -9512,7 +9512,7 @@ namespace FileFormat.Accord.Math.Matrix
             if (vector.Length == 0)
                 return new int[0];
 
-            return CumulativeSum(vector, FileFormat.Accord.Math.Vector.Vector.CreateAs(vector));
+            return CumulativeSum(vector, Openize.Accord.Math.Vector.Vector.CreateAs(vector));
         }
 
         /// <summary>
@@ -9668,7 +9668,7 @@ namespace FileFormat.Accord.Math.Matrix
             if (vector.Length == 0)
                 return new short[0];
 
-            return CumulativeSum(vector, FileFormat.Accord.Math.Vector.Vector.CreateAs(vector));
+            return CumulativeSum(vector, Openize.Accord.Math.Vector.Vector.CreateAs(vector));
         }
 
         /// <summary>
@@ -9824,7 +9824,7 @@ namespace FileFormat.Accord.Math.Matrix
             if (vector.Length == 0)
                 return new float[0];
 
-            return CumulativeSum(vector, FileFormat.Accord.Math.Vector.Vector.CreateAs(vector));
+            return CumulativeSum(vector, Openize.Accord.Math.Vector.Vector.CreateAs(vector));
         }
 
         /// <summary>
@@ -9980,7 +9980,7 @@ namespace FileFormat.Accord.Math.Matrix
             if (vector.Length == 0)
                 return new double[0];
 
-            return CumulativeSum(vector, FileFormat.Accord.Math.Vector.Vector.CreateAs(vector));
+            return CumulativeSum(vector, Openize.Accord.Math.Vector.Vector.CreateAs(vector));
         }
 
         /// <summary>
@@ -10136,7 +10136,7 @@ namespace FileFormat.Accord.Math.Matrix
             if (vector.Length == 0)
                 return new long[0];
 
-            return CumulativeSum(vector, FileFormat.Accord.Math.Vector.Vector.CreateAs(vector));
+            return CumulativeSum(vector, Openize.Accord.Math.Vector.Vector.CreateAs(vector));
         }
 
         /// <summary>
@@ -10292,7 +10292,7 @@ namespace FileFormat.Accord.Math.Matrix
             if (vector.Length == 0)
                 return new decimal[0];
 
-            return CumulativeSum(vector, FileFormat.Accord.Math.Vector.Vector.CreateAs(vector));
+            return CumulativeSum(vector, Openize.Accord.Math.Vector.Vector.CreateAs(vector));
         }
 
         /// <summary>

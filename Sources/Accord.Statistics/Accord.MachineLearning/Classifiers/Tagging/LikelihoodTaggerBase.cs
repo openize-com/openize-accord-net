@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Classifiers.Tagging
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Classifiers.Tagging
 {
     using System;
-    using FileFormat.Accord.Core.MachineLearning;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Tagging;
-    using global::Accord.Math;
-    using Math.Core;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Tagging;
 
     /// <summary>
     ///   Base implementation for generative observation sequence taggers. A sequence

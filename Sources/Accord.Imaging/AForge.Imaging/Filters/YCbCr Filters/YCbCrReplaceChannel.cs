@@ -5,7 +5,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
 {
     using System;
     using System.Collections.Generic;
@@ -278,7 +278,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
                     rgb.Blue = dst[RGB.B];
 
                     // convert to YCbCr
-                    global::FileFormat.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
+                    global::Openize.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
 
                     switch (this.channel)
                     {
@@ -296,7 +296,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
                     }
 
                     // convert back to RGB
-                    global::FileFormat.Accord.Imaging.Colors.YCbCr.ToRGB(ycbcr, ref rgb);
+                    global::Openize.Accord.Imaging.Colors.YCbCr.ToRGB(ycbcr, ref rgb);
 
                     dst[RGB.R] = rgb.Red;
                     dst[RGB.G] = rgb.Green;

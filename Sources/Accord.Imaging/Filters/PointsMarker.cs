@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing;
@@ -28,9 +28,8 @@ namespace FileFormat.Accord.Imaging.Filters
     using System.Linq;
     using AForge.Imaging;
     using AForge.Imaging.Filters.Base_classes;
-    using Core.AForge.Core;
-    using global::Accord;
     using Interest_Points.Base;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     ///   Filter to mark (highlight) points in a image.

@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing.Imaging;
     using AForge.Imaging;
     using AForge.Imaging.Filters.Base_classes;
-    using global::Accord.Math;
     using Math.Wavelets.Base;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Wavelet transform filter.
@@ -161,7 +160,7 @@ namespace FileFormat.Accord.Imaging.Filters
             int dstOffset = destinationData.Stride - width * dstPixelSize;
 
             // check image size
-            if ((!global::FileFormat.Accord.Math.Tools.IsPowerOf2(width)) || (!global::FileFormat.Accord.Math.Tools.IsPowerOf2(height)))
+            if ((!global::Openize.Accord.Math.Tools.IsPowerOf2(width)) || (!global::Openize.Accord.Math.Tools.IsPowerOf2(height)))
             {
                 throw new InvalidImagePropertiesException("Image width and height should be power of 2.");
             }

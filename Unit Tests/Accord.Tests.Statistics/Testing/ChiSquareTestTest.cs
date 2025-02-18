@@ -20,12 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Testing
+namespace Openize.Accord.Tests.Statistics.Testing
 {
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Testing;
+    using Openize.Accord.Math;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Testing;
 
     [TestFixture]
     public class ChiSquareTestTest

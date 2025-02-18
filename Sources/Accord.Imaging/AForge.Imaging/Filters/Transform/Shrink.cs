@@ -5,7 +5,7 @@
 // andrew.kirillov@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Transform
 {
     using System.Collections.Generic;
     using System.Drawing;
@@ -209,7 +209,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Transform
             // copy image
             for ( int y = 0; y < newHeight; y++ )
             {
-                global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory( dst, src, copySize );
+                global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory( dst, src, copySize );
                 dst += dstStride;
                 src += srcStride;
             }

@@ -20,12 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Formats
+namespace Openize.Accord.Math.Formats
 {
     using System;
     using System.Globalization;
     using Base;
-    using global::Accord.Math;
 
     /// <summary>
     ///   Gets the matrix representation used in C# jagged arrays.

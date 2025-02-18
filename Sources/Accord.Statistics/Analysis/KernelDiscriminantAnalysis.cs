@@ -20,21 +20,22 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using Accord.MachineLearning;
     using Accord.MachineLearning.Classifiers.Multiple.Multiclass;
     using Accord.MachineLearning.Learning;
-    using FileFormat.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Statistics.Accord.MachineLearning;
     using Kernels;
     using Kernels.Base;
-    using Math.Accord.Statistics;
-    using Math.Comparers;
-    using Math.Core;
     using Math.Decompositions;
     using Models.Regression.Nonlinear;
-    using Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Comparers;
 
     /// <summary>
     ///   Kernel (Fisher) Discriminant Analysis.

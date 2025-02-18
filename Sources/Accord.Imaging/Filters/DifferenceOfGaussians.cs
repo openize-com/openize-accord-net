@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing.Imaging;

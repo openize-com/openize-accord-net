@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Potential_Functions.Clique_Factor_Potentials.Specialized
+namespace Openize.Accord.Statistics.Models.Fields.Potential_Functions.Clique_Factor_Potentials.Specialized
 {
     using System;
     using Base;
     using Features;
     using Features.Base;
     using Features.Multivariate;
-    using FileFormat.Accord.Core;
+    using Openize.Accord.Core;
 
     /// <summary>
     ///   Factor Potential function for a Markov model whose states are independent 

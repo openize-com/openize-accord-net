@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate
+namespace Openize.Accord.Statistics.Distributions.Multivariate
 {
     using System;
     using Base;
-    using Fitting;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting;
     using Univariate.Base;
 
     /// <summary>
@@ -393,7 +392,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate
         /// 
         public TObservation[] Generate(TObservation[] result)
         {
-            return this.Generate(result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -421,7 +420,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate
         /// <returns>A random vector of observations drawn from this distribution.</returns>
         public TObservation[][] Generate(int samples, TObservation[][] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>

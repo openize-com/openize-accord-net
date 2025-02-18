@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Hybrid
+namespace Openize.Accord.Statistics.Models.Markov.Hybrid
 {
     /// <summary>
     ///   Common interface for Hybrid Hidden Markov Models.

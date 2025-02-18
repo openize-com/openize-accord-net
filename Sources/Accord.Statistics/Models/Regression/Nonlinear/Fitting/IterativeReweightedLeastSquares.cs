@@ -20,20 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
     using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math.Convergence;
-    using Math.Core;
     using Math.Decompositions;
-    using Math.Decompositions.Base;
-    using Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Decompositions.Base;
 
     /// <summary>
     ///   Iterative Reweighted Least Squares for Logistic Regression fitting.

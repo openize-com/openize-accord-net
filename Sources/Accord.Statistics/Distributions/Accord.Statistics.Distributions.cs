@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions
+namespace Openize.Accord.Statistics.Distributions
 {
     using System.Runtime.CompilerServices;
-    using Density_Kernels;
-    using Multivariate;
-    using Multivariate.Continuous;
-    using Univariate.Continuous;
-    using Univariate.Discrete;
+    using Openize.Accord.Statistics.Distributions.Density_Kernels;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Contains more than 40 statistical distributions, with support 

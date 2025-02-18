@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.Collections.Generic;
@@ -29,13 +29,12 @@ namespace FileFormat.Accord.Statistics.Analysis
     using System.Threading;
     using Accord.MachineLearning.Learning;
     using Base;
-    using Core;
     using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Math.Matrix;
     using Models.Survival;
     using Models.Survival.Fitting;
+    using Openize.Accord.Core.Ranges;
     using Testing;
-    using Math.Matrix;
 
     /// <summary>
     ///   Cox's Proportional Hazards Survival Analysis.

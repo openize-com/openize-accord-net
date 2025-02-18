@@ -41,9 +41,10 @@
 //   moshier@na-net.ornl.gov
 //
 
-namespace FileFormat.Accord.Math.Functions
+namespace Openize.Accord.Math.Functions
 {
     using System;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///   Gamma Γ(x) functions.

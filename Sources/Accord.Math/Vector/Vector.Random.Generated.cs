@@ -26,7 +26,7 @@
 // ======================================================================
 
 
-namespace FileFormat.Accord.Math.Vector
+namespace Openize.Accord.Math.Vector
 {
     using System;
     using Matrix;
@@ -57,7 +57,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static int[] Sample(int size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -165,7 +165,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static float[] Sample(float size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -273,7 +273,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static double[] Sample(double size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -381,7 +381,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static short[] Sample(short size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -489,7 +489,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static byte[] Sample(byte size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -597,7 +597,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static sbyte[] Sample(sbyte size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -705,7 +705,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static long[] Sample(long size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -813,7 +813,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static decimal[] Sample(decimal size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -921,7 +921,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static ulong[] Sample(ulong size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -1029,7 +1029,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static ushort[] Sample(ushort size)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var idx = Vector.Range(size);
             var x = new double[idx.Length];
@@ -1123,7 +1123,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new int[size];
             for (int i = 0; i < size; i++)
@@ -1139,7 +1139,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new short[size];
             for (int i = 0; i < size; i++)
@@ -1155,7 +1155,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new byte[size];
             for (int i = 0; i < size; i++)
@@ -1171,7 +1171,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new sbyte[size];
             for (int i = 0; i < size; i++)
@@ -1187,7 +1187,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new long[size];
             for (int i = 0; i < size; i++)
@@ -1203,7 +1203,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new ulong[size];
             for (int i = 0; i < size; i++)
@@ -1219,7 +1219,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new ushort[size];
             for (int i = 0; i < size; i++)
@@ -1235,7 +1235,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new float[size];
             for (int i = 0; i < size; i++)
@@ -1251,7 +1251,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new double[size];
             for (int i = 0; i < size; i++)
@@ -1267,7 +1267,7 @@ namespace FileFormat.Accord.Math.Vector
             if (size < 0)
                 throw new ArgumentOutOfRangeException("size", size, "Size must be a positive integer.");
 
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             var vector = new decimal[size];
             for (int i = 0; i < size; i++)

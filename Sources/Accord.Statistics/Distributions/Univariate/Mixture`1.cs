@@ -20,20 +20,20 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate
+namespace Openize.Accord.Statistics.Distributions.Univariate
 {
     using System;
     using System.Linq;
     using System.Text;
-    using Base;
-    using Discrete;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting;
-    using Fitting.Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
-    using Math.Random;
-    using Multivariate;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Mixture of univariate probability distributions.

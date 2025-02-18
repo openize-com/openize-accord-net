@@ -20,20 +20,21 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate
+namespace Openize.Accord.Statistics.Distributions.Multivariate
 {
     using System;
     using System.Text;
     using Base;
-    using Fitting;
-    using Fitting.Base;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
     using Univariate;
     using Univariate.Discrete;
-    using Math.Core;
 
     /// <summary>
     ///   Represents one component distribution in a 

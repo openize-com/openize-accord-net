@@ -20,12 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Decompositions
+namespace Openize.Accord.Tests.Math.Decompositions
 {
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Decompositions;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Decompositions;
 
     [TestFixture]
     public class NonnegativeMatrixFactorizationTest

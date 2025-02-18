@@ -19,17 +19,18 @@
 //    License along with this library; if not, write to the Free Software
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
     using System.Runtime.CompilerServices;
     using System.Linq;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
     using Math;
-    using FileFormat.Accord.Math.AForge.Math.Random;
-    using Random;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.AForge.Math.Random;
+    using Openize.Accord.Math.Random;
 
     /// <summary>
     ///   Matrix major order. The default is to use C-style Row-Major order.
@@ -545,12 +546,12 @@ namespace FileFormat.Accord.Math.Matrix
                     outputShape = outputShape.Where(i => i != 1).ToArray();
                     int extra = outputRank - outputShape.Length;
                     if (extra > 0)
-                        outputShape = outputShape.Concatenate(FileFormat.Accord.Math.Vector.Vector.Ones<int>(extra));
+                        outputShape = outputShape.Concatenate(Openize.Accord.Math.Vector.Vector.Ones<int>(extra));
                 }
                 else if (inputRank < outputRank)
                 {
                     int extra = outputRank - inputRank;
-                    outputShape = outputShape.Concatenate(FileFormat.Accord.Math.Vector.Vector.Ones<int>(extra));
+                    outputShape = outputShape.Concatenate(Openize.Accord.Math.Vector.Vector.Ones<int>(extra));
                 }
             }
 
@@ -759,7 +760,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Jagged.Diagonal instead.")]
         public static T[][] JaggedDiagonal<T>(T[] values)
         {
-            return FileFormat.Accord.Math.Matrix.Jagged.Diagonal(values);
+            return Openize.Accord.Math.Matrix.Jagged.Diagonal(values);
         }
 
         /// <summary>
@@ -769,7 +770,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Jagged.Diagonal instead.")]
         public static T[][] JaggedDiagonal<T>(int size, T value)
         {
-            return FileFormat.Accord.Math.Matrix.Jagged.Diagonal<T>(size, value);
+            return Openize.Accord.Math.Matrix.Jagged.Diagonal<T>(size, value);
         }
 
         /// <summary>
@@ -1016,7 +1017,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Random instead.")]
         public static float[] Random(int size, float minValue, float maxValue)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Random(size, minValue, maxValue);
+            return Openize.Accord.Math.Vector.Vector.Random(size, minValue, maxValue);
         }
 
         /// <summary>
@@ -1026,7 +1027,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Random instead.")]
         public static double[] Random(int size, double minValue, double maxValue)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Random(size, minValue, maxValue);
+            return Openize.Accord.Math.Vector.Vector.Random(size, minValue, maxValue);
         }
 
         /// <summary>
@@ -1087,7 +1088,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Create instead.")]
         public static T[] Vector<T>(int n, T[] values)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Create(values);
+            return Openize.Accord.Math.Vector.Vector.Create(values);
         }
 
         /// <summary>
@@ -1097,7 +1098,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Create instead.")]
         public static T[] Vector<T>(int n, T value)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Create(n, value);
+            return Openize.Accord.Math.Vector.Vector.Create(n, value);
 
         }
 
@@ -1108,7 +1109,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static double[] Vector(double a, double b, double increment = 1)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(a, b, (double)increment);
+            return Openize.Accord.Math.Vector.Vector.Interval(a, b, (double)increment);
         }
 
         /// <summary>
@@ -1118,7 +1119,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static int[] Vector(int a, int b, int increment = 1)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(a, b, (double)increment);
+            return Openize.Accord.Math.Vector.Vector.Interval(a, b, (double)increment);
         }
 
         /// <summary>
@@ -1128,7 +1129,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static double[] Vector(double a, double b, int points)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(a, b, points);
+            return Openize.Accord.Math.Vector.Vector.Interval(a, b, points);
         }
         #endregion
 
@@ -1141,8 +1142,8 @@ namespace FileFormat.Accord.Math.Matrix
         public static int[] Indices(int from, int to)
         {
             if (from > to)
-                return FileFormat.Accord.Math.Vector.Vector.Range(from - 1, to - 1);
-            return FileFormat.Accord.Math.Vector.Vector.Range(from, to);
+                return Openize.Accord.Math.Vector.Vector.Range(from - 1, to - 1);
+            return Openize.Accord.Math.Vector.Vector.Range(from, to);
         }
 
         /// <summary>
@@ -1152,7 +1153,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Range instead.")]
         public static int[] Indices(int to)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Range(0, to);
+            return Openize.Accord.Math.Vector.Vector.Range(0, to);
         }
 
         /// <summary>
@@ -1344,7 +1345,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static int[] Interval(int from, int to)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(from, to);
+            return Openize.Accord.Math.Vector.Vector.Interval(from, to);
         }
 
         /// <summary>
@@ -1364,7 +1365,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static double[] Interval(double from, double to, double stepSize)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(from, to, stepSize);
+            return Openize.Accord.Math.Vector.Vector.Interval(from, to, stepSize);
         }
 
         /// <summary>
@@ -1374,7 +1375,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static float[] Interval(float from, float to, double stepSize)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(from, to, (float)stepSize);
+            return Openize.Accord.Math.Vector.Vector.Interval(from, to, (float)stepSize);
         }
 
         /// <summary>
@@ -1384,7 +1385,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static double[] Interval(DoubleRange range, int steps)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(range, steps);
+            return Openize.Accord.Math.Vector.Vector.Interval(range, steps);
         }
 
         /// <summary>
@@ -1394,7 +1395,7 @@ namespace FileFormat.Accord.Math.Matrix
         [Obsolete("Please use Vector.Interval instead.")]
         public static double[] Interval(double from, double to, int steps)
         {
-            return FileFormat.Accord.Math.Vector.Vector.Interval(from, to, steps);
+            return Openize.Accord.Math.Vector.Vector.Interval(from, to, steps);
         }
 
         /// <summary>
@@ -1406,8 +1407,8 @@ namespace FileFormat.Accord.Math.Matrix
             double rowMin, double rowMax, double rowStepSize,
             double colMin, double colMax, double colStepSize)
         {
-            double[] x = FileFormat.Accord.Math.Vector.Vector.Interval(rowMin, rowMax, rowStepSize);
-            double[] y = FileFormat.Accord.Math.Vector.Vector.Interval(colMin, colMax, colStepSize);
+            double[] x = Openize.Accord.Math.Vector.Vector.Interval(rowMin, rowMax, rowStepSize);
+            double[] y = Openize.Accord.Math.Vector.Vector.Interval(colMin, colMax, colStepSize);
             double[][] mesh = Matrix.Cartesian(x, y);
             return mesh;
         }
@@ -1420,8 +1421,8 @@ namespace FileFormat.Accord.Math.Matrix
             int rowMin, int rowMax,
             int colMin, int colMax)
         {
-            int[] x = FileFormat.Accord.Math.Vector.Vector.Interval(rowMin, rowMax);
-            int[] y = FileFormat.Accord.Math.Vector.Vector.Interval(colMin, colMax);
+            int[] x = Openize.Accord.Math.Vector.Vector.Interval(rowMin, rowMax);
+            int[] y = Openize.Accord.Math.Vector.Vector.Interval(colMin, colMax);
             int[][] mesh = Matrix.Cartesian(x, y);
             return mesh;
         }
@@ -1455,8 +1456,8 @@ namespace FileFormat.Accord.Math.Matrix
             double rowMin, double rowMax, int rowSteps,
             double colMin, double colMax, int colSteps)
         {
-            double[] x = FileFormat.Accord.Math.Vector.Vector.Interval(rowMin, rowMax, rowSteps);
-            double[] y = FileFormat.Accord.Math.Vector.Vector.Interval(colMin, colMax, colSteps);
+            double[] x = Openize.Accord.Math.Vector.Vector.Interval(rowMin, rowMax, rowSteps);
+            double[] y = Openize.Accord.Math.Vector.Vector.Interval(colMin, colMax, colSteps);
             double[][] mesh = Matrix.Cartesian(x, y);
             return mesh;
         }
@@ -1490,8 +1491,8 @@ namespace FileFormat.Accord.Math.Matrix
             DoubleRange rowRange, int rowSteps,
             DoubleRange colRange, int colSteps)
         {
-            double[] x = FileFormat.Accord.Math.Vector.Vector.Interval(rowRange, rowSteps);
-            double[] y = FileFormat.Accord.Math.Vector.Vector.Interval(colRange, colSteps);
+            double[] x = Openize.Accord.Math.Vector.Vector.Interval(rowRange, rowSteps);
+            double[] y = Openize.Accord.Math.Vector.Vector.Interval(colRange, colSteps);
             double[][] mesh = Matrix.Cartesian(x, y);
             return mesh;
         }
@@ -1505,8 +1506,8 @@ namespace FileFormat.Accord.Math.Matrix
             DoubleRange rowRange, DoubleRange colRange,
             double rowStepSize, double colStepSize)
         {
-            double[] x = FileFormat.Accord.Math.Vector.Vector.Interval(rowRange, rowStepSize);
-            double[] y = FileFormat.Accord.Math.Vector.Vector.Interval(colRange, colStepSize);
+            double[] x = Openize.Accord.Math.Vector.Vector.Interval(rowRange, rowStepSize);
+            double[] y = Openize.Accord.Math.Vector.Vector.Interval(colRange, colStepSize);
             double[][] mesh = Matrix.Cartesian(x, y);
             return mesh;
         }

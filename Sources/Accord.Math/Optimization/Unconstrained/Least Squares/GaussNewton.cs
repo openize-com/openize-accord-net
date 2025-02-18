@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained.Least_Squares
+namespace Openize.Accord.Math.Optimization.Unconstrained.Least_Squares
 {
     using System.Threading.Tasks;
-    using Base;
-    using Core;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Decompositions;
-    using FileFormat.Accord.Math.Differentiation;
-    using global::Accord.Math;
-    using Matrix;
+    using Decompositions;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Differentiation;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Gauss-Newton algorithm for solving Least-Squares problems.

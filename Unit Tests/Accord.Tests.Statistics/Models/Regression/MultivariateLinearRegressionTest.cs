@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.IO.Csv;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Optimization.Losses;
-    using FileFormat.Accord.Statistics.Models.Regression.Linear;
-    using FileFormat.Accord.Statistics.Models.Regression.Linear.Fitting;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using FileFormat.Accord.Tests.Statistics.Properties;
+    using Openize.Accord.Tests.Statistics.Properties;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.IO.Csv;
+    using Openize.Accord.Math.Optimization.Losses;
+    using Openize.Accord.Statistics.Models.Regression.Linear;
+    using Openize.Accord.Statistics.Models.Regression.Linear.Fitting;
 
     [TestFixture]
     public class MultivariateLinearRegressionTest

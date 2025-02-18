@@ -22,22 +22,22 @@
 
 #define SERIAL
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning.Base
+namespace Openize.Accord.Statistics.Models.Markov.Learning.Base
 {
     using System;
     using System.Linq;
     using Accord.MachineLearning.Learning;
     using Distributions;
-    using Distributions.Fitting.Base;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Accord.Statistics;
     using Math.Convergence;
-    using Math.Convergence.Base;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Convergence.Base;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Base class for implementations of the Baum-Welch learning algorithm.

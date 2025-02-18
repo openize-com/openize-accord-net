@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
     using System;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Analysis;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Analysis;
 
     [TestFixture]
     public class DescriptiveAnalysisTest

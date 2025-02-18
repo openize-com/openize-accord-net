@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Analysis;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Models.Survival;
-    using FileFormat.Accord.Statistics.Testing;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Models.Survival;
+    using Openize.Accord.Statistics.Testing;
 
     [TestFixture]
     public class ProportionalHazardsAnalysisTest

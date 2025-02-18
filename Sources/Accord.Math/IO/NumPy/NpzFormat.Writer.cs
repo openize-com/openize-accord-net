@@ -21,7 +21,7 @@
 //
 
 #if !NET35 && !NET40
-namespace FileFormat.Accord.Math.IO.NumPy
+namespace Openize.Accord.Math.IO.NumPy
 {
     using System;
     using System.Collections.Generic;

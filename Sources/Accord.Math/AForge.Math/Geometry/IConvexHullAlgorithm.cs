@@ -6,10 +6,10 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math.Geometry
+namespace Openize.Accord.Math.AForge.Math.Geometry
 {
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Interface defining methods for algorithms, which search for convex hull of the specified points' set.

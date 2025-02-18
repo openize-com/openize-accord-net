@@ -25,12 +25,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Decompositions
+namespace Openize.Accord.Math.Decompositions
 {
     using System;
     using System.Diagnostics;
     using Base;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///   Singular Value Decomposition for a rectangular matrix.
@@ -452,7 +453,7 @@ namespace FileFormat.Accord.Math.Decompositions
                     // Compute 2-norm of k-th column without under/overflow.
                     this.s[k] = 0;
                     for (int i = k; i < a.Length; i++)
-                        this.s[k] = global::FileFormat.Accord.Math.Tools.Hypotenuse(this.s[k], a[i][k]);
+                        this.s[k] = global::Openize.Accord.Math.Tools.Hypotenuse(this.s[k], a[i][k]);
 
                     if (this.s[k] != 0) 
                     {

@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels.Base
+namespace Openize.Accord.Statistics.Kernels.Base
 {
     using System;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Distances.Base;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Distances.Base;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Extension methods for <see cref="IKernel">kernel functions</see>.

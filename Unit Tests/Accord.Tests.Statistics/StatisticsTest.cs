@@ -1,7 +1,7 @@
-﻿namespace FileFormat.Accord.Tests.Statistics
+﻿namespace Openize.Accord.Tests.Statistics
 {
-    using FileFormat.Accord.Math.Accord.Statistics;
     using NUnit.Framework;
+    using Openize.Accord.Math.Accord.Statistics;
 
     [TestFixture]
     public class StatisticsTest

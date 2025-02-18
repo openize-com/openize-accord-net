@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System;
     using System.Reflection;
     using System.Runtime.CompilerServices;
     using Distances;
-    using Distances.Base;
+    using Openize.Accord.Math.Distances.Base;
 
     /// <summary>
     ///   Static class Distance. Defines a set of extension methods defining distance measures.
@@ -184,7 +184,7 @@ namespace FileFormat.Accord.Math
         /// <summary>
         ///   Gets the Bitwise Hamming distance between two points.
         ///   Please use the <see cref="Distance.Hamming(byte[], byte[])">Distance.Hamming</see>
-        ///   method or the <see cref="Accord.Math.Distances.Hamming"/> class instead.
+        ///   method or the <see cref="Distances.Hamming"/> class instead.
         /// </summary>
         /// 
         [Obsolete("Please use Distance.Hamming instead.")]

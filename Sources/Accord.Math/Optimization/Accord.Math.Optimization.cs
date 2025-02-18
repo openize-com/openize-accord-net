@@ -20,9 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization
+namespace Openize.Accord.Math.Optimization
 {
+    using System;
     using System.Runtime.CompilerServices;
+    using Constrained;
+    using Unconstrained;
+    using Unconstrained.Least_Squares;
 
     /// <summary>
     ///   Contains classes for constrained and unconstrained optimization. Includes 
@@ -60,9 +64,9 @@ namespace FileFormat.Accord.Math.Optimization
     ///   <img src="..\diagrams\classes\Accord.Math.Optimization.png" />
     /// </remarks>
     /// 
-    /// <seealso cref="Accord.Math"/>
-    /// <seealso cref="Accord.Math.Differentiation"/>
-    /// <seealso cref="Accord.Math.Integration"/>
+    /// <seealso cref="Math"/>
+    /// <seealso cref="Math.Differentiation"/>
+    /// <seealso cref="Math.Integration"/>
     ///   
     [CompilerGenerated]
     class NamespaceDoc

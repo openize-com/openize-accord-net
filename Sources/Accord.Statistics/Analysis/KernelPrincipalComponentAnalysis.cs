@@ -20,22 +20,23 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using Accord.MachineLearning.Learning;
     using Base;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.MachineLearning;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Kernels;
     using Kernels.Base;
-    using Math.Accord.Statistics;
     using Math.Core;
     using Math.Decompositions;
-    using Math.Matrix;
     using Models.Regression.Nonlinear;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Elementwise = Openize.Accord.Math.Core.Elementwise;
 
     /// <summary>
     ///   Kernel Principal Component Analysis.
@@ -324,7 +325,7 @@ namespace FileFormat.Accord.Statistics.Analysis
             {
                 K = x;
                 if (this.centerFeatureSpace) // Center the Gram (Kernel) Matrix if requested
-                    K = global::FileFormat.Accord.Statistics.Kernels.Base.Kernel.Center(K, out this.featureMean, out this.featureGrandMean); // do not overwrite
+                    K = global::Openize.Accord.Statistics.Kernels.Base.Kernel.Center(K, out this.featureMean, out this.featureGrandMean); // do not overwrite
             }
             else
             {
@@ -342,7 +343,7 @@ namespace FileFormat.Accord.Statistics.Analysis
                 // Create the Gram (Kernel) Matrix
                 K = this.kernel.ToJagged(x: this.sourceCentered);
                 if (this.centerFeatureSpace) // Center the Gram (Kernel) Matrix if requested
-                    K = global::FileFormat.Accord.Statistics.Kernels.Base.Kernel.Center(K, out this.featureMean, out this.featureGrandMean, result: K); // overwrite
+                    K = global::Openize.Accord.Statistics.Kernels.Base.Kernel.Center(K, out this.featureMean, out this.featureGrandMean, result: K); // overwrite
             }
 
             // Perform the Eigenvalue Decomposition (EVD) of the Kernel matrix
@@ -439,7 +440,7 @@ namespace FileFormat.Accord.Statistics.Analysis
                 newK = data;
 
                 if (this.centerFeatureSpace)
-                    newK = global::FileFormat.Accord.Statistics.Kernels.Base.Kernel.Center(newK, this.featureMean, this.featureGrandMean); // do not overwrite
+                    newK = global::Openize.Accord.Statistics.Kernels.Base.Kernel.Center(newK, this.featureMean, this.featureGrandMean); // do not overwrite
             }
             else
             {
@@ -455,7 +456,7 @@ namespace FileFormat.Accord.Statistics.Analysis
                 newK = this.kernel.ToJagged2(x: data, y: this.sourceCentered);
 
                 if (this.centerFeatureSpace)
-                    newK = global::FileFormat.Accord.Statistics.Kernels.Base.Kernel.Center(newK, this.featureMean, this.featureGrandMean, result: newK); // overwrite
+                    newK = global::Openize.Accord.Statistics.Kernels.Base.Kernel.Center(newK, this.featureMean, this.featureGrandMean, result: newK); // overwrite
             }
 
             // Project into the kernel principal components

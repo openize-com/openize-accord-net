@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Filters
+namespace Openize.Accord.Tests.Imaging.Filters
 {
     using System.Drawing;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Imaging.Filters;
-    using FileFormat.Accord.Math.Formats;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
-    using FileFormat.Accord.Tests.Imaging.Properties;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Tests.Imaging.Properties;
+    using Openize.Accord.Imaging.Converters;
+    using Openize.Accord.Imaging.Filters;
+    using Openize.Accord.Math.Formats;
 
     [TestFixture]
     public class DifferenceOfGaussiansTest

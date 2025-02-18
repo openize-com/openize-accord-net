@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov
+namespace Openize.Accord.Statistics.Models.Markov
 {
     using System;
     using Distributions;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Core;
 
     /// <summary>
     ///   Forward-Backward algorithms for Hidden Markov Models.

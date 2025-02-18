@@ -25,15 +25,16 @@
 // edit the T4 template Matrix.Elementwise.tt so this file can be regenerated. 
 // ======================================================================
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.CodeDom.Compiler;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Decompositions;
-    using FileFormat.Accord.Math.Decompositions.Base;
+    using Openize.Accord.Math;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Decompositions;
+    using Openize.Accord.Math.Decompositions.Base;
     using Vector;
 
     //[GeneratedCode("Accord.NET T4 Templates", "3.1")]

@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Links
+namespace Openize.Accord.Tests.Statistics.Links
 {
     using System;
-    using FileFormat.Accord.Statistics.Links;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Links;
 
     [TestFixture]
     public class ProbitLinkFunctionTest

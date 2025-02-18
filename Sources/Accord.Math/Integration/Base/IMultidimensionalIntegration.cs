@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Integration.Base
+namespace Openize.Accord.Math.Integration.Base
 {
     using System;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///   Common interface for multidimensional integration methods.

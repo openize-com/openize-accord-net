@@ -20,16 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Testing.TwoSamples
+namespace Openize.Accord.Tests.Statistics.Testing.TwoSamples
 {
     using System;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Testing.Base;
-    using FileFormat.Accord.Statistics.Testing.Power.TwoSample;
-    using FileFormat.Accord.Statistics.Testing.TwoSample;
+    using Openize.Accord.Math;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Testing.Base;
+    using Openize.Accord.Statistics.Testing.Power.TwoSample;
+    using Openize.Accord.Statistics.Testing.TwoSample;
 
     [TestFixture]
     public class TwoSampleZTestTest

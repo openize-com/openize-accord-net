@@ -26,7 +26,7 @@
 
  */
 
-namespace FileFormat.Accord.Tests.Math.Optimization
+namespace Openize.Accord.Tests.Math.Optimization
 {
     using System;
 

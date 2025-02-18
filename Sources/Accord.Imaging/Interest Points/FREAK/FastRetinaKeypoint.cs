@@ -23,15 +23,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.FREAK
+namespace Openize.Accord.Imaging.Interest_Points.FREAK
 {
     using System;
     using System.Drawing;
     using System.Text;
     using Base;
-    using Core.AForge.Core;
-    using Core.Features;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.Features;
     using Point = System.Drawing.Point;
 
     /// <summary>
@@ -237,7 +236,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.FREAK
         ///   The result of the conversion.
         /// </returns>
         /// 
-        public static implicit operator global::FileFormat.Accord.Core.AForge.Core.IntPoint(FastRetinaKeypoint point)
+        public static implicit operator global::Openize.Accord.Core.AForge.Core.IntPoint(FastRetinaKeypoint point)
         {
             return point.ToIntPoint();
         }

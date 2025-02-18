@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FileFormat.Accord.Tests.Imaging.Properties {
+namespace Openize.Accord.Tests.Imaging.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace FileFormat.Accord.Tests.Imaging.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("FileFormat.Accord.Tests.Imaging.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Openize.Accord.Tests.Imaging.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

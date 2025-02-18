@@ -23,17 +23,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Accord.Statistics;
-    using Math.Core;
     using Math.Decompositions;
-    using Math.Matrix;
     using Measures;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     /// Class to perform a Procrustes Analysis

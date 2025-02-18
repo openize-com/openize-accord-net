@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math
+namespace Openize.Accord.Tests.Math
 {
     using System.Globalization;
-    using FileFormat.Accord.Math.AForge.Math;
-    using FileFormat.Accord.Math.Geometry;
     using NUnit.Framework;
+    using Openize.Accord.Math.AForge.Math;
+    using Openize.Accord.Math.Geometry;
 
     [TestFixture]
     public class PlaneTest

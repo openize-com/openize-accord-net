@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
-    using FileFormat.Accord.Math.Differentiation;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Optimization.Losses;
-    using FileFormat.Accord.Math.Optimization.Unconstrained;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.Differentiation;
+    using Openize.Accord.Math.Optimization.Losses;
+    using Openize.Accord.Math.Optimization.Unconstrained;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
 
     [TestFixture]
     public class MultinomialLogisticGradientDescentTest

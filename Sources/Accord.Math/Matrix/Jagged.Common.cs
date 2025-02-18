@@ -22,13 +22,13 @@
 
 #define CHECKS
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
     using System.Collections;
     using System.Runtime.CompilerServices;
-    using FileFormat.Accord.Math.Decompositions;
+    using Openize.Accord.Math.Decompositions;
 
     public static partial class Matrix
     {

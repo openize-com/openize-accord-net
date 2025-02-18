@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden
+namespace Openize.Accord.Statistics.Models.Fields.Learning.Hidden
 {
     using System;
     using System.Threading;

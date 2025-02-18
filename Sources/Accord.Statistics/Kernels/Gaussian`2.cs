@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
-    using Math.Distances.Base;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Composite Gaussian Kernel.
@@ -57,7 +57,7 @@ namespace FileFormat.Accord.Statistics.Kernels
     /// 
     [Serializable]
     public struct Gaussian<TDistance, TInput> :
-        IKernel<TInput>, IDistance<TInput>, IEstimable<TInput>, ICloneable
+        IKernel<TInput>, Openize.Accord.Math.Distances.Base.IDistance<TInput>, IEstimable<TInput>, ICloneable
         where TInput : class
         where TDistance : IDistance<TInput>, ICloneable
     {

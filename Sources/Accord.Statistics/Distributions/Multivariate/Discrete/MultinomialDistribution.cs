@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Discrete
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Discrete
 {
     using System;
     using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Formats;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Formats;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
     using Univariate.Discrete;
 
     /// <summary>
@@ -119,7 +118,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Discrete
         {
             this.N = n;
             this.probabilities = prob;
-            this.lnfac = global::FileFormat.Accord.Math.Special.LogFactorial(n);
+            this.lnfac = global::Openize.Accord.Math.Special.LogFactorial(n);
 
             this.mean = null;
             this.variance = null;
@@ -261,7 +260,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Discrete
             double prod = 0;
             for (int i = 0; i < x.Length; i++)
             {
-                theta += global::FileFormat.Accord.Math.Special.LogFactorial(x[i]);
+                theta += global::Openize.Accord.Math.Special.LogFactorial(x[i]);
                 prod += x[i] * Math.Log(this.probabilities[i]);
             }
 
@@ -296,7 +295,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Discrete
             double prod = 0;
             for (int i = 0; i < x.Length; i++)
             {
-                theta += global::FileFormat.Accord.Math.Special.LogFactorial(x[i]);
+                theta += global::Openize.Accord.Math.Special.LogFactorial(x[i]);
                 prod += x[i] * Math.Log(this.probabilities[i]);
             }
 

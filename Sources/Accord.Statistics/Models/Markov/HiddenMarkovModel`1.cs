@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov
+namespace Openize.Accord.Statistics.Models.Markov
 {
 #pragma warning disable 612, 618
     using System;
@@ -28,15 +28,15 @@ namespace FileFormat.Accord.Statistics.Models.Markov
     using System.Runtime.Serialization.Formatters.Binary;
     using Base;
     using Distributions;
-    using Distributions.Multivariate;
-    using Distributions.Multivariate.Base;
-    using Distributions.Univariate;
-    using Distributions.Univariate.Base;
-    using Distributions.Univariate.Discrete;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
     using Topology;
 
     /// <summary>

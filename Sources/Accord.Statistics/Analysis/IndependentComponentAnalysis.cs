@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.Collections.ObjectModel;
@@ -30,14 +30,16 @@ namespace FileFormat.Accord.Statistics.Analysis
     using Accord.MachineLearning.Learning;
     using Base;
     using Contrast_Functions;
-    using FileFormat.Accord.Core.MachineLearning;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Accord.Statistics;
     using Math.Core;
     using Math.Decompositions;
-    using Math.Matrix;
     using Models.Regression.Linear;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Elementwise = Openize.Accord.Math.Core.Elementwise;
 
     /// <summary>
     ///   FastICA's algorithms to be used in Independent Component Analysis.
@@ -474,7 +476,7 @@ namespace FileFormat.Accord.Statistics.Analysis
             double[][] matrix = this.Adjust(this.sourceMatrix.ToJagged(), this.overwriteSourceMatrix);
 
             // Pre-process the centered data matrix to have unit variance
-            double[][] whiten = global::FileFormat.Accord.Statistics.Measures.Tools.Whitening(matrix, out this.whiteningMatrix);
+            double[][] whiten = global::Openize.Accord.Statistics.Measures.Tools.Whitening(matrix, out this.whiteningMatrix);
 
             // Generate a new unitary initial guess for the de-mixing matrix
             double[][] initial = Jagged.Random(components, matrix.Columns());
@@ -880,7 +882,7 @@ namespace FileFormat.Accord.Statistics.Analysis
             var matrix = this.Adjust(x, this.overwriteSourceMatrix);
 
             // Pre-process the centered data matrix to have unit variance
-            var whiten = global::FileFormat.Accord.Statistics.Measures.Tools.Whitening(matrix, out this.whiteningMatrix);
+            var whiten = global::Openize.Accord.Statistics.Measures.Tools.Whitening(matrix, out this.whiteningMatrix);
 
             // Generate a new unitary initial guess for the de-mixing matrix
             var initial = Jagged.Random(this.NumberOfOutputs, matrix.Columns());

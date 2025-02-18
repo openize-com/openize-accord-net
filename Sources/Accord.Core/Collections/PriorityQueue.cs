@@ -50,7 +50,7 @@
 // free software LGPL license as stated in the beginning of this file.
 //
 
-namespace FileFormat.Accord.Core.Collections
+namespace Openize.Accord.Core.Collections
 {
     using System;
     using System.Collections;

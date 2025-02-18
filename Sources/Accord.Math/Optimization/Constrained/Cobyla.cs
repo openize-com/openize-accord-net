@@ -27,13 +27,13 @@
 // Fortran 90 version was by Alan Miller (Alan.Miller @ vic.cmis.csiro.au). 
 //
 
-namespace FileFormat.Accord.Math.Optimization.Constrained
+namespace Openize.Accord.Math.Optimization.Constrained
 {
     using System;
     using System.Collections.Generic;
-    using Base;
-    using Constraints;
-    using FileFormat.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Optimization.Base;
+    using Openize.Accord.Math.Optimization.Constrained.Constraints;
 
     /// <summary>
     ///   Cobyla exit codes.

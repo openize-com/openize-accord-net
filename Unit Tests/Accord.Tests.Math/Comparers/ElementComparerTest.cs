@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Comparers
+namespace Openize.Accord.Tests.Math.Comparers
 {
     using System;
-    using FileFormat.Accord.Math.Comparers;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.Comparers;
 
     [TestFixture]
     public class ElementComparerTest

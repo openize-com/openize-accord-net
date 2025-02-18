@@ -41,11 +41,11 @@
 //   moshier@na-net.ornl.gov
 //
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System;
     using System.Runtime.CompilerServices;
-    using Functions;
+    using Openize.Accord.Math.Functions;
 
     /// <summary>
     ///   Set of special mathematic functions.

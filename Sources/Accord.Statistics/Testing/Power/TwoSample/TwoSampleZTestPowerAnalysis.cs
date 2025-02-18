@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.Power.TwoSample
+namespace Openize.Accord.Statistics.Testing.Power.TwoSample
 {
     using System;
     using Base;
-    using Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
     using Testing.Base;
     using Testing.TwoSample;
 

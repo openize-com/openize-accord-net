@@ -52,16 +52,15 @@
 //   POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Statistics
+namespace Openize.Accord.Statistics
 {
     using System;
     using System.Numerics;
-    using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Functions;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Set of statistics functions operating over a circular space.
@@ -108,7 +107,7 @@ namespace FileFormat.Accord.Statistics
         /// 
         public static double ToRadians(this double sample, double length)
         {
-            double m = global::FileFormat.Accord.Math.Tools.Mod(sample, length);
+            double m = global::Openize.Accord.Math.Tools.Mod(sample, length);
             return (m / length) * (2.0 * Math.PI) - Math.PI;
         }
 
@@ -131,7 +130,7 @@ namespace FileFormat.Accord.Statistics
             double m = ((angle + Math.PI) / (2 * Math.PI)) * length;
 
             if (wrap)
-                m = global::FileFormat.Accord.Math.Tools.Mod(m, length);
+                m = global::Openize.Accord.Math.Tools.Mod(m, length);
 
             return m;
         }
@@ -628,7 +627,7 @@ namespace FileFormat.Accord.Statistics
             double d2 = Distance(mean, md + Math.PI);
 
             if (Math.Abs(d1) > Math.Abs(d2))
-                md = global::FileFormat.Accord.Math.Tools.Mod(md + Math.PI, 2 * Math.PI);
+                md = global::Openize.Accord.Math.Tools.Mod(md + Math.PI, 2 * Math.PI);
 
             return md;
         }
@@ -824,7 +823,7 @@ namespace FileFormat.Accord.Statistics
         {
             double[] x = new double[angles.Length];
             for (int i = 0; i < angles.Length; i++)
-                x[i] = global::FileFormat.Accord.Math.Tools.Mod(angles[i] - median, 2 * Math.PI);
+                x[i] = global::Openize.Accord.Math.Tools.Mod(angles[i] - median, 2 * Math.PI);
 
             for (int i = 0; i < x.Length; i++)
             {
@@ -839,8 +838,8 @@ namespace FileFormat.Accord.Statistics
 
             if (wrap)
             {
-                q1 = global::FileFormat.Accord.Math.Tools.Mod(q1, 2 * Math.PI);
-                q3 = global::FileFormat.Accord.Math.Tools.Mod(q3, 2 * Math.PI);
+                q1 = global::Openize.Accord.Math.Tools.Mod(q1, 2 * Math.PI);
+                q3 = global::Openize.Accord.Math.Tools.Mod(q3, 2 * Math.PI);
             }
 
             return median;

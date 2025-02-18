@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Accord.Statistics
+namespace Openize.Accord.Math.Accord.Statistics
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.Exceptions;
-    using global::Accord.Math;
-    using Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
 
     static partial class Measures
     {

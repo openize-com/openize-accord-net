@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
@@ -89,7 +89,7 @@ namespace FileFormat.Accord.Math.Matrix
         public static void Set<T>(this T[][] destination, T[][] value, int[] rowIndices, int startColumn, int endColumn)
         {
             int endIndex = end(endColumn, destination.Columns());
-            int[] columnIndices = FileFormat.Accord.Math.Vector.Vector.Range(startColumn, endIndex);
+            int[] columnIndices = Openize.Accord.Math.Vector.Vector.Range(startColumn, endIndex);
             set(destination, rowIndices, columnIndices, value, rowIndices, columnIndices);
         }
 
@@ -106,7 +106,7 @@ namespace FileFormat.Accord.Math.Matrix
         public static void Set<T>(this T[,] destination, T[,] value, int[] rowIndices, int startColumn, int endColumn)
         {
             int endIndex = end(endColumn, destination.Columns());
-            int[] columnIndices = FileFormat.Accord.Math.Vector.Vector.Range(startColumn, endIndex);
+            int[] columnIndices = Openize.Accord.Math.Vector.Vector.Range(startColumn, endIndex);
             set(destination, rowIndices, columnIndices, value, rowIndices, columnIndices);
         }
 
@@ -138,7 +138,7 @@ namespace FileFormat.Accord.Math.Matrix
         public static void Set<T>(this T[,] destination, T[,] value, int startRow, int endRow, int[] columnIndices)
         {
             int endIndex = end(endRow, destination.Rows());
-            int[] rowIndices = FileFormat.Accord.Math.Vector.Vector.Range(startRow, endIndex);
+            int[] rowIndices = Openize.Accord.Math.Vector.Vector.Range(startRow, endIndex);
             set(destination, rowIndices, columnIndices, value, rowIndices, columnIndices);
         }
 
@@ -155,7 +155,7 @@ namespace FileFormat.Accord.Math.Matrix
         public static void Set<T>(this T[][] destination, T[][] value, int startRow, int endRow, int[] columnIndices)
         {
             int endIndex = end(endRow, destination.Rows());
-            int[] rowIndices = FileFormat.Accord.Math.Vector.Vector.Range(startRow, endIndex);
+            int[] rowIndices = Openize.Accord.Math.Vector.Vector.Range(startRow, endIndex);
             set(destination, rowIndices, columnIndices, value, rowIndices, columnIndices);
         }
 
@@ -223,9 +223,9 @@ namespace FileFormat.Accord.Math.Matrix
         {
             T[][] values = Jagged.Create<T>(destination.Rows(), destination.Columns(), value);
             int rowIndex = end(endRow, destination.Rows());
-            int[] rowIndices = FileFormat.Accord.Math.Vector.Vector.Range(startRow, rowIndex);
+            int[] rowIndices = Openize.Accord.Math.Vector.Vector.Range(startRow, rowIndex);
             int colIndex = end(endCol, destination.Columns());
-            int[] columnIndices = FileFormat.Accord.Math.Vector.Vector.Range(startCol, colIndex);
+            int[] columnIndices = Openize.Accord.Math.Vector.Vector.Range(startCol, colIndex);
             set(destination, rowIndices, columnIndices, values, rowIndices, columnIndices);
         }
 
@@ -244,9 +244,9 @@ namespace FileFormat.Accord.Math.Matrix
         {
             T[,] values = Matrix.Create<T>(destination.Rows(), destination.Columns(), value);
             int rowIndex = end(endRow, destination.Rows());
-            int[] rowIndices = FileFormat.Accord.Math.Vector.Vector.Range(startRow, rowIndex);
+            int[] rowIndices = Openize.Accord.Math.Vector.Vector.Range(startRow, rowIndex);
             int colIndex = end(endCol, destination.Columns());
-            int[] columnIndices = FileFormat.Accord.Math.Vector.Vector.Range(startCol, colIndex);
+            int[] columnIndices = Openize.Accord.Math.Vector.Vector.Range(startCol, colIndex);
             set(destination, rowIndices, columnIndices, values, rowIndices, columnIndices);
         }
 
@@ -401,15 +401,15 @@ namespace FileFormat.Accord.Math.Matrix
                 throw new ArgumentNullException("destination");
 
             if (srcRowIndices == null)
-                srcRowIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, src.Rows());
+                srcRowIndices = Openize.Accord.Math.Vector.Vector.Range(0, src.Rows());
 
             if (srcColumnIndices == null)
-                srcColumnIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, src.Columns());
+                srcColumnIndices = Openize.Accord.Math.Vector.Vector.Range(0, src.Columns());
 
             if (dstRowIndices == null)
-                dstRowIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, dst.Rows());
+                dstRowIndices = Openize.Accord.Math.Vector.Vector.Range(0, dst.Rows());
             if (dstColumnIndices == null)
-                dstColumnIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, dst.Columns());
+                dstColumnIndices = Openize.Accord.Math.Vector.Vector.Range(0, dst.Columns());
 
             for (int i = 0; i < srcRowIndices.Length; i++)
             {
@@ -436,14 +436,14 @@ namespace FileFormat.Accord.Math.Matrix
                 throw new ArgumentNullException("destination");
 
             if (srcRowIndices == null)
-                srcRowIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, src.Rows());
+                srcRowIndices = Openize.Accord.Math.Vector.Vector.Range(0, src.Rows());
             if (srcColumnIndices == null)
-                srcColumnIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, src.Columns());
+                srcColumnIndices = Openize.Accord.Math.Vector.Vector.Range(0, src.Columns());
 
             if (dstRowIndices == null)
-                dstRowIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, dst.Rows());
+                dstRowIndices = Openize.Accord.Math.Vector.Vector.Range(0, dst.Rows());
             if (dstColumnIndices == null)
-                dstColumnIndices = FileFormat.Accord.Math.Vector.Vector.Range(0, dst.Columns());
+                dstColumnIndices = Openize.Accord.Math.Vector.Vector.Range(0, dst.Columns());
 
             for (int i = 0; i < srcRowIndices.Length; i++)
             {

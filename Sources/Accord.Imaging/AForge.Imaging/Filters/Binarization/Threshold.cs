@@ -5,7 +5,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Binarization
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Binarization
 {
     using System.Collections.Generic;
     using System.Drawing;

@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Filters
+namespace Openize.Accord.Tests.Statistics.Filters
 {
     using System;
     using System.Data;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Collections;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Filters;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Collections;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Filters;
 
     [TestFixture]
     public class InputationFilterTest

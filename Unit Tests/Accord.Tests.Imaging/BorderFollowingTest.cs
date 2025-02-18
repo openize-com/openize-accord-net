@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Collections.Generic;
     using System.Drawing;
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Color_Filters;
-    using FileFormat.Accord.Imaging.Blob_Processing;
-    using FileFormat.Accord.Imaging.Contour;
-    using FileFormat.Accord.Imaging.Filters;
-    using FileFormat.Accord.Tests.Imaging.Properties;
+    using Openize.Accord.Tests.Imaging.Properties;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Color_Filters;
+    using Openize.Accord.Imaging.Blob_Processing;
+    using Openize.Accord.Imaging.Contour;
+    using Openize.Accord.Imaging.Filters;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
 
     [TestFixture]
     public class BorderFollowingTest
@@ -41,7 +41,7 @@ namespace FileFormat.Accord.Tests.Imaging
         [Category("MonoNotSupported")]
         public void FindContourTest()
         {
-            Bitmap bmp = Image.Clone(FileFormat.Accord.Tests.Imaging.Properties.Resources.sample_black);
+            Bitmap bmp = Image.Clone(Openize.Accord.Tests.Imaging.Properties.Resources.sample_black);
 
             Bitmap gray = Grayscale.CommonAlgorithms.BT709.Apply(bmp);
 

@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.IO.Mat
+namespace Openize.Accord.Math.IO.Mat
 {
     using System;
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using FileFormat.Accord.Core;
+    using Openize.Accord.Core;
 
     /// <summary>
     ///   Reader for .mat files (such as the ones created by Matlab and Octave).

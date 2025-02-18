@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math
+namespace Openize.Accord.Math
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -557,7 +557,7 @@ namespace FileFormat.Accord.Math
 
             yield return (inPlace ? values : (T[])values.Clone());
 
-            int[] idx = Vector.Vector.Range(0, values.Length);
+            int[] idx = Openize.Accord.Math.Vector.Vector.Range(0, values.Length);
 
             int j, l;
 

@@ -20,17 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields
+namespace Openize.Accord.Statistics.Models.Fields
 {
     using System;
     using System.IO;
     using System.Runtime.Serialization.Formatters.Binary;
     using Accord.MachineLearning.Classifiers.Tagging;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.MachineLearning;
     using Potential_Functions.Base;
     using Potential_Functions.Clique_Factor_Potentials;
-    using Math.Matrix;
 
     /// <summary>
     ///   Linear-Chain Conditional Random Field (CRF).

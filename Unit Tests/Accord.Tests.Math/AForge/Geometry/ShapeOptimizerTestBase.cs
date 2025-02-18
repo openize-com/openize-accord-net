@@ -1,9 +1,9 @@
-﻿namespace FileFormat.Accord.Tests.Math.AForge.Geometry
+﻿namespace Openize.Accord.Tests.Math.AForge.Geometry
 {
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Math.AForge.Math.Geometry;
     using NUnit.Framework;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Math.AForge.Math.Geometry;
 
     static class ShapeOptimizerTestBase
     {

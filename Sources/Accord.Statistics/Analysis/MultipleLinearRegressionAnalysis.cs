@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.Collections.Generic;
@@ -30,12 +30,11 @@ namespace FileFormat.Accord.Statistics.Analysis
     using Accord.MachineLearning.Classifiers;
     using Accord.MachineLearning.Learning;
     using Base;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using Models.Regression.Linear;
     using Models.Regression.Linear.Fitting;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
     using Testing;
     using Testing.Multiple_Samples;
 

@@ -21,18 +21,18 @@
 //
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Visible
+namespace Openize.Accord.Statistics.Models.Fields.Learning.Visible
 {
     using System;
     using System.Linq;
     using System.Threading.Tasks;
     using Accord.MachineLearning.Learning;
     using Features.Base;
-    using Math.Accord.MachineLearning.Learning;
-    using Math.Accord.Statistics;
-    using Math.Optimization.Unconstrained;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Accord.MachineLearning.Learning;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Optimization.Unconstrained;
     using Potential_Functions.Base;
-    using Math.Matrix;
 
     /// <summary>
     ///   Quasi-Newton (L-BFGS) learning algorithm for <see cref="ConditionalRandomField{T}">

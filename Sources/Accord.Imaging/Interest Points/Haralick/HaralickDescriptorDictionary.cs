@@ -23,16 +23,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.Haralick
+namespace Openize.Accord.Imaging.Interest_Points.Haralick
 {
     using System;
     using System.Collections.Generic;
-    using Core.Ranges;
-    using global::Accord;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Math.Accord.Statistics;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Core.Ranges;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Feature dictionary. Associates a set of Haralick features to a given degree

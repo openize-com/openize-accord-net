@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
-    using Math.Matrix;
-    using Math.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Precomputed Gram Matrix Kernel.

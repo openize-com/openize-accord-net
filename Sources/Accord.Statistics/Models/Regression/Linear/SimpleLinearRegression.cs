@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Linear
+namespace Openize.Accord.Statistics.Models.Regression.Linear
 {
     using System;
     using Accord.MachineLearning.Classifiers;
-    using FileFormat.Accord.Core.Ranges;
     using Fitting;
-    using Math.Accord.Statistics;
-    using Math.Optimization.Losses;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Optimization.Losses;
     using Testing;
 
     /// <summary>

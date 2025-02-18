@@ -20,18 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.ComponentModel;
     using Accord.MachineLearning.Learning;
     using Base;
     using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core.Collections;
-    using FileFormat.Accord.Core.Ranges;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Matrix;
     using Measures;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Core.Collections;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Descriptive statistics analysis.
@@ -466,7 +466,7 @@ namespace FileFormat.Accord.Statistics.Analysis
             get
             {
                 if (this.zScores == null)
-                    this.zScores = global::FileFormat.Accord.Statistics.Measures.Tools.Standardize(this.DeviationScores, this.StandardDeviations, inPlace: false);
+                    this.zScores = global::Openize.Accord.Statistics.Measures.Tools.Standardize(this.DeviationScores, this.StandardDeviations, inPlace: false);
                 return this.zScores;
             }
         }
@@ -555,7 +555,7 @@ namespace FileFormat.Accord.Statistics.Analysis
             get
             {
                 if (this.standardErrors == null)
-                    this.standardErrors = global::FileFormat.Accord.Math.Accord.Statistics.Measures.StandardError(this.samples, this.StandardDeviations);
+                    this.standardErrors = global::Openize.Accord.Math.Accord.Statistics.Measures.StandardError(this.samples, this.StandardDeviations);
 
                 return this.standardErrors;
             }
@@ -733,7 +733,7 @@ namespace FileFormat.Accord.Statistics.Analysis
 
                     this.innerFences = new DoubleRange[this.variables];
                     for (int i = 0; i < this.innerFences.Length; i++)
-                        this.innerFences[i] = global::FileFormat.Accord.Statistics.Measures.Tools.InnerFence(Q[i]);
+                        this.innerFences[i] = global::Openize.Accord.Statistics.Measures.Tools.InnerFence(Q[i]);
                 }
 
                 return this.innerFences;
@@ -754,7 +754,7 @@ namespace FileFormat.Accord.Statistics.Analysis
 
                     this.outerFences = new DoubleRange[this.variables];
                     for (int i = 0; i < this.outerFences.Length; i++)
-                        this.outerFences[i] = global::FileFormat.Accord.Statistics.Measures.Tools.OuterFence(Q[i]);
+                        this.outerFences[i] = global::Openize.Accord.Statistics.Measures.Tools.OuterFence(Q[i]);
                 }
 
                 return this.outerFences;

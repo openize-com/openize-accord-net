@@ -21,7 +21,7 @@
 //
 
 
-namespace FileFormat.Accord.Math.Random
+namespace Openize.Accord.Math.Random
 {
     using System;
 

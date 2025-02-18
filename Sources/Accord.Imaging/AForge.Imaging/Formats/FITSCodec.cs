@@ -5,7 +5,7 @@
 // andrew.kirillov@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Formats
+namespace Openize.Accord.Imaging.AForge.Imaging.Formats
 {
     using System;
     using System.ComponentModel;
@@ -13,8 +13,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Formats
     using System.Drawing.Imaging;
     using System.IO;
     using System.Text;
-    using Core.Attributes;
-    using global::Accord;
+    using Openize.Accord.Core.Attributes;
 
     /// <summary>
     /// Information about FITS image's frame.

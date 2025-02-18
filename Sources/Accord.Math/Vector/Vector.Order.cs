@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Vector
+namespace Openize.Accord.Math.Vector
 {
     using System;
     using System.Collections.Generic;
-    using Comparers;
-    using global::Accord.Math;
+    using Matrix;
+    using Openize.Accord.Math.Comparers;
 
     /// <summary>
     ///   Static class Vector. Defines a set of extension methods
@@ -43,7 +43,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static void Shuffle<T>(this T[] array)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             // i is the number of items remaining to be shuffled.
             for (int i = array.Length; i > 1; i--)
@@ -64,7 +64,7 @@ namespace FileFormat.Accord.Math.Vector
         /// 
         public static void Shuffle<T>(this IList<T> array)
         {
-            var random = global::FileFormat.Accord.Math.Random.Generator.Random;
+            var random = global::Openize.Accord.Math.Random.Generator.Random;
 
             // i is the number of items remaining to be shuffled.
             for (int i = array.Count; i > 1; i--)

@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear
 {
     using System;
-    using Analysis;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Fitting;
-    using global::Accord.Math;
-    using Links;
-    using Math.Matrix;
-    using Math.Vector;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Links;
 
     /// <summary>
     ///   Binary Logistic Regression.

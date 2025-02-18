@@ -9,7 +9,7 @@
 // alejamp@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Collections.Generic;

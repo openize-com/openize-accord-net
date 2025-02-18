@@ -6,15 +6,14 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Base_classes;
     using Colors;
-    using Core.Ranges;
-    using global::Accord;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     /// Linear correction of RGB channels for images, which have 16 bpp planes (16 bit gray images or 48/64 bit colour images).

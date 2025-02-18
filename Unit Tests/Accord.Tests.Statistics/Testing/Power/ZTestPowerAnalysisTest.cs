@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Testing.Power
+namespace Openize.Accord.Tests.Statistics.Testing.Power
 {
-    using FileFormat.Accord.Statistics.Testing.Base;
-    using FileFormat.Accord.Statistics.Testing.Power;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Testing.Base;
+    using Openize.Accord.Statistics.Testing.Power;
 
     [TestFixture]
     public class ZTestPowerAnalysisTest

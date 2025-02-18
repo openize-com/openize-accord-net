@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden
+namespace Openize.Accord.Statistics.Models.Fields.Learning.Hidden
 {
 #pragma warning disable 612, 618
     using System;
     using System.ComponentModel;
     using Accord.MachineLearning.Learning;
-    using FileFormat.Accord.Core.MachineLearning;
-    using Math.Accord.Statistics;
-    using Math.Optimization.Unconstrained;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Optimization.Unconstrained;
 
     /// <summary>
     ///   Conjugate Gradient learning algorithm for <see cref="HiddenConditionalRandomField{T}">
@@ -109,7 +109,7 @@ namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden
 
         /// <summary>
         /// Inheritors of this class should create the optimization algorithm in this
-        /// method, using the current <see cref="P:FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.MaxIterations" /> and <see cref="P:FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.Tolerance" />
+        /// method, using the current <see cref="P:Openize.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.MaxIterations" /> and <see cref="P:Openize.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.Tolerance" />
         /// settings.
         /// </summary>
         /// <returns>ConjugateGradient.</returns>

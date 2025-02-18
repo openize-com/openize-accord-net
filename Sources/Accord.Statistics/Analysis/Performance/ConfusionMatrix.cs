@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis.Performance
+namespace Openize.Accord.Statistics.Analysis.Performance
 {
     using System;
     using System.ComponentModel;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.MachineLearning.Classifiers;
+    using Openize.Accord.Math.Accord.Statistics;
     using Testing.Contingency;
 
     /// <summary>

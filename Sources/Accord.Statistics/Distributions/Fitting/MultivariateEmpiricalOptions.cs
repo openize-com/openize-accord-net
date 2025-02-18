@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Fitting
+namespace Openize.Accord.Statistics.Distributions.Fitting
 {
     using System;
-    using Base;
     using Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Smoothing rule function definition for <see cref="MultivariateEmpiricalDistribution">

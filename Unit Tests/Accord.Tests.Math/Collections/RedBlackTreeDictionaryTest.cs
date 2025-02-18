@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Collections
+namespace Openize.Accord.Tests.Math.Collections
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.Collections;
     using NUnit.Framework;
+    using Openize.Accord.Core.Collections;
 
     [TestFixture]
     public class RedBlackDictionaryTest

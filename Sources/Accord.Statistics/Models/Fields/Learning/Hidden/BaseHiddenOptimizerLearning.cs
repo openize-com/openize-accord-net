@@ -22,14 +22,14 @@
 
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden
+namespace Openize.Accord.Statistics.Models.Fields.Learning.Hidden
 {
     using System;
     using System.Threading.Tasks;
     using Accord.MachineLearning.Learning;
-    using FileFormat.Accord.Core.MachineLearning;
     using Gradient;
-    using Math.Optimization.Base;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Base class for Hidden Conditional Random Fields learning algorithms based

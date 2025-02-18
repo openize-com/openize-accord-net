@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis.Performance
+namespace Openize.Accord.Statistics.Analysis.Performance
 {
     using System;
     using System.ComponentModel;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.MachineLearning.Classifiers;
+    using Openize.Accord.Math.Accord.Statistics;
     using Testing.Contingency;
 
     /* 
@@ -251,8 +250,8 @@ namespace FileFormat.Accord.Statistics.Analysis.Performance
 
             if (classes == 2)
             {
-                expected = global::FileFormat.Accord.Math.Accord.Statistics.Classes.ToZeroOne(expected);
-                predicted = global::FileFormat.Accord.Math.Accord.Statistics.Classes.ToZeroOne(predicted);
+                expected = global::Openize.Accord.Math.Accord.Statistics.Classes.ToZeroOne(expected);
+                predicted = global::Openize.Accord.Math.Accord.Statistics.Classes.ToZeroOne(predicted);
             }
 
             for (int i = 0; i < expected.Length; i++)
@@ -1031,8 +1030,8 @@ namespace FileFormat.Accord.Statistics.Analysis.Performance
         ///   
         public static GeneralConfusionMatrix Estimate<TInput>(IClassifier<TInput, bool> classifier, TInput[] inputs, bool[] expected)
         {
-            return new GeneralConfusionMatrix(expected: global::FileFormat.Accord.Math.Accord.Statistics.Classes.ToZeroOne(expected),
-                predicted: global::FileFormat.Accord.Math.Accord.Statistics.Classes.ToZeroOne(classifier.Decide(inputs)));
+            return new GeneralConfusionMatrix(expected: global::Openize.Accord.Math.Accord.Statistics.Classes.ToZeroOne(expected),
+                predicted: global::Openize.Accord.Math.Accord.Statistics.Classes.ToZeroOne(classifier.Decide(inputs)));
         }
     }
 }

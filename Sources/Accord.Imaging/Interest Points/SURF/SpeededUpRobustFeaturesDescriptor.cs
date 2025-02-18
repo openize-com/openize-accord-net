@@ -23,7 +23,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.SURF
+namespace Openize.Accord.Imaging.Interest_Points.SURF
 {
     using System;
     using System.Collections.Generic;
@@ -177,7 +177,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.SURF
                         double g = gauss25[id[i + 6], id[j + 6]];
                         this.resX[idx] = g * this.haarX(y + j * scale, x + i * scale, 4 * scale);
                         this.resY[idx] = g * this.haarY(y + j * scale, x + i * scale, 4 * scale);
-                        this.ang[idx] = global::FileFormat.Accord.Math.Tools.Angle(this.resX[idx], this.resY[idx]);
+                        this.ang[idx] = global::Openize.Accord.Math.Tools.Angle(this.resX[idx], this.resY[idx]);
                         idx++;
                     }
                 }
@@ -214,7 +214,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.SURF
                 {
                     // store largest orientation
                     max = sumX * sumX + sumY * sumY;
-                    orientation = global::FileFormat.Accord.Math.Tools.Angle(sumX, sumY);
+                    orientation = global::Openize.Accord.Math.Tools.Angle(sumX, sumY);
                 }
             }
 

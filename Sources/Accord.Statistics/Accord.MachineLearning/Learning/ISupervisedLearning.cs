@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Learning
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Learning
 {
     using System.Threading;
-    using FileFormat.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.MachineLearning;
 
     /// <summary>
     ///   Common interface for supervised learning algorithms.

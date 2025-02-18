@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.Collections.ObjectModel;
@@ -29,12 +29,12 @@ namespace FileFormat.Accord.Statistics.Analysis
     using Accord.MachineLearning.Classifiers.Multiple.Multiclass;
     using Accord.MachineLearning.Learning;
     using Base;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Core;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Statistics.Accord.MachineLearning;
     using Math.Decompositions;
-    using Math.Matrix;
     using Models.Regression.Linear;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Linear Discriminant Analysis (LDA).

@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Filters
+namespace Openize.Accord.Tests.Statistics.Filters
 {
     using System.Data;
-    using FileFormat.Accord.Statistics.Filters;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Filters;
 
     [TestFixture]
     public class SelectionFilterTest

@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Filters
+namespace Openize.Accord.Tests.Imaging.Filters
 {
     using System;
     using System.Drawing;
     using System.IO;
     using System.Threading.Tasks;
-    using FileFormat.Accord.Imaging.AForge.Imaging;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other;
     using NUnit.Framework;
+    using Openize.Accord.Imaging.AForge.Imaging;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters.Other;
 
     [TestFixture]
     public class FillHolesTest

@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Matrix
+namespace Openize.Accord.Tests.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Vector = FileFormat.Accord.Math.Vector.Vector;
+    using Openize.Accord.Core;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     [TestFixture]
     public partial class VectorTest

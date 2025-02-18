@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Hybrid
+namespace Openize.Accord.Statistics.Models.Markov.Hybrid
 {
     using System;
     using System.Collections.Generic;
     using Base;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   Hybrid Markov classifier for arbitrary state-observation functions.

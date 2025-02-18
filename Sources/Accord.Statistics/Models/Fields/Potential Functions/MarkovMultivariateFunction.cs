@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Potential_Functions
+namespace Openize.Accord.Statistics.Models.Fields.Potential_Functions
 {
 #pragma warning disable 612, 618
     using System;
@@ -28,15 +28,15 @@ namespace FileFormat.Accord.Statistics.Models.Fields.Potential_Functions
     using Base;
     using Clique_Factor_Potentials;
     using Clique_Factor_Potentials.Specialized;
-    using Distributions.Multivariate;
-    using Distributions.Multivariate.Continuous;
-    using Distributions.Univariate.Continuous;
-    using Distributions.Univariate.Discrete;
     using Features;
     using Features.Base;
     using Features.Multivariate;
-    using FileFormat.Accord.Core;
     using Markov;
+    using Openize.Accord.Core;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Potential function modeling Hidden Markov Models.

@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Drawing;
-    using FileFormat.Accord.Imaging;
-    using FileFormat.Accord.Imaging.Accord.DataSets;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
-    using FileFormat.Accord.Tests.Imaging.Properties;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Tests.Imaging.Properties;
+    using Openize.Accord.Imaging;
+    using Openize.Accord.Imaging.Accord.DataSets;
+    using Openize.Accord.Math.Accord.Statistics;
 
     [TestFixture]
     public class GrayLevelCooccurrenceMatrixTest

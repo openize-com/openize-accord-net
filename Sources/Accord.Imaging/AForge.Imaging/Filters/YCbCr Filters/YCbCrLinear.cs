@@ -5,16 +5,15 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Base_classes;
     using Colors;
-    using Core.Ranges;
-    using global::Accord;
     using HSL_Filters;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     /// Linear correction of YCbCr channels.
@@ -213,7 +212,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
                     rgb.Blue = ptr[RGB.B];
 
                     // convert to YCbCr
-                    global::FileFormat.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
+                    global::Openize.Accord.Imaging.Colors.YCbCr.FromRGB(rgb, ref ycbcr);
 
                     // correct Y
                     if (ycbcr.Y >= this.inY.Max)
@@ -240,7 +239,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.YCbCr_Filters
                         ycbcr.Cr = kcr * ycbcr.Cr + bcr;
 
                     // convert back to RGB
-                    global::FileFormat.Accord.Imaging.Colors.YCbCr.ToRGB(ycbcr, ref rgb);
+                    global::Openize.Accord.Imaging.Colors.YCbCr.ToRGB(ycbcr, ref rgb);
 
                     ptr[RGB.R] = rgb.Red;
                     ptr[RGB.G] = rgb.Green;

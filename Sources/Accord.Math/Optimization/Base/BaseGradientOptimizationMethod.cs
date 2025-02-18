@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Base
+namespace Openize.Accord.Math.Optimization.Base
 {
     using System;
-    using Core;
-    using FileFormat.Accord.Math.Differentiation;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Differentiation;
 
     /// <summary>
     ///   Base class for gradient-based optimization methods.

@@ -20,19 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Linq;
-    using FileFormat.Accord.Imaging.Accord.DataSets;
-    using FileFormat.Accord.Imaging.AForge.Imaging;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Imaging.Interest_Points;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Image = Accord.Imaging.AForge.Imaging.Image;
-    using FileFormat.Accord.Tests.Imaging.Properties;
+    using Image = Openize.Accord.Imaging.AForge.Imaging.Image;
+    using Openize.Accord.Tests.Imaging.Properties;
+    using Openize.Accord.Imaging.Accord.DataSets;
+    using Openize.Accord.Imaging.AForge.Imaging;
+    using Openize.Accord.Imaging.Converters;
+    using Openize.Accord.Imaging.Interest_Points;
 
     [TestFixture]
     public class HistogramsOfOrientedGradientsTest

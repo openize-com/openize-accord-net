@@ -20,16 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
     using System.Runtime.CompilerServices;
-    using Base;
-    using FileFormat.Accord.Core;
-    using Math.Distances.Base;
-    using Math.Vector;
-    using Math.Matrix;
-    using Math.Core;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Linear Kernel.
@@ -142,7 +142,7 @@ namespace FileFormat.Accord.Statistics.Kernels
             if (x == y)
                 return 0.0;
 
-            return global::FileFormat.Accord.Math.Distance.SquareEuclidean(x, y);
+            return global::Openize.Accord.Math.Distance.SquareEuclidean(x, y);
         }
 
         /// <summary>
@@ -392,7 +392,7 @@ namespace FileFormat.Accord.Statistics.Kernels
         /// </returns>
         public Sparse<double> Compress(double[] weights, Sparse<double>[] supportVectors, out double c)
         {
-            return FileFormat.Accord.Core.Sparse.FromDense(this.Compress(weights, supportVectors.ToDense(), out c));
+            return Openize.Accord.Core.Sparse.FromDense(this.Compress(weights, supportVectors.ToDense(), out c));
         }
 
         /// <summary>
@@ -419,7 +419,7 @@ namespace FileFormat.Accord.Statistics.Kernels
         /// 
         public double[] CreateVector(double[] values)
         {
-            return global::FileFormat.Accord.Math.Vector.Vector.Create(values);
+            return global::Openize.Accord.Math.Vector.Vector.Create(values);
         }
 
         /// <summary>
@@ -433,7 +433,7 @@ namespace FileFormat.Accord.Statistics.Kernels
 
         Sparse<double> ILinear<Sparse<double>>.CreateVector(double[] values)
         {
-            return FileFormat.Accord.Core.Sparse.FromDense(values);
+            return Openize.Accord.Core.Sparse.FromDense(values);
         }
 
         //Sparse<double> ILinear<Sparse<double>>.CreateVector(int dimensions)
@@ -487,7 +487,7 @@ namespace FileFormat.Accord.Statistics.Kernels
         /// 
         public double[][] ToDouble(Sparse<double>[] input)
         {
-            return FileFormat.Accord.Core.Sparse.ToDense(input);
+            return Openize.Accord.Core.Sparse.ToDense(input);
         }
 
     }

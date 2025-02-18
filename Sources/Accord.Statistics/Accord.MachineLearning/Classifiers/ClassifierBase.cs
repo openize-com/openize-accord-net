@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Classifiers
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Classifiers
 {
     using System;
-    using FileFormat.Accord.Core.MachineLearning;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.MachineLearning.Classifiers;
 
     /// <summary>
     ///   Base class for multi-class and multi-label classifiers.

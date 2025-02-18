@@ -20,23 +20,26 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Matrix
+namespace Openize.Accord.Tests.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
     using System.Data;
     using System.Linq;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.IO.Csv;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Decompositions;
-    using FileFormat.Accord.Math.Formats;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Vector;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using NUnit.Framework;
-    using FileFormat.Accord.Tests.Math.Properties;
+    using Openize.Accord.Tests.Math.Properties;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.IO.Csv;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Decompositions;
+    using Openize.Accord.Math.Formats;
+    using Elementwise = Openize.Accord.Math.Core.Elementwise;
 
     [TestFixture]
     [SetCulture("")]

@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using AForge.Imaging;
     using AForge.Imaging.Filters.Base_classes;
-    using Core.AForge.Core;
-    using global::Accord;
     using Math.AForge.Math.Geometry;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     ///   Filter to mark (highlight) lines in a image.
@@ -156,7 +155,7 @@ namespace FileFormat.Accord.Imaging.Filters
             LineSegment right = new LineSegment(c, d);
             LineSegment bottom = new LineSegment(b, d);
 
-            global::FileFormat.Accord.Core.AForge.Core.Point?[] points = new global::FileFormat.Accord.Core.AForge.Core.Point?[4];
+            global::Openize.Accord.Core.AForge.Core.Point?[] points = new global::Openize.Accord.Core.AForge.Core.Point?[4];
             points[0] = this.line.GetIntersectionWith(bottom);
             points[1] = this.line.GetIntersectionWith(left);
             points[2] = this.line.GetIntersectionWith(right);

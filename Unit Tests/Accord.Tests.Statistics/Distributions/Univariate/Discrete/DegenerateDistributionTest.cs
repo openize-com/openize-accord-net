@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate.Discrete
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate.Discrete
 {
     using System.Globalization;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Base;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Discrete;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     [TestFixture]
     public class DegenerateDistributionTest

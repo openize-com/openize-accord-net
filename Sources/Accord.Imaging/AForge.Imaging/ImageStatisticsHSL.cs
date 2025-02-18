@@ -6,16 +6,14 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Colors;
-    using Core.Ranges;
-    using global::Accord;
-    using global::Accord.Math;
     using Math.AForge.Math;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     /// Gather statistics about image in HSL color space.
@@ -346,7 +344,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                         rgb.Blue = p[RGB.B];
 
                         // convert to HSL color space
-                        global::FileFormat.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
+                        global::Openize.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
 
                         s[(int)(hsl.Saturation * 255)]++;
                         l[(int)(hsl.Luminance * 255)]++;
@@ -378,7 +376,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
                         rgb.Blue = p[RGB.B];
 
                         // convert to HSL color space
-                        global::FileFormat.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
+                        global::Openize.Accord.Imaging.Colors.HSL.FromRGB(rgb, ref hsl);
 
                         s[(int)(hsl.Saturation * 255)]++;
                         l[(int)(hsl.Luminance * 255)]++;

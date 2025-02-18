@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Reflection
+namespace Openize.Accord.Statistics.Distributions.Reflection
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
-    using Fitting.Base;
-    using Multivariate.Base;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Base;
     using Univariate.Base;
 
     /// <summary>

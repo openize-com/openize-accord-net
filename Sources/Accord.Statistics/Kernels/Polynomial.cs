@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Vector;
     using Math;
-    using Math.Distances.Base;
-    using Math.Vector;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Polynomial Kernel.

@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Distances.Base;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Taylor approximation for the explicit Gaussian kernel.

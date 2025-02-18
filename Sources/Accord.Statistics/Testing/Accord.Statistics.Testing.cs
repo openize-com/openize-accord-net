@@ -20,16 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing
+namespace Openize.Accord.Statistics.Testing
 {
     using System.Runtime.CompilerServices;
-    using Analysis.Performance;
-    using Base;
-    using Contingency;
-    using Multiple_Samples;
-    using Power;
-    using Power.Base;
-    using TwoSample;
+    using Openize.Accord.Statistics.Analysis.Performance;
 
     /// <summary>
     ///  Contains 34+ statistical hypothesis tests, including <see cref="OneWayAnova">one way</see>

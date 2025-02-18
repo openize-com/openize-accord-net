@@ -26,16 +26,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Formats
+namespace Openize.Accord.Imaging.AForge.Imaging.Formats
 {
     using System;
     using System.Drawing;
     using System.Drawing.Imaging;
     using System.IO;
     using System.Text;
-    using Core;
-    using Core.Attributes;
-    using global::Accord;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Attributes;
 
     /// <summary>
     /// PNM image format decoder.

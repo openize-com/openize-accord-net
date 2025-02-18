@@ -20,15 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math
+namespace Openize.Accord.Tests.Math
 {
     using System;
     using System.Numerics;
-    using FileFormat.Accord.Math.AForge.Math;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Math.Transforms;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.AForge.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Math.Transforms;
     using CategoryAttribute = NUnit.Framework.CategoryAttribute;
 
     [TestFixture]

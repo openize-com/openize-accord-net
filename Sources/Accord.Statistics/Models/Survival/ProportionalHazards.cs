@@ -20,18 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Survival
+namespace Openize.Accord.Statistics.Models.Survival
 {
     using System;
     using Accord.MachineLearning.Classifiers.Binary;
-    using Analysis;
-    using Core;
-    using Distributions.Univariate.Base;
-    using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core.MachineLearning;
-    using FileFormat.Accord.Core.Ranges;
     using Fitting;
-    using global::Accord.Math;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
     using Testing;
 
     /// <summary>

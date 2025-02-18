@@ -31,7 +31,7 @@
 //    ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-namespace FileFormat.Accord.IO.Csv
+namespace Openize.Accord.IO.Csv
 {
 #if !NETSTANDARD1_4
     using System.Data;
@@ -44,8 +44,8 @@ namespace FileFormat.Accord.IO.Csv
     using System.Net;
     using Events;
     using Exceptions;
-    using FileFormat.Accord.Core;
     using global::Accord.IO.Resources;
+    using Openize.Accord.Core;
     using Debug = System.Diagnostics.Debug;
 
     /// <summary>

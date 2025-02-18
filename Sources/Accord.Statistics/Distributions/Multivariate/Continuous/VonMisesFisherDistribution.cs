@@ -53,19 +53,19 @@
 //    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Continuous
 {
     using System;
     using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Core;
-    using Math.Functions;
-    using Math.Matrix;
-    using Math.Random;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Functions;
+    using Openize.Accord.Math.Random;
     using Univariate.Continuous;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Von-Mises Fisher distribution.

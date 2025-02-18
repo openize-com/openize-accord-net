@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Core.MachineLearning
+namespace Openize.Accord.Core.MachineLearning
 {
     using Classifiers;
     using Regression;

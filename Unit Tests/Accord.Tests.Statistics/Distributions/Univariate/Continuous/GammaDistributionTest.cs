@@ -20,17 +20,18 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate.Continuous
 {
     using System;
     using System.Globalization;
     using Accord.Math;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Statistics.Visualizations;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Visualizations;
     using Vector = Math.Vector.Vector;
 
     [TestFixture]

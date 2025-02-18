@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.Multiple_Samples
+namespace Openize.Accord.Statistics.Testing.Multiple_Samples
 {
     /// <summary>
     ///   Common interface for analyses of variance.

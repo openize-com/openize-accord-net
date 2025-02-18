@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Core.Features
+namespace Openize.Accord.Core.Features
 {
     using System;
     using System.Collections.Generic;

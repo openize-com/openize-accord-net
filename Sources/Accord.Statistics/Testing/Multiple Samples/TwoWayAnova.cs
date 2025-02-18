@@ -20,13 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.Multiple_Samples
+namespace Openize.Accord.Statistics.Testing.Multiple_Samples
 {
     using System;
     using System.Collections.Generic;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Two-way ANOVA model types.

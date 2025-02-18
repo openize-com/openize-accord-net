@@ -6,15 +6,14 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Other
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Base_classes;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Image warp effect filter.
@@ -193,7 +192,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
                 // copy remaining pixel in the row
                 if (width != widthToProcess)
                 {
-                    global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src + y * srcStride + widthToProcess * pixelSize, (width - widthToProcess) * pixelSize);
+                    global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src + y * srcStride + widthToProcess * pixelSize, (width - widthToProcess) * pixelSize);
                 }
 
                 dst += dstOffset;
@@ -202,7 +201,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
             // copy remaining rows of pixels
             for (int y = heightToProcess; y < height; y++, dst += dstStride)
             {
-                global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src + y * srcStride, width * pixelSize);
+                global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src + y * srcStride, width * pixelSize);
             }
         }
     }

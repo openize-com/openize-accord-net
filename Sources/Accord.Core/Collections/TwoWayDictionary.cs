@@ -24,7 +24,7 @@
 // https://github.com/Athari/Alba.Framework/blob/master/Alba.Framework/Collections/Collections/BiDictionary(TFirst%2CTSecond).cs
 //
 
-namespace FileFormat.Accord.Core.Collections
+namespace Openize.Accord.Core.Collections
 {
     using System;
     using System.Collections;

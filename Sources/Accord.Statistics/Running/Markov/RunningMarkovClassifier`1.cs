@@ -21,11 +21,11 @@
 //
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Running.Markov
+namespace Openize.Accord.Statistics.Running.Markov
 {
     using System;
     using Distributions;
-    using Models.Markov;
+    using Openize.Accord.Statistics.Models.Markov;
 
     /// <summary>
     ///   Hidden Markov Classifier filter for general state distributions.

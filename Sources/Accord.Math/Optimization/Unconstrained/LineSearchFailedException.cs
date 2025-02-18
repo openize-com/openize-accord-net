@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
     using System.Runtime.Serialization;

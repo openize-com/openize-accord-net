@@ -1,7 +1,7 @@
-﻿namespace FileFormat.Accord.Tests.Math.AForge.Metrics
+﻿namespace Openize.Accord.Tests.Math.AForge.Metrics
 {
-    using FileFormat.Accord.Math.AForge.Math.Metrics;
     using NUnit.Framework;
+    using Openize.Accord.Math.AForge.Math.Metrics;
 
     [TestFixture]
     public class MetricsTest

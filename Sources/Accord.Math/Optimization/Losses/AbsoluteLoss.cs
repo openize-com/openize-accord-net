@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Losses
+namespace Openize.Accord.Math.Optimization.Losses
 {
     using System;
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
 
     /// <summary>
     ///   Absolute loss, also known as L1-loss. 

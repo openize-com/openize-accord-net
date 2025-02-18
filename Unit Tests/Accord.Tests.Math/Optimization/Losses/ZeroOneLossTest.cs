@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Optimization.Losses
+namespace Openize.Accord.Tests.Math.Optimization.Losses
 {
-    using FileFormat.Accord.Math.Optimization.Losses;
     using NUnit.Framework;
+    using Openize.Accord.Math.Optimization.Losses;
 
     [TestFixture]
     public class ZeroOneLossTest

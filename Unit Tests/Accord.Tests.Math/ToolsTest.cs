@@ -20,12 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math
+namespace Openize.Accord.Tests.Math
 {
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
     using NUnit.Framework;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math;
 
     [TestFixture]
     public class AForgeToolsTest
@@ -96,7 +97,7 @@ namespace FileFormat.Accord.Tests.Math
 
             var actual = Tools.Scale(toMin, toMax, x);
 
-            Assert.IsTrue(FileFormat.Accord.Math.Matrix.Matrix.IsEqual(expected, actual));
+            Assert.IsTrue(Openize.Accord.Math.Matrix.Matrix.IsEqual(expected, actual));
 
         }
 

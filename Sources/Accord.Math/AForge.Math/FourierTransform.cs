@@ -9,12 +9,12 @@
 // http://www.exocortex.org/dsp/
 //
 
-namespace FileFormat.Accord.Math.AForge.Math
+namespace Openize.Accord.Math.AForge.Math
 {
     using System;
     using System.Numerics;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Transforms;
+    using Openize.Accord.Math;
+    using Transforms;
 
     /// <summary>
     ///   Original Fourier transform from AForge.NET. If possible, 

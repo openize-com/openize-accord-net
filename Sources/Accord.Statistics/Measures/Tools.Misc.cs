@@ -20,21 +20,20 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Measures
+namespace Openize.Accord.Statistics.Measures
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
-    using global::Accord.Math;
-    using Kernels.Base;
-    using Math.Accord.Statistics;
-    using Math.Core;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Math.Decompositions;
-    using Math.Distances.Base;
-    using Math.Matrix;
-    using Math.Vector;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     static partial class Tools
     {

@@ -20,10 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System.Runtime.CompilerServices;
-    using Performance;
 
     /// <summary>
     ///  Contains many statistical analysis, such as <see cref="PrincipalComponentAnalysis">PCA</see>,

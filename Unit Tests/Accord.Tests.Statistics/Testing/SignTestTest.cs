@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Testing
+namespace Openize.Accord.Tests.Statistics.Testing
 {
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Statistics.Testing;
-    using FileFormat.Accord.Statistics.Testing.Base;
     using NUnit.Framework;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Testing;
+    using Openize.Accord.Statistics.Testing.Base;
 
     [TestFixture]
     public class SignTestTest

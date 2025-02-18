@@ -26,16 +26,16 @@
 // also shared under the LGPL license.
 //
 
-namespace FileFormat.Accord.Math.Optimization.Constrained
+namespace Openize.Accord.Math.Optimization.Constrained
 {
     using System;
     using System.Collections.Generic;
-    using Base;
-    using Constraints;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Vector;
-    using Matrix;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math.Optimization.Base;
+    using Openize.Accord.Math.Optimization.Constrained.Constraints;
 
     /// <summary>
     ///   Status codes for the <see cref="GoldfarbIdnani"/>

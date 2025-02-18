@@ -21,19 +21,19 @@
 //
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Potential_Functions
+namespace Openize.Accord.Statistics.Models.Fields.Potential_Functions
 {
     using System;
     using System.Collections.Generic;
     using Base;
     using Clique_Factor_Potentials;
     using Clique_Factor_Potentials.Specialized;
-    using Distributions.Univariate.Discrete;
     using Features;
     using Features.Base;
-    using FileFormat.Accord.Core;
     using Markov;
-    using Math.Random;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Potential function modeling Hidden Markov Models.

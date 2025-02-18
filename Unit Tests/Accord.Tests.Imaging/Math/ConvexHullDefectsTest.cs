@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Math
+namespace Openize.Accord.Tests.Imaging.Math
 {
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Imaging.AForge.Imaging;
-    using FileFormat.Accord.Imaging.Filters;
-    using FileFormat.Accord.Math.AForge.Math.Geometry;
-    using FileFormat.Accord.Math.Geometry;
     using NUnit.Framework;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Imaging.AForge.Imaging;
+    using Openize.Accord.Imaging.Filters;
+    using Openize.Accord.Math.AForge.Math.Geometry;
+    using Openize.Accord.Math.Geometry;
 
     [TestFixture]
     public class ConvexHullDefectsTest

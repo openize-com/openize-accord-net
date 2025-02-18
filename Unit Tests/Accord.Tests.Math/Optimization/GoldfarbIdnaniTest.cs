@@ -20,21 +20,21 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Optimization
+namespace Openize.Accord.Tests.Math.Optimization
 {
     using System;
     using System.Collections.Generic;
     using System.Globalization;
     using System.IO;
-    using FileFormat.Accord.IO.Csv;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Optimization;
-    using FileFormat.Accord.Math.Optimization.Constrained;
-    using FileFormat.Accord.Math.Optimization.Constrained.Constraints;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Vector = FileFormat.Accord.Math.Vector.Vector;
-    using FileFormat.Accord.Tests.Math.Properties;
+    using Vector = Openize.Accord.Math.Vector.Vector;
+    using Openize.Accord.Tests.Math.Properties;
+    using Openize.Accord.IO.Csv;
+    using Openize.Accord.Math.Optimization;
+    using Openize.Accord.Math.Optimization.Constrained;
+    using Openize.Accord.Math.Optimization.Constrained.Constraints;
 #if NO_CULTURE
     using CultureInfo = Accord.Compat.CultureInfoEx;
 #endif

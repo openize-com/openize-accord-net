@@ -5,7 +5,7 @@
 // andrew.kirillov@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Other
 {
     using System;
     using System.Collections.Generic;

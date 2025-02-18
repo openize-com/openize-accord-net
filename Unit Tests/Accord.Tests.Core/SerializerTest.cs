@@ -22,13 +22,13 @@
 
 #if !NO_BINARY_SERIALIZATION
 
-namespace FileFormat.Accord.Tests.Core
+namespace Openize.Accord.Tests.Core
 {
     using System.Collections.Generic;
     using System.IO;
-    using Accord.Core;
-    using Accord.Core.Ranges;
     using NUnit.Framework;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
 
     [TestFixture]
     public class SerializerTest

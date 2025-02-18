@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Hybrid
+namespace Openize.Accord.Statistics.Models.Markov.Hybrid
 {
     using System;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
 
     /// <summary>

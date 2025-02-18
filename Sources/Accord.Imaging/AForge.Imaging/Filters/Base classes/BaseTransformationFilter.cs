@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Base_classes
 {
     using System;
     using System.Collections.Generic;
@@ -168,7 +168,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
             {
                 // create new image of required format
                 destination = (dstPixelFormat == PixelFormat.Format8bppIndexed) ?
-                    global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(newSize.Width, newSize.Height) :
+                    global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(newSize.Width, newSize.Height) :
                     new Bitmap(newSize.Width, newSize.Height, dstPixelFormat);
             }
             else

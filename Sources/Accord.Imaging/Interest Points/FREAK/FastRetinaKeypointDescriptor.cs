@@ -32,12 +32,12 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.FREAK
+namespace Openize.Accord.Imaging.Interest_Points.FREAK
 {
     using System;
     using System.Collections.Generic;
     using AForge.Imaging;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
 
     /// <summary>

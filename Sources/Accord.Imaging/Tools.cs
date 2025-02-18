@@ -45,7 +45,7 @@
 //   connection with the software or the use or other dealings in the software.
 //   
 
-namespace FileFormat.Accord.Imaging
+namespace Openize.Accord.Imaging
 {
     using System;
     using System.Drawing;
@@ -53,10 +53,10 @@ namespace FileFormat.Accord.Imaging
     using System.IO;
     using AForge.Imaging;
     using Converters;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Math;
     using Math.Decompositions;
-    using Math.Matrix;
 
     /// <summary>
     ///   Static tool functions for imaging.

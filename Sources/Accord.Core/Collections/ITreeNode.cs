@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Core.Collections
+namespace Openize.Accord.Core.Collections
 {
     /// <summary>
     ///   Common interface for tree nodes, such as <see cref="BinaryTree{TNode}"/> and <see cref="TreeNode{TNode}"/>.

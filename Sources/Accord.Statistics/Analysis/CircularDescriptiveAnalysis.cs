@@ -20,19 +20,20 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis
+namespace Openize.Accord.Statistics.Analysis
 {
     using System;
     using System.ComponentModel;
     using Accord.MachineLearning.Learning;
     using Base;
     using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core.Collections;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Statistics;
     using Measures;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Core.Collections;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
 
     /// <summary>
     ///   Descriptive statistics analysis for circular data.
@@ -808,12 +809,12 @@ namespace FileFormat.Accord.Statistics.Analysis
                     this.innerFences = new DoubleRange[this.variables];
                     for (int i = 0; i < this.innerFences.Length; i++)
                     {
-                        this.innerFences[i] = global::FileFormat.Accord.Statistics.Measures.Tools.InnerFence(Q[i]);
+                        this.innerFences[i] = global::Openize.Accord.Statistics.Measures.Tools.InnerFence(Q[i]);
 
                         if (this.useStrictRanges)
                         {
-                            this.innerFences[i].Min = global::FileFormat.Accord.Math.Tools.Mod(this.innerFences[i].Min, this.lengths[i]);
-                            this.innerFences[i].Max = global::FileFormat.Accord.Math.Tools.Mod(this.innerFences[i].Max, this.lengths[i]);
+                            this.innerFences[i].Min = global::Openize.Accord.Math.Tools.Mod(this.innerFences[i].Min, this.lengths[i]);
+                            this.innerFences[i].Max = global::Openize.Accord.Math.Tools.Mod(this.innerFences[i].Max, this.lengths[i]);
                         }
                     }
                 }
@@ -837,12 +838,12 @@ namespace FileFormat.Accord.Statistics.Analysis
                     this.outerFences = new DoubleRange[this.variables];
                     for (int i = 0; i < this.outerFences.Length; i++)
                     {
-                        this.outerFences[i] = global::FileFormat.Accord.Statistics.Measures.Tools.OuterFence(Q[i]);
+                        this.outerFences[i] = global::Openize.Accord.Statistics.Measures.Tools.OuterFence(Q[i]);
 
                         if (this.useStrictRanges)
                         {
-                            this.outerFences[i].Min = global::FileFormat.Accord.Math.Tools.Mod(this.outerFences[i].Min, this.lengths[i]);
-                            this.outerFences[i].Max = global::FileFormat.Accord.Math.Tools.Mod(this.outerFences[i].Max, this.lengths[i]);
+                            this.outerFences[i].Min = global::Openize.Accord.Math.Tools.Mod(this.outerFences[i].Min, this.lengths[i]);
+                            this.outerFences[i].Max = global::Openize.Accord.Math.Tools.Mod(this.outerFences[i].Max, this.lengths[i]);
                         }
                     }
                 }
@@ -1024,8 +1025,8 @@ namespace FileFormat.Accord.Statistics.Analysis
 
             if (this.useStrictRanges)
             {
-                min = global::FileFormat.Accord.Math.Tools.Mod(min, this.lengths[index]);
-                max = global::FileFormat.Accord.Math.Tools.Mod(max, this.lengths[index]);
+                min = global::Openize.Accord.Math.Tools.Mod(min, this.lengths[index]);
+                max = global::Openize.Accord.Math.Tools.Mod(max, this.lengths[index]);
             }
 
             return new DoubleRange(min, max);
@@ -1054,8 +1055,8 @@ namespace FileFormat.Accord.Statistics.Analysis
 
             if (this.useStrictRanges)
             {
-                min = global::FileFormat.Accord.Math.Tools.Mod(min, this.lengths[index]);
-                max = global::FileFormat.Accord.Math.Tools.Mod(max, this.lengths[index]);
+                min = global::Openize.Accord.Math.Tools.Mod(min, this.lengths[index]);
+                max = global::Openize.Accord.Math.Tools.Mod(max, this.lengths[index]);
             }
 
             return new DoubleRange(min, max);

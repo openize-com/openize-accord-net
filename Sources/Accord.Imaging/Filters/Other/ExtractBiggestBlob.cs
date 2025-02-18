@@ -27,7 +27,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters.Other
+namespace Openize.Accord.Imaging.Filters.Other
 {
     using System;
     using System.Collections.Generic;
@@ -36,8 +36,7 @@ namespace FileFormat.Accord.Imaging.Filters.Other
     using AForge.Imaging;
     using AForge.Imaging.Filters;
     using Blob_Processing;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Extract the biggest blob from image.

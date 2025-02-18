@@ -6,15 +6,14 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging
+namespace Openize.Accord.Imaging.AForge.Imaging
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using Colors;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Drawing primitives.
@@ -101,7 +100,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging
 
                     for (int y = startY; y <= stopY; y++)
                     {
-                        global::FileFormat.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(ptr, gray, fillWidth);
+                        global::Openize.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(ptr, gray, fillWidth);
                         ptr += stride;
                     }
                 }

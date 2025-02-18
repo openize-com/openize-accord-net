@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.Multiple_Samples
+namespace Openize.Accord.Statistics.Testing.Multiple_Samples
 {
     using System;
     using Base;
-    using Distributions.Univariate.Continuous;
-    using Math.Accord.Statistics;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Levene test computation methods.

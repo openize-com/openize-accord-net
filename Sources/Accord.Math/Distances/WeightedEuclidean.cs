@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Distances
+namespace Openize.Accord.Math.Distances
 {
     using System;
     using System.Runtime.CompilerServices;
     using Base;
-    using FileFormat.Accord.Math.Vector;
+    using Openize.Accord.Math.Vector;
 
     /// <summary>
     ///   Weighted Euclidean distance metric.

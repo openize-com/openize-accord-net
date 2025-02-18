@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distances
+namespace Openize.Accord.Statistics.Distances
 {
     using Distributions;
-    using Math.Distances.Base;
+    using Openize.Accord.Math.Distances.Base;
 
     /// <summary>
     ///   Common interface for divergence measures (between
@@ -33,7 +33,7 @@ namespace FileFormat.Accord.Statistics.Distances
     /// <typeparam name="T">The type of the first distribution to be compared.</typeparam>
     /// <typeparam name="U">The type of the second distribution to be compared.</typeparam>
     /// 
-    public interface IDivergence<in T, in U> : IDistance<T, U>
+    public interface IDivergence<in T, in U> : Openize.Accord.Math.Distances.Base.IDistance<T, U>
         where T : IDistribution
         where U : IDistribution
     {

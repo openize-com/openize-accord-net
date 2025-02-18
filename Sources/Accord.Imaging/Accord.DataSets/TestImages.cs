@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Accord.DataSets
+namespace Openize.Accord.Imaging.Accord.DataSets
 {
     using System;
     using System.Collections.Generic;
@@ -28,8 +28,7 @@ namespace FileFormat.Accord.Imaging.Accord.DataSets
     using System.IO;
     using System.Linq;
     using AForge.Imaging;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   Public-Domain test images for image processing applications.
@@ -228,16 +227,16 @@ namespace FileFormat.Accord.Imaging.Accord.DataSets
 
             if (opencv.Contains(name))
             {
-                bmp = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.FromUrl("https://raw.githubusercontent.com/opencv/opencv/master/samples/data/" + name, this.path);
+                bmp = global::Openize.Accord.Imaging.AForge.Imaging.Image.FromUrl("https://raw.githubusercontent.com/opencv/opencv/master/samples/data/" + name, this.path);
             }
             else
             {
-                bmp = global::FileFormat.Accord.Imaging.AForge.Imaging.Image.FromUrl("https://homepages.cae.wisc.edu/~ece533/images/" + name, this.path);
+                bmp = global::Openize.Accord.Imaging.AForge.Imaging.Image.FromUrl("https://homepages.cae.wisc.edu/~ece533/images/" + name, this.path);
             }
             
 
             if (this.CorrectIndexedPalettes && bmp.IsColor8bpp())
-                global::FileFormat.Accord.Imaging.AForge.Imaging.Image.ConvertColor8bppToGrayscale8bpp(bmp);
+                global::Openize.Accord.Imaging.AForge.Imaging.Image.ConvertColor8bppToGrayscale8bpp(bmp);
 
             return bmp;
         }

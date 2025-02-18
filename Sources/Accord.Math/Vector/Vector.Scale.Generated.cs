@@ -25,10 +25,10 @@
 // edit the T4 template Vector.Scale.tt so this file can be regenerated. 
 // ======================================================================
 
-namespace FileFormat.Accord.Math.Vector
+namespace Openize.Accord.Math.Vector
 {
-    using FileFormat.Accord.Core.Ranges;
     using Matrix;
+    using Openize.Accord.Core.Ranges;
 
     public static partial class Vector
     {

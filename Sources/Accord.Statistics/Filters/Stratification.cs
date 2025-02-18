@@ -21,15 +21,14 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Collections.Generic;
     using System.Data;
     using Base;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Class equalization filter.

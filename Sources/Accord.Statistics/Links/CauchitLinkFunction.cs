@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Links
+namespace Openize.Accord.Statistics.Links
 {
     using System;
-    using Distributions.Univariate.Continuous;
     using Models.Regression.Nonlinear;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Cauchy link function.

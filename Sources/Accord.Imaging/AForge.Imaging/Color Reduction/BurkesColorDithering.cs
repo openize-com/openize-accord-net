@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Color_Reduction
+namespace Openize.Accord.Imaging.AForge.Imaging.Color_Reduction
 {
     /// <summary>
     /// Color dithering using Burkes error diffusion.

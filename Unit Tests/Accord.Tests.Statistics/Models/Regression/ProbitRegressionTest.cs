@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Links;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear;
-    using FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Links;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear;
+    using Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting;
 
     [TestFixture]
     public class ProbitRegressionTest

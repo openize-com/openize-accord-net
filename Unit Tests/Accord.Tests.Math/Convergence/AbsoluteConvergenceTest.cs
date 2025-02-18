@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Convergence
+namespace Openize.Accord.Tests.Math.Convergence
 {
     using System;
-    using FileFormat.Accord.Math.Convergence;
     using NUnit.Framework;
+    using Openize.Accord.Math.Convergence;
 
     [TestFixture]
     public class AbsoluteConvergenceTest

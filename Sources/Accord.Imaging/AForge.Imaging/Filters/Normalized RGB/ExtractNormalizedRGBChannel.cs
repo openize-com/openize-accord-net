@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Normalized_RGB
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Normalized_RGB
 {
     using System;
     using System.Collections.Generic;

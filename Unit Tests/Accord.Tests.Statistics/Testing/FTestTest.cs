@@ -1,11 +1,11 @@
 ﻿
 
-namespace FileFormat.Accord.Tests.Statistics.Testing
+namespace Openize.Accord.Tests.Statistics.Testing
 {
     using System;
-    using FileFormat.Accord.Statistics.Testing;
-    using FileFormat.Accord.Statistics.Testing.Base;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Testing;
+    using Openize.Accord.Statistics.Testing.Base;
 
     [TestFixture]
     public class FTestTest

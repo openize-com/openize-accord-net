@@ -34,7 +34,7 @@
 //   POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing.Imaging;

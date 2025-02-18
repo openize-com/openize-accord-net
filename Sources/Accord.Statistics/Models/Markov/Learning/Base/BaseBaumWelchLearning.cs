@@ -21,16 +21,16 @@
 //
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning.Base
+namespace Openize.Accord.Statistics.Models.Markov.Learning.Base
 {
     using System;
     using System.Linq;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Markov.Base;
     using Math;
-    using Math.Accord.Statistics;
-    using Math.Convergence;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Convergence;
 
     /// <summary>
     ///   Base class for implementations of the Baum-Welch learning algorithm.

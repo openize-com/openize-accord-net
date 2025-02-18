@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Base_classes
 {
     using System;
     using System.Collections.Generic;
@@ -105,7 +105,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
 
             // create new image of required format
             Bitmap dstImage = (dstPixelFormat == PixelFormat.Format8bppIndexed) ?
-                global::FileFormat.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height) :
+                global::Openize.Accord.Imaging.AForge.Imaging.Image.CreateGrayscaleImage(width, height) :
                 new Bitmap(width, height, dstPixelFormat);
 
             // lock destination bitmap data
@@ -114,7 +114,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
                 ImageLockMode.ReadWrite, dstPixelFormat);
 
             // copy image
-            global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dstData.Scan0, imageData.Scan0, imageData.Stride * height);
+            global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dstData.Scan0, imageData.Scan0, imageData.Stride * height);
 
             try
             {
@@ -207,7 +207,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Base_classes
                 // copy image
                 for (int y = 0, height = sourceImage.Height; y < height; y++)
                 {
-                    global::FileFormat.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, lineSize);
+                    global::Openize.Accord.Core.AForge.Core.SystemTools.CopyUnmanagedMemory(dst, src, lineSize);
                     dst += dstStride;
                     src += srcStride;
                 }

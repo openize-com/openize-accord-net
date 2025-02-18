@@ -23,7 +23,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.SURF
+namespace Openize.Accord.Imaging.Interest_Points.SURF
 {
     using System;
     using System.Collections.Generic;
@@ -31,8 +31,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.SURF
     using AForge.Imaging;
     using AForge.Imaging.Filters.Color_Filters;
     using Base;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
 
     /// <summary>
     ///   SURF Feature descriptor types.

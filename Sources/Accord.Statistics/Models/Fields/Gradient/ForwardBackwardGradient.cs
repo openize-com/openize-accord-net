@@ -22,17 +22,17 @@
 
 // #define SERIAL
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Gradient
+namespace Openize.Accord.Statistics.Models.Fields.Gradient
 {
     using System;
     using System.Threading;
     using System.Threading.Tasks;
     using Features.Base;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Accord.MachineLearning.Learning;
-    using Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Accord.MachineLearning.Learning;
     using Potential_Functions.Base;
     using Potential_Functions.Clique_Factor_Potentials;
 

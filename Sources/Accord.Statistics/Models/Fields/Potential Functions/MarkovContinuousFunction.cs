@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Potential_Functions
+namespace Openize.Accord.Statistics.Models.Fields.Potential_Functions
 {
 #pragma warning disable 612, 618
     using System;
@@ -28,11 +28,11 @@ namespace FileFormat.Accord.Statistics.Models.Fields.Potential_Functions
     using Base;
     using Clique_Factor_Potentials;
     using Clique_Factor_Potentials.Specialized;
-    using Distributions.Univariate.Continuous;
     using Features;
     using Features.Base;
-    using FileFormat.Accord.Core;
     using Markov;
+    using Openize.Accord.Core;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Potential function modeling <see cref="HiddenMarkovClassifier">Hidden Markov Classifiers</see>.

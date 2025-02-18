@@ -20,17 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Analysis
+namespace Openize.Accord.Tests.Statistics.Analysis
 {
     using System;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Analysis;
-    using FileFormat.Accord.Statistics.Analysis.Base;
-    using FileFormat.Accord.Statistics.Models.Regression.Linear;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
-    using Tools = Accord.Statistics.Measures.Tools;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Analysis.Base;
+    using Openize.Accord.Statistics.Models.Regression.Linear;
+    using Tools = Openize.Accord.Statistics.Measures.Tools;
 
     [TestFixture]
     public class PartialLeastSquaresAnalysisTest

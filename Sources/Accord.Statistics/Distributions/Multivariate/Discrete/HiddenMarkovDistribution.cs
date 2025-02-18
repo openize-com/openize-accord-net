@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Discrete
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Discrete
 {
     using System;
     using Base;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting;
-    using Fitting.Base;
     using Models.Markov;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Hidden Markov Model probability distribution.

@@ -6,7 +6,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Other
 {
     using System;
     using System.Collections.Generic;
@@ -219,7 +219,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Other
 
                 for (int y = startY; y < stopY; y++)
                 {
-                    global::FileFormat.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(ptr, this.fillGray, fillWidth);
+                    global::Openize.Accord.Core.AForge.Core.SystemTools.SetUnmanagedMemory(ptr, this.fillGray, fillWidth);
                     ptr += stride;
                 }
             }

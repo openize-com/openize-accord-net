@@ -7,7 +7,7 @@
 // Original idea from CxImage
 // http://www.codeproject.com/bitmap/cximage.asp
 //
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Binarization
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Binarization
 {
     /// <summary>
     /// Dithering using Jarvis, Judice and Ninke error diffusion.

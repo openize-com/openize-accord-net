@@ -20,21 +20,21 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Multivariate.Discrete
+namespace Openize.Accord.Statistics.Distributions.Multivariate.Discrete
 {
     using System;
     using Base;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting;
-    using Fitting.Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using Math;
-    using Math.Core;
-    using Math.Matrix;
-    using Math.Vector;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
     using Univariate.Discrete;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Joint distribution of multiple discrete univariate distributions.

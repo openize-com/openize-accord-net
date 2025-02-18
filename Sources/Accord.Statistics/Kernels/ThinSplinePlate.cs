@@ -21,10 +21,10 @@
 // limitations under the License.
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Thin Spline Plate Kernel.

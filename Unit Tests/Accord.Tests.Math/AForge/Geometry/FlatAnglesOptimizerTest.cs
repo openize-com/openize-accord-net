@@ -1,7 +1,7 @@
-﻿namespace FileFormat.Accord.Tests.Math.AForge.Geometry
+﻿namespace Openize.Accord.Tests.Math.AForge.Geometry
 {
-    using FileFormat.Accord.Math.AForge.Math.Geometry;
     using NUnit.Framework;
+    using Openize.Accord.Math.AForge.Math.Geometry;
 
     [TestFixture]
     public class FlatAnglesOptimizerTest

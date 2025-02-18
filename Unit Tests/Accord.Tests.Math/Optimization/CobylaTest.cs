@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Optimization
+namespace Openize.Accord.Tests.Math.Optimization
 {
     using System;
-    using FileFormat.Accord.Math.Optimization;
-    using FileFormat.Accord.Math.Optimization.Constrained;
-    using FileFormat.Accord.Math.Optimization.Constrained.Constraints;
-    using FileFormat.Accord.Math.Random;
     using NUnit.Framework;
+    using Openize.Accord.Math.Optimization;
+    using Openize.Accord.Math.Optimization.Constrained;
+    using Openize.Accord.Math.Optimization.Constrained.Constraints;
+    using Openize.Accord.Math.Random;
 
     [TestFixture]
     public class CobylaTest

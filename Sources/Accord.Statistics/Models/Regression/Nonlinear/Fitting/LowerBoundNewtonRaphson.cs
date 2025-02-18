@@ -20,19 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear.Fitting
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear.Fitting
 {
     using System;
     using System.Threading;
     using Accord.MachineLearning.Learning;
     using Base;
-    using Math.Accord.Statistics;
-    using Math.Convergence;
-    using Math.Convergence.Base;
-    using Math.Core;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math.Decompositions;
     using Math.Decompositions.Base;
-    using Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Convergence;
+    using Openize.Accord.Math.Convergence.Base;
 
     /// <summary>
     ///   Lower-Bound Newton-Raphson for Multinomial logistic regression fitting.

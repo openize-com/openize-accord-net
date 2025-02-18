@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Core.MachineLearning.Unsupervised
+namespace Openize.Accord.Core.MachineLearning.Unsupervised
 {
     /// <summary>
     ///   Common interface for generative models.

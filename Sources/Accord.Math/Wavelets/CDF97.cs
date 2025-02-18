@@ -27,9 +27,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Wavelets
+namespace Openize.Accord.Math.Wavelets
 {
-    using Base;
+    using Openize.Accord.Math.Wavelets.Base;
 
     /// <summary>
     ///   Cohen-Daubechies-Feauveau Wavelet Transform

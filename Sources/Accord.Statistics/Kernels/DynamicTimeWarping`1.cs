@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
     using System.Runtime.Serialization;
     using System.Threading;
-    using Base;
-    using Math.Distances.Base;
-    using Structures;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
+    using Openize.Accord.Statistics.Kernels.Structures;
 
     /// <summary>
     ///   Radial Basis Function Dynamic Time Warping Sequence Kernel.
@@ -80,7 +80,7 @@ namespace FileFormat.Accord.Statistics.Kernels
     /// 
     [Serializable]
     public struct DynamicTimeWarping<TDistance, TInput>
-        : IKernel<TInput[]>, ICloneable, IDistance<TInput[]>
+        : IKernel<TInput[]>, ICloneable, Openize.Accord.Math.Distances.Base.IDistance<TInput[]>
         where TDistance : struct, IDistance<TInput>
     {
         private double sigma;

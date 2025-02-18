@@ -20,12 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Topology
+namespace Openize.Accord.Statistics.Models.Markov.Topology
 {
     using System;
-    using global::Accord.Math;
-    using Math.Core;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Core;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Ergodic (fully-connected) Topology for Hidden Markov Models.
@@ -166,7 +165,7 @@ namespace FileFormat.Accord.Statistics.Models.Markov.Topology
                 // Create pi
                 double sum = 0;
                 for (int i = 0; i < this.states; i++)
-                    sum += this.pi[i] = global::FileFormat.Accord.Math.Random.Generator.Random.NextDouble();
+                    sum += this.pi[i] = global::Openize.Accord.Math.Random.Generator.Random.NextDouble();
 
                 for (int i = 0; i < this.states; i++)
                     this.pi[i] /= sum;
@@ -176,7 +175,7 @@ namespace FileFormat.Accord.Statistics.Models.Markov.Topology
                 {
                     sum = 0.0;
                     for (int j = 0; j < this.states; j++)
-                        sum += A[i, j] = global::FileFormat.Accord.Math.Random.Generator.Random.NextDouble();
+                        sum += A[i, j] = global::Openize.Accord.Math.Random.Generator.Random.NextDouble();
 
                     for (int j = 0; j < this.states; j++)
                         A[i, j] /= sum;

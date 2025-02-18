@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging.Colors
+namespace Openize.Accord.Tests.Imaging.Colors
 {
-    using FileFormat.Accord.Imaging.Colors;
     using NUnit.Framework;
+    using Openize.Accord.Imaging.Colors;
 
     [TestFixture]
     public class ColorsTest

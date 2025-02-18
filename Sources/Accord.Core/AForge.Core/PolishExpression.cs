@@ -6,7 +6,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Core.AForge.Core
+namespace Openize.Accord.Core.AForge.Core
 {
     using System;
     using System.Collections.Generic;

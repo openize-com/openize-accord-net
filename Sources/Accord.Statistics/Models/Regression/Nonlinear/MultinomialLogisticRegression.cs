@@ -20,18 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear
 {
     using System;
     using System.Runtime.Serialization;
     using Accord.MachineLearning.Classifiers.Multiple.Multiclass;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Fitting;
-    using global::Accord.Math;
-    using Math.Core;
-    using Math.Matrix;
-    using Math.Optimization.Base;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Optimization.Base;
     using Testing;
 
     /// <summary>

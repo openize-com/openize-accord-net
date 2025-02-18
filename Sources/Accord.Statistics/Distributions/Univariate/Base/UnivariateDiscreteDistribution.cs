@@ -36,17 +36,16 @@
 #define COMPATIBILITY
 #endif
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
+namespace Openize.Accord.Statistics.Distributions.Univariate.Base
 {
     using System;
     using System.ComponentModel.DataAnnotations;
     using Discrete;
-    using FileFormat.Accord.Core.Ranges;
-    using Fitting.Base;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Math.Optimization;
-    using Math.Random;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Optimization;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
 
     /// <summary>
     ///   Abstract class for univariate discrete probability distributions.
@@ -1356,7 +1355,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
         /// 
         public int[] Generate(int samples)
         {
-            return this.Generate(samples, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -1370,7 +1369,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
         /// 
         public int[] Generate(int samples, int[] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -1384,7 +1383,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
         /// 
         public double[] Generate(int samples, double[] result)
         {
-            return this.Generate(samples, result, global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(samples, result, global::Openize.Accord.Math.Random.Generator.Random);
         }
 
         /// <summary>
@@ -1395,7 +1394,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Base
         /// 
         public int Generate()
         {
-            return this.Generate(global::FileFormat.Accord.Math.Random.Generator.Random);
+            return this.Generate(global::Openize.Accord.Math.Random.Generator.Random);
         }
 
 

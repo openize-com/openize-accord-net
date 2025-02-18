@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Rademacher distribution.

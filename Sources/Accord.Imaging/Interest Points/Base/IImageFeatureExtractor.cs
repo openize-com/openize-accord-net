@@ -20,18 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.Base
+namespace Openize.Accord.Imaging.Interest_Points.Base
 {
     using System;
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using AForge.Imaging;
-    using Core.Features;
-    using Core.MachineLearning;
     using FREAK;
-    using global::Accord;
     using Haralick;
+    using Openize.Accord.Core.Features;
+    using Openize.Accord.Core.MachineLearning;
     using SURF;
 
     /// <summary>

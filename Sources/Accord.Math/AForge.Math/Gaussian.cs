@@ -6,10 +6,10 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math
+namespace Openize.Accord.Math.AForge.Math
 {
     using System;
-    using FileFormat.Accord.Math.Functions;
+    using Functions;
 
     /// <summary>
     /// Gaussian function.

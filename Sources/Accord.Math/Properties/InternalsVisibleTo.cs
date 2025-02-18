@@ -1,7 +1,7 @@
 ﻿using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("FileFormat.Accord.Tests.Math")]
-[assembly: InternalsVisibleTo("FileFormat.Accord.Tests.MachineLearning")]
-[assembly: InternalsVisibleTo("FileFormat.Accord.Tests.Statistics")]
-[assembly: InternalsVisibleTo("FileFormat.Accord.Tests.Math.Interop")]
-[assembly: InternalsVisibleTo("FileFormat.Accord.Tests.Interop.Math")]
+[assembly: InternalsVisibleTo("Openize.Accord.Tests.Math")]
+[assembly: InternalsVisibleTo("Openize.Accord.Tests.MachineLearning")]
+[assembly: InternalsVisibleTo("Openize.Accord.Tests.Statistics")]
+[assembly: InternalsVisibleTo("Openize.Accord.Tests.Math.Interop")]
+[assembly: InternalsVisibleTo("Openize.Accord.Tests.Interop.Math")]

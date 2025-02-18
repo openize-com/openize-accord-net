@@ -20,12 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distances
+namespace Openize.Accord.Tests.Statistics.Distances
 {
     using System;
     using Accord.Math;
-    using FileFormat.Accord.Statistics.Distances;
     using NUnit.Framework;
+    using Openize.Accord.Math;
+    using Openize.Accord.Statistics.Distances;
 
     [TestFixture]
     public class DistanceTest

@@ -23,20 +23,19 @@
 // TODO: Uncomment the following line
 // #define USE_SORTED_ORDER
 
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Collections.Generic;
     using System.Data;
     using Accord.MachineLearning.Learning;
     using Base;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Collections;
-    using FileFormat.Accord.Core.MachineLearning;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers;
-    using global::Accord.Math;
-    using Math.Matrix;
-    using Vector = Math.Vector.Vector;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Collections;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Core.MachineLearning.Classifiers;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     public partial class Codification<T>
     {

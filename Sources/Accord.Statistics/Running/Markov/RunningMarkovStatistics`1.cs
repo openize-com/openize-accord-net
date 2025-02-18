@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Running.Markov
+namespace Openize.Accord.Statistics.Running.Markov
 {
 #pragma warning disable 612, 618
     using System;
     using Distributions;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
     using Math;
-    using Models.Markov;
+    using Openize.Accord.Statistics.Models.Markov;
 
     /// <summary>
     ///   Hidden Markov Model filter.

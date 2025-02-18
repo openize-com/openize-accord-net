@@ -29,7 +29,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Filters
+namespace Openize.Accord.Imaging.Filters
 {
     using System.Collections.Generic;
     using System.Drawing.Imaging;
@@ -37,7 +37,6 @@ namespace FileFormat.Accord.Imaging.Filters
     using AForge.Imaging.Filters.Base_classes;
     using AForge.Imaging.Filters.Color_Filters;
     using Colors;
-    using global::Accord.Math;
     using Math.Functions;
 
     /// <summary>

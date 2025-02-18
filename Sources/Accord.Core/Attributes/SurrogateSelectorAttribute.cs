@@ -21,7 +21,7 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Core.Attributes
+namespace Openize.Accord.Core.Attributes
 {
     using System;
     using System.Runtime.Serialization;

@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization.Base
+namespace Openize.Accord.Math.Optimization.Base
 {
     using System.Threading;
     using Unconstrained.Least_Squares;

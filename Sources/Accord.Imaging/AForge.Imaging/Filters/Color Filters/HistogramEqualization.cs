@@ -7,7 +7,7 @@
 // 2005-2008
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Color_Filters
 {
     using System.Collections.Generic;
     using System.Drawing;

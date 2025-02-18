@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics
+namespace Openize.Accord.Tests.Statistics
 {
     using System;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Statistics.Moving;
     using NUnit.Framework;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Moving;
 
     [TestFixture]
     public class MovingNormalStatisticsTest

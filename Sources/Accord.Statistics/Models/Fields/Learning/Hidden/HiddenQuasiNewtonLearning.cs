@@ -22,13 +22,13 @@
 
 #pragma warning disable 612, 618
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden
+namespace Openize.Accord.Statistics.Models.Fields.Learning.Hidden
 {
     using System;
     using Accord.MachineLearning.Learning;
-    using FileFormat.Accord.Core.MachineLearning;
-    using Math.Accord.Statistics;
-    using Math.Optimization.Unconstrained;
+    using Openize.Accord.Core.MachineLearning;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Optimization.Unconstrained;
 
     /// <summary>
     ///   Quasi-Newton (L-BFGS) learning algorithm for <see cref="HiddenConditionalRandomField{T}">
@@ -99,7 +99,7 @@ namespace FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden
 
         /// <summary>
         /// Inheritors of this class should create the optimization algorithm in this
-        /// method, using the current <see cref="P:FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.MaxIterations" /> and <see cref="P:FileFormat.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.Tolerance" />
+        /// method, using the current <see cref="P:Openize.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.MaxIterations" /> and <see cref="P:Openize.Accord.Statistics.Models.Fields.Learning.Hidden.BaseHiddenGradientOptimizationLearning`2.Tolerance" />
         /// settings.
         /// </summary>
         /// <returns>BoundedBroydenFletcherGoldfarbShanno.</returns>

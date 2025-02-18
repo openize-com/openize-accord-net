@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Contour
+namespace Openize.Accord.Imaging.Contour
 {
     using System.Collections.Generic;
     using System.Drawing;
     using System.Drawing.Imaging;
     using AForge.Imaging;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     ///   Border following algorithm for contour extraction.

@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Filters
+namespace Openize.Accord.Tests.Statistics.Filters
 {
     using System.Data;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Filters;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Filters;
 
     [TestFixture]
     public class BranchingFilterTest

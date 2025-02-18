@@ -49,13 +49,13 @@
 //    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
     using System.Diagnostics;
-    using Base;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Convergence;
+    using Convergence;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Subplex

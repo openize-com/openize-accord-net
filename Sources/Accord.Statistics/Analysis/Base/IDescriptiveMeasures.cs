@@ -20,9 +20,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Analysis.Base
+namespace Openize.Accord.Statistics.Analysis.Base
 {
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///   Common interface for descriptive measures, such as

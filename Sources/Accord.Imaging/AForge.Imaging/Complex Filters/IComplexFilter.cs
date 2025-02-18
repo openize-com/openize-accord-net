@@ -6,7 +6,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Complex_Filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Complex_Filters
 {
     /// <summary>
     /// Image processing filter, which operates with Fourier transformed

@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
@@ -28,11 +28,12 @@ namespace FileFormat.Accord.Math.Matrix
     using System.Runtime.CompilerServices;
     using System.Reflection;
     using System.Runtime.InteropServices;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Comparers;
-    using FileFormat.Accord.Math.Decompositions;
+    using Openize.Accord.Core;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Comparers;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Decompositions;
 
     /// <summary>
     ///   Special matrix types.
@@ -595,7 +596,7 @@ namespace FileFormat.Accord.Math.Matrix
         /// 
         public static Array Transpose(this Array array)
         {
-            return Transpose(array, FileFormat.Accord.Math.Vector.Vector.Range(array.Rank - 1, -1));
+            return Transpose(array, Openize.Accord.Math.Vector.Vector.Range(array.Rank - 1, -1));
         }
 
         /// <summary>

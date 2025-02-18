@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Flood_Fillers
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Flood_Fillers
 {
     using System;
     using System.Collections.Generic;
@@ -14,8 +14,7 @@ namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Flood_Fillers
     using System.Drawing.Imaging;
     using Base_classes;
     using Colors;
-    using Core.AForge.Core;
-    using global::Accord;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// Flood filling with specified color starting from specified point.

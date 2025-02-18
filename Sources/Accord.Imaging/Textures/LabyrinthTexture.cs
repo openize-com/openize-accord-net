@@ -27,11 +27,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Textures
+namespace Openize.Accord.Imaging.Textures
 {
     using System;
     using Base;
-    using global::Accord.Math;
     using Math.AForge.Math;
 
     /// <summary>
@@ -84,7 +83,7 @@ namespace FileFormat.Accord.Imaging.Textures
         {
             var texture = new float[height, width];
 
-            int r = global::FileFormat.Accord.Math.Random.Generator.Random.Next(5000);
+            int r = global::Openize.Accord.Math.Random.Generator.Random.Next(5000);
 
             for (int y = 0; y < height; y++)
             {

@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>FileFormat.Accord.Tests.Imaging</RootNamespace>
-    <AssemblyName>FileFormat.Accord.Tests.Imaging</AssemblyName>
+    <RootNamespace>Openize.Accord.Tests.Imaging</RootNamespace>
+    <AssemblyName>Openize.Accord.Tests.Imaging</AssemblyName>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
@@ -21,9 +21,9 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Sources\Accord.Imaging\FileFormat.Accord.Imaging.csproj" />
-    <ProjectReference Include="..\..\Sources\Accord.Math.Core\FileFormat.Accord.Math.Core.csproj" />
-    <ProjectReference Include="..\..\Sources\Accord.Math\FileFormat.Accord.Math.csproj" />
+    <ProjectReference Include="..\..\Sources\Accord.Imaging\Openize.Accord.Imaging.csproj" />
+    <ProjectReference Include="..\..\Sources\Accord.Math.Core\Openize.Accord.Math.Core.csproj" />
+    <ProjectReference Include="..\..\Sources\Accord.Math\Openize.Accord.Math.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -20,13 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Kernels
+namespace Openize.Accord.Tests.Statistics.Kernels
 {
     using Accord.Math;
-    using FileFormat.Accord.Statistics.Kernels;
-    using FileFormat.Accord.Statistics.Kernels.Base;
     using NUnit.Framework;
-    using Tools = Accord.Statistics.Measures.Tools;
+    using Openize.Accord.Math;
+    using Openize.Accord.Statistics.Kernels;
+    using Openize.Accord.Statistics.Kernels.Base;
+    using Tools = Openize.Accord.Statistics.Measures.Tools;
 
     [TestFixture]
     public class GaussianLinearTest

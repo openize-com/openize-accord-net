@@ -32,7 +32,7 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.IO.Csv
+namespace Openize.Accord.IO.Csv
 {
     using System;
     using System.Data;

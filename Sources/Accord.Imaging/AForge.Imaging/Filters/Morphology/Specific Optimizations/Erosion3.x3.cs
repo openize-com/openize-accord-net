@@ -6,7 +6,7 @@
 // andrew.kirillov@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Morphology.Specific_Optimizations
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Morphology.Specific_Optimizations
 {
     using System.Collections.Generic;
     using System.Drawing;

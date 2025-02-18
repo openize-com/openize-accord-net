@@ -20,16 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
     using System.Runtime.Serialization;
     using System.Threading;
-    using Base;
-    using global::Accord.Math;
-    using Math.Distances.Base;
-    using Math.Matrix;
-    using Structures;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
+    using Openize.Accord.Statistics.Kernels.Structures;
 
     /// <summary>
     ///   Dynamic Time Warping Sequence Kernel.

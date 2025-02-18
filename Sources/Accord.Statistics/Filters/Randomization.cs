@@ -21,13 +21,12 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Data;
     using Base;
-    using global::Accord.Math;
-    using Vector = Math.Vector.Vector;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     /// <summary>
     ///   Randomization filter.
@@ -82,7 +81,7 @@ namespace FileFormat.Accord.Statistics.Filters
             int rows = data.Rows.Count;
 
             if (this.Seed.HasValue)
-                global::FileFormat.Accord.Math.Random.Generator.Seed = this.Seed.Value;
+                global::Openize.Accord.Math.Random.Generator.Seed = this.Seed.Value;
 
             int[] indices = Vector.Sample(rows);
             for (int i = 0; i < indices.Length; i++)

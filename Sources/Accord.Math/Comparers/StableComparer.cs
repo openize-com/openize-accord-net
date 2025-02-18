@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Comparers
+namespace Openize.Accord.Math.Comparers
 {
     using System;
     using System.Collections.Generic;

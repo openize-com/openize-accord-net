@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Fields.Potential_Functions.Clique_Factor_Potentials
+namespace Openize.Accord.Statistics.Models.Fields.Potential_Functions.Clique_Factor_Potentials
 {
     using System;
     using System.Collections.Generic;

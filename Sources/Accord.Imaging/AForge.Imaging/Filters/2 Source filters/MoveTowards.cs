@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters._2_Source_filters
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters._2_Source_filters
 {
     using System;
     using System.Collections.Generic;

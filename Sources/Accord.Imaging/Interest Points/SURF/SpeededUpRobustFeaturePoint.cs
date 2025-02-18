@@ -23,7 +23,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points.SURF
+namespace Openize.Accord.Imaging.Interest_Points.SURF
 {
     using System;
     using System.Drawing;
@@ -155,9 +155,9 @@ namespace FileFormat.Accord.Imaging.Interest_Points.SURF
         ///   Converts the feature point to a <see cref="Accord.IntPoint"/>.
         /// </summary>
         /// 
-        public global::FileFormat.Accord.Core.AForge.Core.IntPoint ToIntPoint()
+        public global::Openize.Accord.Core.AForge.Core.IntPoint ToIntPoint()
         {
-            return new global::FileFormat.Accord.Core.AForge.Core.IntPoint((int)this.X, (int)this.Y);
+            return new global::Openize.Accord.Core.AForge.Core.IntPoint((int)this.X, (int)this.Y);
         }
 
         /// <summary>
@@ -229,7 +229,7 @@ namespace FileFormat.Accord.Imaging.Interest_Points.SURF
         ///   The result of the conversion.
         /// </returns>
         /// 
-        public static implicit operator global::FileFormat.Accord.Core.AForge.Core.IntPoint(SpeededUpRobustFeaturePoint point)
+        public static implicit operator global::Openize.Accord.Core.AForge.Core.IntPoint(SpeededUpRobustFeaturePoint point)
         {
             return point.ToIntPoint();
         }

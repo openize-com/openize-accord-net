@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Moments.Base
+namespace Openize.Accord.Imaging.Moments.Base
 {
     using System;
     using System.Drawing;

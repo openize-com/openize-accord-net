@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Optimization
+namespace Openize.Accord.Math.Optimization
 {
     using System;
     using System.Collections.Generic;
@@ -29,9 +29,9 @@ namespace FileFormat.Accord.Math.Optimization
     using System.Linq.Expressions;
     using System.Text;
     using Constrained;
-    using Core;
-    using FileFormat.Accord.Core.Exceptions;
-    using Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core.Exceptions;
 
     /// <summary>
     ///   Quadratic objective function.

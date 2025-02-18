@@ -20,15 +20,16 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Collections
+namespace Openize.Accord.Tests.Math.Collections
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using FileFormat.Accord.Core.Collections;
-    using FileFormat.Accord.Math;
+    using Openize.Accord.Math;
     using NUnit.Framework;
-    using Vector = FileFormat.Accord.Math.Vector.Vector;
+    using Openize.Accord.Core.Collections;
+    using Openize.Accord.Math;
+    using Vector = Openize.Accord.Math.Vector.Vector;
 
     [TestFixture]
     public class RedBlackTreeTest

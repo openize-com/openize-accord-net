@@ -1,8 +1,8 @@
-﻿namespace FileFormat.Accord.Tests.Math.AForge
+﻿namespace Openize.Accord.Tests.Math.AForge
 {
     using System;
-    using FileFormat.Accord.Math.AForge.Math;
     using NUnit.Framework;
+    using Openize.Accord.Math.AForge.Math;
 
     [TestFixture]
     public class Matrix3x3Test

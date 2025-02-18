@@ -20,14 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Distributions.Univariate.Discrete
+namespace Openize.Accord.Tests.Statistics.Distributions.Univariate.Discrete
 {
     using System.Globalization;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Statistics.Distributions;
-    using FileFormat.Accord.Statistics.Distributions.Univariate.Discrete;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Distributions;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     [TestFixture]
     public class PoissonDistributionTest

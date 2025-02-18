@@ -21,14 +21,13 @@
 //
 
 #if !NETSTANDARD1_4
-namespace FileFormat.Accord.Statistics.Filters
+namespace Openize.Accord.Statistics.Filters
 {
     using System;
     using System.Data;
-    using Analysis;
     using Base;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Statistics.Analysis;
 
     /// <summary>
     ///   Principal component projection filter.

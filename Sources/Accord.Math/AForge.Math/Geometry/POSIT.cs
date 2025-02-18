@@ -6,10 +6,10 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math.Geometry
+namespace Openize.Accord.Math.AForge.Math.Geometry
 {
     using System;
-    using FileFormat.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.AForge.Core;
 
     /// <summary>
     /// 3D pose estimation algorithm.

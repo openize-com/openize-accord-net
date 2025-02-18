@@ -20,17 +20,17 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Models.Regression
+namespace Openize.Accord.Tests.Statistics.Models.Regression
 {
     using System;
     using System.Globalization;
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Statistics.Models.Regression.Linear;
-    using FileFormat.Accord.Statistics.Models.Regression.Linear.Fitting;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Models.Regression.Linear;
+    using Openize.Accord.Statistics.Models.Regression.Linear.Fitting;
 #if NO_CULTURE
     using CultureInfo = Accord.Compat.CultureInfoEx;
 #endif

@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Kernels.Sparse
+namespace Openize.Accord.Tests.Statistics.Kernels.Sparse
 {
-    using FileFormat.Accord.Statistics.Kernels;
-    using FileFormat.Accord.Statistics.Kernels.Sparse;
     using NUnit.Framework;
+    using Openize.Accord.Statistics.Kernels;
+    using Openize.Accord.Statistics.Kernels.Sparse;
 
     [TestFixture]
     public class SparseGaussianTest

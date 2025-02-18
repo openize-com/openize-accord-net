@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.TwoSample
+namespace Openize.Accord.Statistics.Testing.TwoSample
 {
     using System;
     using Base;
-    using Distributions.Univariate.Continuous;
-    using FileFormat.Accord.Core.Exceptions;
+    using Openize.Accord.Core.Exceptions;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Wilcoxon signed-rank test for paired samples.

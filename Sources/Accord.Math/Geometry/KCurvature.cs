@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Geometry
+namespace Openize.Accord.Math.Geometry
 {
     using System;
     using System.Collections.Generic;
-    using FileFormat.Accord.Core.AForge.Core;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.AForge.Core;
+    using Openize.Accord.Core.Ranges;
 
     /// <summary>
     ///   K-curvatures algorithm for local maximum contour detection.
@@ -81,8 +81,8 @@ namespace FileFormat.Accord.Math.Geometry
             {
                 IntPoint a, b, c;
 
-                int ai = global::FileFormat.Accord.Math.Tools.Mod(i + this.K, contour.Count);
-                int ci = global::FileFormat.Accord.Math.Tools.Mod(i - this.K, contour.Count);
+                int ai = global::Openize.Accord.Math.Tools.Mod(i + this.K, contour.Count);
+                int ci = global::Openize.Accord.Math.Tools.Mod(i - this.K, contour.Count);
 
                 a = contour[ai];
                 b = contour[i];
@@ -124,7 +124,7 @@ namespace FileFormat.Accord.Math.Geometry
 
                 for (int j = -r; j < r && isMinimum; j++)
                 {
-                    int index = global::FileFormat.Accord.Math.Tools.Mod(i + j, map.Length);
+                    int index = global::Openize.Accord.Math.Tools.Mod(i + j, map.Length);
 
                     double candidate = map[index];
 

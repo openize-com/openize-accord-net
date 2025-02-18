@@ -20,14 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+namespace Openize.Accord.Math.Matrix
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using FileFormat.Accord.Math;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Formats;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Formats;
 
     /// <summary>
     ///   Static class Matrix. Defines a set of extension methods

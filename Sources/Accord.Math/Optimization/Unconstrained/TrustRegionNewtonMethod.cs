@@ -56,11 +56,11 @@
 //    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 
-namespace FileFormat.Accord.Math.Optimization.Unconstrained
+namespace Openize.Accord.Math.Optimization.Unconstrained
 {
     using System;
     using System.Diagnostics;
-    using Base;
+    using Openize.Accord.Math.Optimization.Base;
 
     /// <summary>
     ///   Simplified Trust Region Newton Method (TRON) for non-linear optimization.

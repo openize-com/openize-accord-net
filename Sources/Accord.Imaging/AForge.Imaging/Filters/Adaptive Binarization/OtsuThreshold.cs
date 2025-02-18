@@ -5,7 +5,7 @@
 // andrew.kirillov@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Adaptive_Binarization
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Adaptive_Binarization
 {
     using System;
     using System.Collections.Generic;

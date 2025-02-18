@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Accord.MachineLearning.Classifiers.Tagging
+namespace Openize.Accord.Statistics.Accord.MachineLearning.Classifiers.Tagging
 {
     using System;
-    using FileFormat.Accord.Core.MachineLearning.Classifiers.Tagging;
+    using Openize.Accord.Core.MachineLearning.Classifiers.Tagging;
 
     /// <summary>
     /// Common base class for observation sequence taggers.

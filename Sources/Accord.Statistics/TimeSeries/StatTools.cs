@@ -23,14 +23,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.TimeSeries
+namespace Openize.Accord.Statistics.TimeSeries
 {
     using System;
     using System.Numerics;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.AForge.Math;
-    using Math.Transforms;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.AForge.Math;
+    using Openize.Accord.Math.Transforms;
 
     /// <summary>
     ///   Static tools for time series analysis (e.g. <see cref="AutoCorrelationFunction(double[], int)">ACF</see>,
@@ -77,7 +76,7 @@ namespace FileFormat.Accord.Statistics.TimeSeries
                     Frf[k] = new Complex(vector[k] - VecMean, 0);
             }
 
-            FourierTransform2.FFT(Frf, global::FileFormat.Accord.Math.AForge.Math.FourierTransform.Direction.Forward);
+            FourierTransform2.FFT(Frf, global::Openize.Accord.Math.AForge.Math.FourierTransform.Direction.Forward);
 
             // calculate inverse(backward) FFT of ( Frf*Conjugate(Frf) )
             Complex[] iFTFTj = new Complex[Frf.Length];
@@ -89,7 +88,7 @@ namespace FileFormat.Accord.Statistics.TimeSeries
                 iFTFTj[k] = new Complex(RealPart, ImaginaryPart);
             }
 
-            FourierTransform2.FFT(iFTFTj, global::FileFormat.Accord.Math.AForge.Math.FourierTransform.Direction.Backward);
+            FourierTransform2.FFT(iFTFTj, global::Openize.Accord.Math.AForge.Math.FourierTransform.Direction.Backward);
 
             // calculate ACF, normalized against the first item
 

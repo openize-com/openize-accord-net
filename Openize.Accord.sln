@@ -3,31 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Core", "Sources\Accord.Core\FileFormat.Accord.Core.csproj", "{18CFE577-5FC5-4566-9047-1BB4139BD8B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Core", "Sources\Accord.Core\Openize.Accord.Core.csproj", "{18CFE577-5FC5-4566-9047-1BB4139BD8B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Math.Core", "Sources\Accord.Math.Core\FileFormat.Accord.Math.Core.csproj", "{BD0AE224-CC5C-4188-8C01-4906CA2ABA60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Math.Core", "Sources\Accord.Math.Core\Openize.Accord.Math.Core.csproj", "{BD0AE224-CC5C-4188-8C01-4906CA2ABA60}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Math", "Sources\Accord.Math\FileFormat.Accord.Math.csproj", "{76944BC5-3DAD-46B7-AF1E-4679A956226D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Math", "Sources\Accord.Math\Openize.Accord.Math.csproj", "{76944BC5-3DAD-46B7-AF1E-4679A956226D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.IO", "Sources\Accord.IO\FileFormat.Accord.IO.csproj", "{2BA9FF6E-22D1-4A4F-81F8-B2D6D51D43A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.IO", "Sources\Accord.IO\Openize.Accord.IO.csproj", "{2BA9FF6E-22D1-4A4F-81F8-B2D6D51D43A8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Imaging", "Sources\Accord.Imaging\FileFormat.Accord.Imaging.csproj", "{3F03B16E-8C3C-4048-B48F-6FB19C61F5ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Imaging", "Sources\Accord.Imaging\Openize.Accord.Imaging.csproj", "{3F03B16E-8C3C-4048-B48F-6FB19C61F5ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Statistics", "Sources\Accord.Statistics\FileFormat.Accord.Statistics.csproj", "{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Statistics", "Sources\Accord.Statistics\Openize.Accord.Statistics.csproj", "{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{BFD784FF-6E86-4540-8DEC-2F6AD779E0F9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Tests.Core", "Unit Tests\Accord.Tests.Core\FileFormat.Accord.Tests.Core.csproj", "{EC291E7D-EA7D-44B3-BDDA-D72BAC12A30E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Tests.Core", "Unit Tests\Accord.Tests.Core\Openize.Accord.Tests.Core.csproj", "{EC291E7D-EA7D-44B3-BDDA-D72BAC12A30E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Tests.Imaging", "Unit Tests\Accord.Tests.Imaging\FileFormat.Accord.Tests.Imaging.csproj", "{5DB153FB-1B3D-46D7-9465-6C13E3825B6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Tests.Imaging", "Unit Tests\Accord.Tests.Imaging\Openize.Accord.Tests.Imaging.csproj", "{5DB153FB-1B3D-46D7-9465-6C13E3825B6F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Tests.IO", "Unit Tests\Accord.Tests.IO\FileFormat.Accord.Tests.IO.csproj", "{B075B6C1-3F4E-492C-8CA5-0627A295C566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Tests.IO", "Unit Tests\Accord.Tests.IO\Openize.Accord.Tests.IO.csproj", "{B075B6C1-3F4E-492C-8CA5-0627A295C566}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Tests.Math", "Unit Tests\Accord.Tests.Math\FileFormat.Accord.Tests.Math.csproj", "{24AE2C2A-7DEB-4B9F-84C8-0F5E65E41EBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Tests.Math", "Unit Tests\Accord.Tests.Math\Openize.Accord.Tests.Math.csproj", "{24AE2C2A-7DEB-4B9F-84C8-0F5E65E41EBC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileFormat.Accord.Tests.Statistics", "Unit Tests\Accord.Tests.Statistics\FileFormat.Accord.Tests.Statistics.csproj", "{1588C792-DC7D-43AF-B4E7-5A71A0EE860E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openize.Accord.Tests.Statistics", "Unit Tests\Accord.Tests.Statistics\Openize.Accord.Tests.Statistics.csproj", "{1588C792-DC7D-43AF-B4E7-5A71A0EE860E}"
 EndProject
-
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -164,6 +163,30 @@ Global
 		{3F03B16E-8C3C-4048-B48F-6FB19C61F5ED}.Release|x64.Build.0 = Release|Any CPU
 		{3F03B16E-8C3C-4048-B48F-6FB19C61F5ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{3F03B16E-8C3C-4048-B48F-6FB19C61F5ED}.Release|x86.Build.0 = Release|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x64.Build.0 = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x86.Build.0 = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|Any CPU.Build.0 = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x64.ActiveCfg = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x64.Build.0 = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x86.ActiveCfg = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x86.Build.0 = Debug|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|Any CPU.ActiveCfg = Mono|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|Any CPU.Build.0 = Mono|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x64.ActiveCfg = Mono|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x64.Build.0 = Mono|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x86.ActiveCfg = Mono|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x86.Build.0 = Mono|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x64.ActiveCfg = Release|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x64.Build.0 = Release|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x86.ActiveCfg = Release|Any CPU
+		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x86.Build.0 = Release|Any CPU
 		{EC291E7D-EA7D-44B3-BDDA-D72BAC12A30E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EC291E7D-EA7D-44B3-BDDA-D72BAC12A30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC291E7D-EA7D-44B3-BDDA-D72BAC12A30E}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -284,30 +307,6 @@ Global
 		{1588C792-DC7D-43AF-B4E7-5A71A0EE860E}.Release|x64.Build.0 = Release|Any CPU
 		{1588C792-DC7D-43AF-B4E7-5A71A0EE860E}.Release|x86.ActiveCfg = Release|Any CPU
 		{1588C792-DC7D-43AF-B4E7-5A71A0EE860E}.Release|x86.Build.0 = Release|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x64.Build.0 = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Debug|x86.Build.0 = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|Any CPU.Build.0 = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x64.ActiveCfg = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x64.Build.0 = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x86.ActiveCfg = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Docs|x86.Build.0 = Debug|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|Any CPU.ActiveCfg = Mono|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|Any CPU.Build.0 = Mono|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x64.ActiveCfg = Mono|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x64.Build.0 = Mono|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x86.ActiveCfg = Mono|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Mono|x86.Build.0 = Mono|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x64.ActiveCfg = Release|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x64.Build.0 = Release|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x86.ActiveCfg = Release|Any CPU
-		{3F2C4D2A-341C-45E5-A402-24FBF9F79DCF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

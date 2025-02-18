@@ -20,15 +20,14 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing
+namespace Openize.Accord.Statistics.Testing
 {
     using System;
     using Base;
-    using Distributions.Univariate.Continuous;
-    using global::Accord.Math;
-    using Math.Accord.Statistics;
-    using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
 
     /// <summary>
     ///   Shapiro-Wilk test for normality.

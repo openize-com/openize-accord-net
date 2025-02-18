@@ -20,10 +20,10 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions
+namespace Openize.Accord.Statistics.Distributions
 {
-    using Fitting.Base;
-    using Univariate.Base;
+    using Openize.Accord.Statistics.Distributions.Fitting.Base;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Common interface for distributions which can be estimated from data.

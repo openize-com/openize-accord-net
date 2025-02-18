@@ -20,7 +20,7 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Imaging.Interest_Points
+namespace Openize.Accord.Imaging.Interest_Points
 {
     using System;
     using System.Collections.Generic;
@@ -29,10 +29,10 @@ namespace FileFormat.Accord.Imaging.Interest_Points
     using AForge.Imaging;
     using AForge.Imaging.Filters.Color_Filters;
     using Base;
-    using global::Accord.Math;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math;
-    using Math.Core;
-    using Math.Matrix;
 
     /// <summary>
     ///   Histograms of Oriented Gradients (HOG) descriptor extractor.

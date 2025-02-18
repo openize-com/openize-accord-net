@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Kernels
+namespace Openize.Accord.Statistics.Kernels
 {
     using System;
-    using Base;
-    using FileFormat.Accord.Core;
-    using Math.Distances.Base;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Distances.Base;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Cauchy Kernel.
@@ -108,7 +108,7 @@ namespace FileFormat.Accord.Statistics.Kernels
             if (x == y)
                 return 1.0;
 
-            double norm = global::FileFormat.Accord.Math.Distance.SquareEuclidean(x, y);
+            double norm = global::Openize.Accord.Math.Distance.SquareEuclidean(x, y);
 
             return (1.0 / (1.0 + norm / this.sigma));
         }

@@ -5,7 +5,7 @@
 // andrew.kirillov@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Noise_generation
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Noise_generation
 {
     using System;
     using System.Collections.Generic;

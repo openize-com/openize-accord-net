@@ -1,11 +1,11 @@
-﻿using RotateNearestNeighbor = FileFormat.Accord.Imaging.Filters.Transform.RotateNearestNeighbor;
+﻿using RotateNearestNeighbor = Openize.Accord.Imaging.Filters.Transform.RotateNearestNeighbor;
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Drawing;
-    using FileFormat.Accord.Imaging.AForge.Imaging.Filters;
-    using FileFormat.Accord.Imaging.Converters;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Imaging.AForge.Imaging.Filters;
+    using Openize.Accord.Imaging.Converters;
 
     public static class ImageUtils
     {

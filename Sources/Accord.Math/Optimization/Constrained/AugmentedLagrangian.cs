@@ -36,15 +36,15 @@
 //    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. 
 //
 
-namespace FileFormat.Accord.Math.Optimization.Constrained
+namespace Openize.Accord.Math.Optimization.Constrained
 {
     using System;
     using System.Collections.Generic;
-    using Base;
-    using Constraints;
-    using FileFormat.Accord.Core;
-    using FileFormat.Accord.Math.Vector;
-    using Unconstrained;
+    using Openize.Accord.Math.Vector;
+    using Openize.Accord.Core;
+    using Openize.Accord.Math.Optimization.Base;
+    using Openize.Accord.Math.Optimization.Constrained.Constraints;
+    using Openize.Accord.Math.Optimization.Unconstrained;
 
     /// <summary>
     ///   Status codes for the <see cref="AugmentedLagrangian"/> 

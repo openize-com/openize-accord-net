@@ -20,14 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Testing.Contingency
+namespace Openize.Accord.Statistics.Testing.Contingency
 {
     using System;
-    using Analysis.Performance;
     using Base;
-    using FileFormat.Accord.Core;
-    using global::Accord.Math;
-    using Math.Matrix;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Core;
+    using Openize.Accord.Statistics.Analysis.Performance;
 
     /// <summary>
     ///   Kappa Test for agreement in contingency tables.

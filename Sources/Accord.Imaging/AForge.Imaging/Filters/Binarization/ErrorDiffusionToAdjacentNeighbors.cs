@@ -5,7 +5,7 @@
 // andrew.kirillov@gmail.com
 //
 
-namespace FileFormat.Accord.Imaging.AForge.Imaging.Filters.Binarization
+namespace Openize.Accord.Imaging.AForge.Imaging.Filters.Binarization
 {
     /// <summary>
     /// Base class for error diffusion dithering, where error is diffused to 

@@ -20,15 +20,15 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear
+namespace Openize.Accord.Statistics.Models.Regression.Nonlinear
 {
     using System;
     using Accord.MachineLearning.Classifiers;
-    using Analysis;
-    using global::Accord.Math;
-    using Kernels.Base;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
     using Math.Core;
-    using Math.Matrix;
+    using Openize.Accord.Statistics.Analysis;
+    using Openize.Accord.Statistics.Kernels.Base;
 
     /// <summary>
     ///   Multivariate non-linear regression using Kernels.
@@ -122,7 +122,7 @@ namespace FileFormat.Accord.Statistics.Models.Regression.Nonlinear
             var newK = this.Kernel.ToJagged2(x: input, y: this.BasisVectors);
 
             if (this.FeatureMeans != null)
-                global::FileFormat.Accord.Statistics.Kernels.Base.Kernel.Center(newK, this.FeatureMeans, this.FeatureGrandMean, result: newK);
+                global::Openize.Accord.Statistics.Kernels.Base.Kernel.Center(newK, this.FeatureMeans, this.FeatureGrandMean, result: newK);
 
             // Project into the kernel principal components
             return Matrix.DotWithTransposed(newK, this.Weights, result: result);

@@ -20,7 +20,8 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Matrix
+
+namespace Openize.Accord.Math.Matrix
 {
     using System;
 
@@ -117,7 +118,7 @@ namespace FileFormat.Accord.Math.Matrix
                     {
                         var sub = rref[j][lead];
                         for (int k = 0; k < cols; k++)
-                            rref[j][k] -= (sub * rref[r][k]);
+                            rref[j][k] -= sub * rref[r][k];
                     }
                 }
 

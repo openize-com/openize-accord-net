@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Math.Matrix
+namespace Openize.Accord.Tests.Math.Matrix
 {
     using System;
     using System.Globalization;
-    using FileFormat.Accord.Math.Formats;
-    using FileFormat.Accord.Math.Matrix;
+    using Openize.Accord.Math.Matrix;
     using NUnit.Framework;
+    using Openize.Accord.Math.Formats;
 #if NO_CULTURE
     using CultureInfo = Accord.Compat.CultureInfoEx;
 #endif

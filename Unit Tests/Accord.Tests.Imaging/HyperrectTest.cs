@@ -20,12 +20,12 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Imaging
+namespace Openize.Accord.Tests.Imaging
 {
     using System.Drawing;
-    using Accord.Imaging;
-    using FileFormat.Accord.Core;
     using NUnit.Framework;
+    using Openize.Accord.Core;
+    using Openize.Accord.Imaging;
 
     [TestFixture]
     public class HyperrectTest

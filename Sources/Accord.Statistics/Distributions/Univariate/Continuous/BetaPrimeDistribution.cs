@@ -20,13 +20,13 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
+namespace Openize.Accord.Statistics.Distributions.Univariate.Continuous
 {
     using System;
-    using Base;
     using Discrete;
-    using FileFormat.Accord.Core.Attributes;
-    using FileFormat.Accord.Core.Ranges;
+    using Openize.Accord.Core.Attributes;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Distributions.Univariate.Base;
 
     /// <summary>
     ///   Beta prime distribution.
@@ -240,7 +240,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         /// 
         protected internal override double InnerDistributionFunction([Positive] double x)
         {
-            return global::FileFormat.Accord.Math.Functions.Beta.Incomplete(this.alpha, this.beta, x / (1 + x));
+            return global::Openize.Accord.Math.Functions.Beta.Incomplete(this.alpha, this.beta, x / (1 + x));
         }
 
         /// <summary>
@@ -263,7 +263,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         protected internal override double InnerProbabilityDensityFunction([Positive] double x)
         {
             double num = Math.Pow(x, this.alpha - 1) * Math.Pow(1 + x, -this.alpha - this.beta);
-            double den = global::FileFormat.Accord.Math.Functions.Beta.Function(this.alpha, this.beta);
+            double den = global::Openize.Accord.Math.Functions.Beta.Function(this.alpha, this.beta);
             return num / den;
         }
 
@@ -287,7 +287,7 @@ namespace FileFormat.Accord.Statistics.Distributions.Univariate.Continuous
         protected internal override double InnerLogProbabilityDensityFunction([Positive] double x)
         {
             double num = (this.alpha - 1) * Math.Log(x) + (-this.alpha - this.beta) * Math.Log(1 + x);
-            double den = global::FileFormat.Accord.Math.Functions.Beta.Log(this.alpha, this.beta);
+            double den = global::Openize.Accord.Math.Functions.Beta.Log(this.alpha, this.beta);
             return num - den;
         }
 

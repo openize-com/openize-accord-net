@@ -6,7 +6,7 @@
 // contacts@aforgenet.com
 //
 
-namespace FileFormat.Accord.Math.AForge.Math.Metrics
+namespace Openize.Accord.Math.AForge.Math.Metrics
 {
     using System;
 
@@ -21,7 +21,7 @@ namespace FileFormat.Accord.Math.AForge.Math.Metrics
         /// </summary>
         public double GetSimilarityScore(double[] p, double[] q)
         {
-            return new global::FileFormat.Accord.Math.Distances.PearsonCorrelation().Similarity(p, q);
+            return new global::Openize.Accord.Math.Distances.PearsonCorrelation().Similarity(p, q);
         }
     }
 }

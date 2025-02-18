@@ -20,20 +20,21 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics
+namespace Openize.Accord.Tests.Statistics
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Accord.Math;
-    using FileFormat.Accord.Math.Accord.Statistics;
-    using FileFormat.Accord.Math.Core;
-    using FileFormat.Accord.Math.Matrix;
-    using FileFormat.Accord.Math.Random;
-    using FileFormat.Accord.Math.Vector;
-    using FileFormat.Accord.Statistics.Measures;
+    using Openize.Accord.Math.Core;
+    using Openize.Accord.Math.Matrix;
+    using Openize.Accord.Math.Vector;
     using NUnit.Framework;
-    using Tools = Accord.Statistics.Measures.Tools;
+    using Openize.Accord.Math;
+    using Openize.Accord.Math.Accord.Statistics;
+    using Openize.Accord.Math.Random;
+    using Openize.Accord.Statistics.Measures;
+    using Tools = Openize.Accord.Statistics.Measures.Tools;
     using Vector = Math.Vector.Vector;
 
     [TestFixture]

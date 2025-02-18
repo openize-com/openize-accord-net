@@ -20,11 +20,11 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Tests.Statistics.Visualizations
+namespace Openize.Accord.Tests.Statistics.Visualizations
 {
-    using FileFormat.Accord.Core.Ranges;
-    using FileFormat.Accord.Statistics.Visualizations;
     using NUnit.Framework;
+    using Openize.Accord.Core.Ranges;
+    using Openize.Accord.Statistics.Visualizations;
 
     [TestFixture]
     public class HistogramTest

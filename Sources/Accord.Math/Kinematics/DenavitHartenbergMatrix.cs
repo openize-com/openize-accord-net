@@ -23,10 +23,9 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Math.Kinematics
+namespace Openize.Accord.Math.Kinematics
 {
-    using AForge.Math;
-    using global::Accord.Math;
+    using Openize.Accord.Math.AForge.Math;
 
     /// <summary>
     ///   Denavit Hartenberg matrix (commonly referred as T).

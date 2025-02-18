@@ -20,20 +20,19 @@
 //    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 //
 
-namespace FileFormat.Accord.Statistics.Models.Markov.Learning
+namespace Openize.Accord.Statistics.Models.Markov.Learning
 {
 #pragma warning disable 612, 618
     using System;
     using Base;
-    using Distributions.Fitting;
-    using Distributions.Multivariate;
-    using Distributions.Multivariate.Continuous;
-    using Distributions.Univariate;
-    using Distributions.Univariate.Continuous;
-    using Distributions.Univariate.Discrete;
-    using global::Accord.Math;
+    using Openize.Accord.Math.Matrix;
     using Markov.Base;
-    using Math.Matrix;
+    using Openize.Accord.Statistics.Distributions.Fitting;
+    using Openize.Accord.Statistics.Distributions.Multivariate;
+    using Openize.Accord.Statistics.Distributions.Multivariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate;
+    using Openize.Accord.Statistics.Distributions.Univariate.Continuous;
+    using Openize.Accord.Statistics.Distributions.Univariate.Discrete;
 
     /// <summary>
     ///   Baum-Welch learning algorithm for <see cref="HiddenMarkovModel">
